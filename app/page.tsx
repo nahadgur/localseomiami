@@ -25,19 +25,29 @@ export default function HomePage() {
       <main className="flex-grow bg-bone">
 
         {/* ─── Hero with above-fold form ─────────────────────────── */}
-        <section className="bg-ink text-white relative overflow-hidden">
+        <section className="bg-bone relative overflow-hidden">
           <div className="container-width pt-12 pb-16 lg:pt-20 lg:pb-24">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
 
               <div className="lg:col-span-7">
-                <p className="text-[11px] font-mono uppercase tracking-[0.22em] text-brand-300 mb-5 flex items-center gap-3">
-                  <span className="w-8 h-px bg-brand-300/60" />
+                <p className="text-[11px] font-mono uppercase tracking-[0.22em] text-coral-600 mb-5 flex items-center gap-3">
+                  <span className="w-8 h-px bg-coral-500/70" />
                   {heroContent.eyebrow}
                 </p>
-                <h1 className="font-display font-bold text-[36px] sm:text-[46px] lg:text-[58px] leading-[1.05] tracking-tight text-white mb-6">
-                  {heroContent.title}
+                <h1 className="font-display font-bold text-[36px] sm:text-[46px] lg:text-[60px] leading-[1.02] tracking-[-0.025em] text-ink mb-6">
+                  Get your Miami business ranking in the{' '}
+                  <span
+                    className="inline-block"
+                    style={{
+                      background: 'linear-gradient(180deg, transparent 60%, #ff6b4a66 60%)',
+                      padding: '0 6px',
+                      marginLeft: -6,
+                    }}
+                  >
+                    Map Pack
+                  </span>
                 </h1>
-                <p className="text-[15px] lg:text-[17px] leading-relaxed text-white/80 max-w-2xl mb-8">
+                <p className="text-[15px] lg:text-[17px] leading-relaxed text-ink/70 max-w-2xl mb-8">
                   {heroContent.subtitle}
                 </p>
 
@@ -48,8 +58,8 @@ export default function HomePage() {
                     { icon: <MapPin size={16} />, text: 'Miami-specific' },
                     { icon: <DollarSign size={16} />, text: 'Free to you' },
                   ].map((item, i) => (
-                    <div key={i} className="flex items-center gap-2 text-[12px] text-white/75">
-                      <span className="text-brand-300">{item.icon}</span>
+                    <div key={i} className="flex items-center gap-2 text-[12.5px] text-ink/70">
+                      <span className="text-coral-600">{item.icon}</span>
                       <span>{item.text}</span>
                     </div>
                   ))}

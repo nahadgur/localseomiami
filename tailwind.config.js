@@ -7,17 +7,29 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ink: '#0b1220',
-        bone: '#f7f8fb',
-        paper: '#eff2f7',
+        ink: '#0a0d12',
+        bone: '#fafaf7',
+        paper: '#f1f0ea',
+        // Coral is the primary brand expression after the 2026-05-05
+        // visual refresh. The legacy `brand` keys point to the same
+        // coral ramp so existing class names keep rendering correctly.
+        coral: {
+          50:  '#fff4f0',
+          100: '#ffe2d8',
+          300: '#ffae96',
+          500: '#ff6b4a',
+          600: '#e04a2a',
+          700: '#b8381e',
+          800: '#8a2914',
+        },
         brand: {
-          50:  '#eef4ff',
-          100: '#dde8ff',
-          300: '#7aa3ff',
-          500: '#1e57ff',
-          600: '#0a3fd8',
-          700: '#082eb0',
-          800: '#062593',
+          50:  '#fff4f0',
+          100: '#ffe2d8',
+          300: '#ffae96',
+          500: '#ff6b4a',
+          600: '#e04a2a',
+          700: '#b8381e',
+          800: '#8a2914',
         },
         accent: {
           500: '#10d49b',
