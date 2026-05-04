@@ -210,17 +210,31 @@ export default function AreaPage({ params }: { params: { area: string } }) {
               )}
 
               <section>
-                <p className="eyebrow mb-3">— Services</p>
+                <p className="eyebrow mb-3">— Services in {hub.name}</p>
                 <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-3">
-                  Services we match for {hub.name} businesses
+                  Local SEO services in {hub.name}
                 </h2>
+                <p className="text-[14.5px] text-ink/65 mb-5 leading-relaxed max-w-xl">
+                  Each service maps to a vetted Miami specialist who can run that work for {hub.name} ({hub.zip}) businesses. Specialists typically combine these into integrated retainers; one-off project scopes are also available.
+                </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {services.map(s => (
-                    <Link key={s.slug} href={`/services/${s.slug}/`} className="card p-4 group flex gap-3 items-start">
-                      <ArrowRight size={14} className="text-brand-500 flex-shrink-0 mt-1" />
+                    <Link
+                      key={s.slug}
+                      href={`/services/${s.slug}/`}
+                      className="card p-4 lg:p-5 group flex gap-3 items-start"
+                    >
+                      <ArrowRight size={14} className="text-brand-500 flex-shrink-0 mt-1.5" />
                       <div>
-                        <p className="font-semibold text-[14px] text-ink group-hover:text-brand-600 transition-colors mb-1 leading-tight">{s.title}</p>
-                        <p className="text-[12.5px] text-ink/60 leading-relaxed line-clamp-2">{s.description}</p>
+                        <p className="font-semibold text-[14.5px] text-ink group-hover:text-brand-600 transition-colors leading-tight mb-1">
+                          {s.title} in {hub.name}
+                        </p>
+                        <p className="text-[12px] font-mono uppercase tracking-[0.12em] text-ink/45 mb-2">
+                          {hub.zip}
+                        </p>
+                        <p className="text-[12.5px] text-ink/65 leading-relaxed line-clamp-2">
+                          {s.description}
+                        </p>
                       </div>
                     </Link>
                   ))}
