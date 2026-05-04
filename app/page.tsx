@@ -12,6 +12,7 @@ import { Footer } from '@/components/Footer';
 import { LeadFormModal } from '@/components/LeadFormModal';
 import { HeroLeadForm } from '@/components/HeroLeadForm';
 import { FAQ } from '@/components/FAQ';
+import { GeoGrid, LocalPackMockup, GBPCard, TrafficGraph, RankBar, CitationRow } from '@/components/SEOArt';
 
 export default function HomePage() {
   const [modal, setModal] = useState(false);
@@ -81,6 +82,62 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* ─── Geo-grid measurement section (dark, technical proof) ─ */}
+        <section className="bg-ink text-white py-16 lg:py-24">
+          <div className="container-width">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+              <div className="lg:col-span-6">
+                <p className="text-[10px] font-mono uppercase tracking-[0.18em] text-[#ff6b4a] mb-3">
+                  → How rankings get measured
+                </p>
+                <h2 className="font-display font-bold text-[30px] lg:text-[42px] leading-[1.1] mb-5">
+                  &quot;Number 1 in Miami&quot; means nothing without a grid.
+                </h2>
+                <div className="space-y-4 text-[15px] text-white/75 leading-relaxed max-w-xl">
+                  <p>
+                    A real local SEO operator does not check a single keyword from one office chair. They scan 25 points across a search radius and read the heatmap. Top 3 in green, page 1 in yellow, page 2+ in red.
+                  </p>
+                  <p>
+                    Specialists in our network ship a geo-grid baseline before they touch your Google Business Profile, and another every 30 days after. If a specialist quotes you on rankings without showing one, that is your tell to walk.
+                  </p>
+                </div>
+                <div className="mt-7 grid grid-cols-3 gap-3 max-w-md">
+                  {[
+                    { c: '#0f9d58', l: 'Top 3',      n: '18 / 25' },
+                    { c: '#fbbc04', l: 'Pos 4-10',   n: '5 / 25'  },
+                    { c: '#ea4335', l: 'Pos 11+',    n: '2 / 25'  },
+                  ].map(r => (
+                    <div key={r.l} className="bg-[#0a0d12] p-3 rounded">
+                      <div className="flex items-center gap-1.5">
+                        <span className="w-2 h-2 rounded-full" style={{ background: r.c }} />
+                        <span className="text-[10px] font-mono text-white/60 tracking-wider">{r.l}</span>
+                      </div>
+                      <p className="text-[18px] font-bold font-mono mt-1">{r.n}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="lg:col-span-6 flex justify-center">
+                <div
+                  className="rounded-lg p-5 w-full max-w-md"
+                  style={{ background: '#13171f', border: '1px solid #232733' }}
+                >
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-[11px] font-mono text-white/55 tracking-wide">
+                      &quot;hvac repair brickell&quot; · 3mi radius
+                    </span>
+                    <span className="text-[10px] font-mono" style={{ color: '#ff6b4a' }}>● post-30d</span>
+                  </div>
+                  <div className="flex justify-center">
+                    <GeoGrid size={280} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ─── Service catalogue ─────────────────────────────────── */}
         <section className="bg-paper py-16 lg:py-24">
           <div className="container-width">
@@ -112,6 +169,42 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* ─── Local Pack + GBP — what success actually looks like ─ */}
+        <section className="bg-bone py-16 lg:py-24">
+          <div className="container-width">
+            <div className="max-w-2xl mb-10 lg:mb-12">
+              <p className="eyebrow mb-3">— What a result looks like</p>
+              <h2 className="font-display font-bold text-[30px] lg:text-[42px] leading-tight text-ink mb-4">
+                Two artifacts you should see from any specialist you hire.
+              </h2>
+              <p className="text-[15px] text-ink/65 leading-relaxed">
+                The Map Pack (those 3 listings above the fold on a local query) takes about 44% of clicks. The Google Business Profile dashboard is where most of the work shows up. If a specialist cannot show you both, they are running a different playbook.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+              <div>
+                <p className="text-[10px] font-mono uppercase tracking-[0.18em] text-brand-600 mb-3">
+                  → Goal · Map Pack visibility
+                </p>
+                <LocalPackMockup />
+                <p className="text-[12.5px] text-ink/60 leading-relaxed mt-4 max-w-md">
+                  Sample SERP. The &quot;YOU&quot; row is the position the specialist is paid to defend, week after week.
+                </p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono uppercase tracking-[0.18em] text-brand-600 mb-3">
+                  → Proof · GBP insights
+                </p>
+                <GBPCard />
+                <p className="text-[12.5px] text-ink/60 leading-relaxed mt-4 max-w-md">
+                  Sample 30-day GBP movement. Direction requests and calls are the two metrics that map cleanly to revenue.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ─── How matching works ────────────────────────────────── */}
         <section className="bg-ink text-white py-16 lg:py-24">
           <div className="container-width">
@@ -133,6 +226,71 @@ export default function HomePage() {
                   <p className="text-[14px] leading-relaxed text-white/70">{step.desc}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ─── Sample audit + traffic + rank movement ─────────────── */}
+        <section className="bg-paper py-16 lg:py-24">
+          <div className="container-width">
+            <div className="max-w-2xl mb-10 lg:mb-12">
+              <p className="eyebrow mb-3">— Sample deliverables</p>
+              <h2 className="font-display font-bold text-[30px] lg:text-[42px] leading-tight text-ink mb-4">
+                What the first 90 days should produce.
+              </h2>
+              <p className="text-[15px] text-ink/65 leading-relaxed">
+                A Miami specialist worth a retainer will hand you these three things in the first quarter, citation gaps mapped, organic traffic curve climbing, priority keywords moving up the SERP. Use these samples to set your baseline expectations.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+
+              <div className="lg:col-span-5">
+                <div className="bg-white border border-ink/10 rounded-lg overflow-hidden">
+                  <div className="flex items-center justify-between px-3.5 py-3 bg-[#fafaf7] border-b border-ink/10">
+                    <span className="text-[12px] font-bold font-mono tracking-wide">NAP_AUDIT.csv</span>
+                    <span className="text-[11px] font-mono text-ink/55">14 / 80 issues</span>
+                  </div>
+                  {[
+                    { name: 'Google Business Profile',     status: 'listed'       as const },
+                    { name: 'Apple Business Connect',      status: 'missing'      as const },
+                    { name: 'Bing Places',                 status: 'listed'       as const },
+                    { name: 'Yelp',                        status: 'inconsistent' as const },
+                    { name: 'Facebook',                    status: 'listed'       as const },
+                    { name: 'Foursquare / Factual',        status: 'missing'      as const },
+                    { name: 'Better Business Bureau',      status: 'inconsistent' as const },
+                    { name: 'Yellow Pages',                status: 'listed'       as const },
+                  ].map(c => <CitationRow key={c.name} {...c} />)}
+                  <div className="px-3.5 py-3.5 bg-[#fafaf7] border-t border-ink/10 text-center">
+                    <span className="text-[11px] font-mono text-ink/55">+ 72 more checked</span>
+                  </div>
+                </div>
+                <p className="text-[12.5px] text-ink/60 leading-relaxed mt-3 max-w-md">
+                  Sample citation audit. Inconsistent NAP across data aggregators is the silent ranking killer in Miami, especially for businesses that have moved or rebranded.
+                </p>
+              </div>
+
+              <div className="lg:col-span-7 flex flex-col gap-6">
+                <div className="bg-ink rounded-lg p-5 text-white">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-[10px] font-mono text-white/55 tracking-wide">ORGANIC SESSIONS · 12 MONTHS</span>
+                    <span className="text-[10px] font-mono" style={{ color: '#0f9d58' }}>↑ sample curve</span>
+                  </div>
+                  <TrafficGraph width={520} height={170} />
+                </div>
+
+                <div className="bg-white border border-ink/10 rounded-lg p-5">
+                  <p className="text-[10px] font-mono text-ink/55 uppercase tracking-wide mb-4">
+                    → Priority keyword movement · sample
+                  </p>
+                  <div className="flex flex-col gap-3.5">
+                    <RankBar before={47} after={2}  label='"hvac repair brickell"' />
+                    <RankBar before={62} after={1}  label='"miami office cleaning"' />
+                    <RankBar before={89} after={4}  label='"dentist near doral"' />
+                    <RankBar before={31} after={1}  label='"abogado de accidentes miami"' />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
