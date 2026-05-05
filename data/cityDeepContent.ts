@@ -12,8 +12,8 @@ export interface LocalExample {
 }
 
 export interface CityDeepContent {
-  localNarrative: string[];     // 4 paragraphs — the actual market context
-  whyMattersHere: string[];     // 2-3 paragraphs — where specialism moves the needle
+  localNarrative: string[];     // 4 paragraphs, the actual market context
+  whyMattersHere: string[];     // 2-3 paragraphs, where specialism moves the needle
   localExamples: LocalExample[]; // 1-2 worked engagements with $-amounts
 }
 

@@ -4,7 +4,7 @@ import { siteConfig } from '@/data/site';
 
 export interface BreadcrumbItem {
   name: string;
-  url: string; // path only e.g. "/services/" — base URL prepended automatically
+  url: string; // path only e.g. "/services/", base URL prepended automatically
 }
 
 export function buildBreadcrumbSchema(items: BreadcrumbItem[]) {

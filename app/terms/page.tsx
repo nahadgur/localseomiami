@@ -8,7 +8,7 @@ import { siteConfig } from '@/data/site';
 export const metadata: Metadata = {
   title: 'Terms of use',
   description:
-    'Terms of use for Local SEO Miami — a free matching service connecting Miami businesses with vetted local SEO specialists.',
+    'Terms of use for Local SEO Miami, a free matching service connecting Miami businesses with vetted local SEO specialists.',
   alternates: { canonical: '/terms/' },
   robots: { index: true, follow: true },
 };
@@ -23,7 +23,7 @@ export default function TermsPage() {
         <section className="bg-ink text-white">
           <div className="container-width pt-10 pb-14">
             <Breadcrumbs dark items={[{ label: 'Terms' }]} />
-            <p className="text-[10px] font-mono uppercase tracking-[0.22em] text-brand-300 mt-6 mb-4">— Legal · Terms of use</p>
+            <p className="text-[10px] font-mono uppercase tracking-[0.22em] text-brand-300 mt-6 mb-4">Legal · Terms of use</p>
             <h1 className="font-display font-bold text-[34px] lg:text-[46px] leading-tight max-w-2xl mb-5">Terms of use</h1>
             <p className="text-[15px] text-white/80 max-w-2xl leading-relaxed mb-3">
               The rules that apply when you use this site or submit an enquiry through the matching service.
@@ -61,7 +61,7 @@ export default function TermsPage() {
 
           <Section title="4. No marketing or business advice">
             <p>
-              Nothing on this site — including service descriptions, blog articles, or pricing ranges — constitutes specific marketing or business advice for your situation. Content is general information only. Local SEO strategy is highly business-specific; only a specialist who has reviewed your particular situation can advise you.
+              Nothing on this site, including service descriptions, blog articles, or pricing ranges, constitutes specific marketing or business advice for your situation. Content is general information only. Local SEO strategy is highly business-specific; only a specialist who has reviewed your particular situation can advise you.
             </p>
           </Section>
 
@@ -92,7 +92,7 @@ export default function TermsPage() {
               <li>Reporting and accountability for the work.</li>
             </ul>
             <p>
-              We are not responsible for the work of matched specialists. If you encounter problems, please tell us — we use the feedback to maintain network standards and may re-match you with an alternative if appropriate.
+              We are not responsible for the work of matched specialists. If you encounter problems, please tell us, we use the feedback to maintain network standards and may re-match you with an alternative if appropriate.
             </p>
           </Section>
 
@@ -131,7 +131,7 @@ export default function TermsPage() {
 
           <Section title="12. Contact">
             <p>
-              Questions about these terms — see the channels on our <Link href="/contact/">contact page</Link>.
+              Questions about these terms, see the channels on our <Link href="/contact/">contact page</Link>.
             </p>
           </Section>
         </article>

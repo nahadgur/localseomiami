@@ -29,12 +29,12 @@ export default function BlogIndexPage() {
         <section className="bg-ink text-white">
           <div className="container-width pt-10 pb-14">
             <Breadcrumbs dark items={[{ label: 'Insights' }]} />
-            <p className="text-[10px] font-mono uppercase tracking-[0.22em] text-brand-300 mt-6 mb-4">— Local SEO insights</p>
+            <p className="text-[10px] font-mono uppercase tracking-[0.22em] text-brand-300 mt-6 mb-4">Local SEO insights</p>
             <h1 className="font-display font-bold text-[34px] lg:text-[46px] leading-tight max-w-2xl mb-5">
               Practical guides for Miami local SEO
             </h1>
             <p className="text-[15px] lg:text-[17px] text-white/80 max-w-2xl leading-relaxed">
-              Hand-written guides covering Miami-specific local SEO realities. No AI generic content, no agency sales pitches — just specific, applicable insights.
+              Hand-written guides covering Miami-specific local SEO realities. No AI generic content, no agency sales pitches, just specific, applicable insights.
             </p>
           </div>
         </section>

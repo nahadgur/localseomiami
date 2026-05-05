@@ -23,7 +23,7 @@ interface Props { gaId: string; }
 // cookies must not load until the visitor opts in. This component renders
 // the GA4 Script tags only once consent === 'accepted'. When gaId is empty
 // (pre-launch placeholder state in siteConfig) the GA scripts never render
-// regardless of consent — the banner still shows for choice persistence.
+// regardless of consent, the banner still shows for choice persistence.
 export function ConsentBanner({ gaId }: Props) {
   const [consent, setConsent] = useState<Consent>(null);
   const [mounted, setMounted] = useState(false);

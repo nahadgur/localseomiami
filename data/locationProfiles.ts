@@ -1,5 +1,5 @@
 // data/locationProfiles.ts
-// Compact rich profile per neighborhood — used in sidebars and header bands
+// Compact rich profile per neighborhood, used in sidebars and header bands
 // alongside the longer-form areaContent.
 
 export interface LocationProfile {
@@ -18,7 +18,7 @@ export const locationProfiles: Record<string, LocationProfile> = {
     name: 'Brickell',
     slug: 'brickell',
     zip: '33131',
-    character: 'Miami\'s financial center — banks, law firms, family offices, and the highest professional-services concentration in South Florida',
+    character: 'Miami\'s financial center, banks, law firms, family offices, and the highest professional-services concentration in South Florida',
     dominantBusinessType: 'Professional services with high client lifetime values and intense competitive ranking dynamics',
     keyChallenge: '9–12 month timelines against well-funded established competitors investing $5–10k/month in sustained ranking',
     businessMix: [
@@ -34,9 +34,9 @@ export const locationProfiles: Record<string, LocationProfile> = {
     name: 'Downtown Miami',
     slug: 'downtown',
     zip: '33132',
-    character: 'Mixed civic, historic, tourist, and rapidly-expanding residential core — varied business landscape across sub-segments',
+    character: 'Mixed civic, historic, tourist, and rapidly-expanding residential core, varied business landscape across sub-segments',
     dominantBusinessType: 'Sector-segmented mix from tourism (Bayside) to legal (Government Center) to residential commerce (Park West)',
-    keyChallenge: 'Sector-specific matching needed — tourism, legal, and real estate have different ranking dynamics within the same geography',
+    keyChallenge: 'Sector-specific matching needed, tourism, legal, and real estate have different ranking dynamics within the same geography',
     businessMix: [
       'court-adjacent legal services',
       'hotels and tourism-facing businesses',
@@ -50,9 +50,9 @@ export const locationProfiles: Record<string, LocationProfile> = {
     name: 'Wynwood',
     slug: 'wynwood',
     zip: '33127',
-    character: 'Miami\'s arts and creative district — galleries, breweries, design studios, and a tourism-and-residential mix anchored by the Wynwood Walls',
+    character: 'Miami\'s arts and creative district, galleries, breweries, design studios, and a tourism-and-residential mix anchored by the Wynwood Walls',
     dominantBusinessType: 'Creative-economy businesses (galleries, design, food and beverage) with strong visual identity',
-    keyChallenge: 'Creative-vertical SEO playbook is materially different from generic local SEO — visual content, sector-specific platforms, design press relationships',
+    keyChallenge: 'Creative-vertical SEO playbook is materially different from generic local SEO, visual content, sector-specific platforms, design press relationships',
     businessMix: [
       'art galleries and design showrooms',
       'craft breweries and contemporary restaurants',
@@ -114,9 +114,9 @@ export const locationProfiles: Record<string, LocationProfile> = {
     name: 'Little Havana',
     slug: 'little-havana',
     zip: '33135',
-    character: 'Cuban-American cultural and culinary heart of Miami — Calle Ocho, Domino Park, Versailles café, and the densest Cuban heritage business concentration outside Cuba',
+    character: 'Cuban-American cultural and culinary heart of Miami, Calle Ocho, Domino Park, Versailles café, and the densest Cuban heritage business concentration outside Cuba',
     dominantBusinessType: 'Bilingual/Spanish-primary businesses serving the predominantly Hispanic resident community',
-    keyChallenge: 'Genuine bilingual specialist capability is non-negotiable — Spanish keyword research, content, and review engagement',
+    keyChallenge: 'Genuine bilingual specialist capability is non-negotiable, Spanish keyword research, content, and review engagement',
     businessMix: [
       'Cuban restaurants, cafés, and bakeries',
       'cigar shops and lounges',
@@ -148,7 +148,7 @@ export const locationProfiles: Record<string, LocationProfile> = {
     zip: '33180',
     character: 'North Miami-Dade premier shopping and lifestyle center anchored by the Aventura Mall and the country club residential ring',
     dominantBusinessType: 'Mall-anchored retail and dining alongside premium professional services for the affluent residential demographic',
-    keyChallenge: 'Different specialist matches needed for high-volume retail SEO vs. high-value professional-services SEO — ask up front',
+    keyChallenge: 'Different specialist matches needed for high-volume retail SEO vs. high-value professional-services SEO, ask up front',
     businessMix: [
       'Aventura Mall retail and dining',
       'premium professional services',
@@ -164,7 +164,7 @@ export const locationProfiles: Record<string, LocationProfile> = {
     zip: '33156',
     character: 'Premier village residential with large lots, top-rated schools, and a quietly affluent demographic',
     dominantBusinessType: 'Small but high-value professional and personal services businesses serving a wealthy resident demographic',
-    keyChallenge: 'Pinecrest-specific targeting outperforms generic South Miami coverage — but most agencies treat Pinecrest as generic territory',
+    keyChallenge: 'Pinecrest-specific targeting outperforms generic South Miami coverage, but most agencies treat Pinecrest as generic territory',
     businessMix: [
       'medical and dental practices serving families',
       'Pinecrest residential real estate brokerages',

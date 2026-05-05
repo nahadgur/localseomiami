@@ -23,7 +23,7 @@ export default function PrivacyPage() {
         <section className="bg-ink text-white">
           <div className="container-width pt-10 pb-14">
             <Breadcrumbs dark items={[{ label: 'Privacy' }]} />
-            <p className="text-[10px] font-mono uppercase tracking-[0.22em] text-brand-300 mt-6 mb-4">— Legal · Privacy notice</p>
+            <p className="text-[10px] font-mono uppercase tracking-[0.22em] text-brand-300 mt-6 mb-4">Legal · Privacy notice</p>
             <h1 className="font-display font-bold text-[34px] lg:text-[46px] leading-tight max-w-2xl mb-5">
               Privacy notice
             </h1>
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
         <article className="container-width py-14 max-w-3xl space-y-10 text-[15.5px] leading-relaxed text-ink/80">
           <Section title="Plain-English summary">
             <p>
-              We collect your name, work email, company, website, Miami neighborhood, and rough budget — solely to match you with up to three vetted local SEO specialists. We share your details only with those matched specialists. Never sold, never used for marketing without your explicit consent. You have rights under CCPA including the right to know, delete, and opt out.
+              We collect your name, work email, company, website, Miami neighborhood, and rough budget, solely to match you with up to three vetted local SEO specialists. We share your details only with those matched specialists. Never sold, never used for marketing without your explicit consent. You have rights under CCPA including the right to know, delete, and opt out.
             </p>
           </Section>
 
@@ -57,26 +57,26 @@ export default function PrivacyPage() {
           <Section title="2. What data we collect">
             <p>When you submit the matching form we collect:</p>
             <ul>
-              <li><strong>Name</strong> — for the matched specialist to address you correctly.</li>
-              <li><strong>Work email</strong> — for confirmation and follow-up.</li>
-              <li><strong>Company name</strong> — to identify the business in our network.</li>
-              <li><strong>Website URL</strong> — for the specialist to review before the discovery call.</li>
-              <li><strong>Primary interest</strong> — the type of local SEO service you\'re interested in.</li>
-              <li><strong>Monthly budget range</strong> — to match with specialists who fit the budget.</li>
-              <li><strong>Miami neighborhood</strong> — to match with neighborhood-experienced specialists.</li>
-              <li><strong>Page you submitted from</strong> — context for the matched specialist.</li>
+              <li><strong>Name</strong>, for the matched specialist to address you correctly.</li>
+              <li><strong>Work email</strong>, for confirmation and follow-up.</li>
+              <li><strong>Company name</strong>, to identify the business in our network.</li>
+              <li><strong>Website URL</strong>, for the specialist to review before the discovery call.</li>
+              <li><strong>Primary interest</strong>, the type of local SEO service you\'re interested in.</li>
+              <li><strong>Monthly budget range</strong>, to match with specialists who fit the budget.</li>
+              <li><strong>Miami neighborhood</strong>, to match with neighborhood-experienced specialists.</li>
+              <li><strong>Page you submitted from</strong>, context for the matched specialist.</li>
             </ul>
             <p>
               We do <strong>not</strong> collect financial information (credit cards, bank details), social security or tax ID numbers, or any sensitive personal data through our forms.
             </p>
             <p>
-              If you accept analytics cookies, we also collect anonymized browsing data through Google Analytics 4 — see &quot;Cookies&quot; below.
+              If you accept analytics cookies, we also collect anonymized browsing data through Google Analytics 4, see &quot;Cookies&quot; below.
             </p>
           </Section>
 
           <Section title="3. Why we collect it">
             <p>
-              We process enquiry data on the basis of <strong>your consent</strong> — you check a box on the form to confirm you want to be matched with up to three specialists. You can withdraw consent at any time by emailing us; withdrawal does not affect lawfulness of processing carried out before withdrawal.
+              We process enquiry data on the basis of <strong>your consent</strong>, you check a box on the form to confirm you want to be matched with up to three specialists. You can withdraw consent at any time by emailing us; withdrawal does not affect lawfulness of processing carried out before withdrawal.
             </p>
             <p>
               Once we share your enquiry with matched specialists, those specialists\' basis for follow-up contact is also your consent, plus their <strong>legitimate interest</strong> in responding to a referred enquiry.
@@ -89,8 +89,8 @@ export default function PrivacyPage() {
             </p>
             <p>The form submission itself is processed using:</p>
             <ul>
-              <li><strong>Google Apps Script</strong> (Google LLC) — receives the form submission and routes it to our enquiry record.</li>
-              <li><strong>Google Workspace</strong> (Google LLC) — stores the enquiry record and sends notification email.</li>
+              <li><strong>Google Apps Script</strong> (Google LLC), receives the form submission and routes it to our enquiry record.</li>
+              <li><strong>Google Workspace</strong> (Google LLC), stores the enquiry record and sends notification email.</li>
             </ul>
             <p><strong>We do not sell or rent your data to third parties for marketing.</strong></p>
           </Section>
@@ -108,26 +108,26 @@ export default function PrivacyPage() {
             <p>This site uses two categories of cookie:</p>
             <ul>
               <li>
-                <strong>Strictly necessary</strong> — a small cookie that records your cookie-banner choice. No consent required.
+                <strong>Strictly necessary</strong>, a small cookie that records your cookie-banner choice. No consent required.
               </li>
               <li>
-                <strong>Analytics</strong> — Google Analytics 4 (cookies starting <code>_ga</code>) records anonymized page-view data so we can see which pages help businesses. Loaded only if you click &quot;Accept&quot; on the cookie banner.
+                <strong>Analytics</strong>, Google Analytics 4 (cookies starting <code>_ga</code>) records anonymized page-view data so we can see which pages help businesses. Loaded only if you click &quot;Accept&quot; on the cookie banner.
               </li>
             </ul>
             <p>We do not use advertising, retargeting, or social-media tracking cookies.</p>
           </Section>
 
-          <Section title="7. Your rights — CCPA and general">
+          <Section title="7. Your rights, CCPA and general">
             <p>If you are a California resident, the California Consumer Privacy Act (CCPA) gives you the following rights:</p>
             <ul>
               <li><strong>Right to know:</strong> request a copy of the personal data we hold about you.</li>
               <li><strong>Right to delete:</strong> ask us to delete your personal data (subject to limited exceptions).</li>
               <li><strong>Right to correct:</strong> ask us to correct inaccurate personal data.</li>
-              <li><strong>Right to opt out:</strong> the right to opt out of the sale or sharing of personal data — though we do not sell or share for marketing in the first place.</li>
+              <li><strong>Right to opt out:</strong> the right to opt out of the sale or sharing of personal data, though we do not sell or share for marketing in the first place.</li>
               <li><strong>Right to non-discrimination:</strong> we will not discriminate against you for exercising any CCPA right.</li>
             </ul>
             <p>
-              We extend these rights to all users regardless of state of residence — they are good practice and we don\'t see value in distinguishing.
+              We extend these rights to all users regardless of state of residence, they are good practice and we don\'t see value in distinguishing.
             </p>
             <p>
               To exercise any of these rights, contact us via the channels on our <Link href="/contact/">contact page</Link>. We respond within 30 days.

@@ -1,7 +1,7 @@
 // Custom SEO-domain visualizations. Lifted as a visual pattern from the
 // 2026-05-04 design handoff so the homepage *demonstrates* technical
 // fluency (geo-grid, Local Pack, GBP, citations) instead of just claiming
-// it. These are proof artifacts, not brand chrome — kept on a coral
+// it. These are proof artifacts, not brand chrome, kept on a coral
 // secondary accent so they read as data, not marketing.
 
 const ART = {
@@ -18,7 +18,7 @@ const ART = {
 };
 
 export function GeoGrid({ size = 260 }: { size?: number }) {
-  // Sample rank data — concentric improvement around centre. 1–3 green,
+  // Sample rank data, concentric improvement around centre. 1–3 green,
   // 4–10 yellow, 11+ red. Mirrors how a real Local Falcon scan reads.
   const ranks: number[][] = [
     [3, 2, 1, 4, 7],

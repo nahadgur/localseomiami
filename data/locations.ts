@@ -1,4 +1,4 @@
-// data/locations.ts — Miami metro neighborhoods
+// data/locations.ts, Miami metro neighborhoods
 // Sub-areas listed per neighborhood for content signals (no separate pages).
 
 export interface AreaHub {
@@ -22,7 +22,7 @@ export const AREA_HUBS: AreaHub[] = [
     zip: '33131',
     area: 'Central Miami',
     subAreas: [
-      { name: 'Brickell Avenue',      zip: '33131', note: 'Financial center spine — banks, law firms, family offices' },
+      { name: 'Brickell Avenue',      zip: '33131', note: 'Financial center spine, banks, law firms, family offices' },
       { name: 'Mary Brickell Village',zip: '33131', note: 'Retail and dining anchor for the financial district' },
       { name: 'Brickell Key',         zip: '33131', note: 'Island residential cluster south of the mainland' },
       { name: 'Brickell City Centre', zip: '33130', note: 'Mixed-use luxury development near the Metro' },

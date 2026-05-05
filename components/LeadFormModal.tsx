@@ -101,7 +101,7 @@ export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultAre
         });
       } else {
         // eslint-disable-next-line no-console
-        console.warn('GAS_URL not configured — payload:', payload);
+        console.warn('GAS_URL not configured, payload:', payload);
       }
       setSubmitted(true);
     } catch {
@@ -183,7 +183,7 @@ export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultAre
                     <option key={s.slug} value={s.shortLabel}>{s.shortLabel}</option>
                   ))}
                   <option value="Full local SEO program">Full local SEO program</option>
-                  <option value="Not sure / discovery call">Not sure — want a discovery call</option>
+                  <option value="Not sure / discovery call">Not sure, want a discovery call</option>
                 </select>
               </div>
 

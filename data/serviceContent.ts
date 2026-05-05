@@ -13,7 +13,7 @@ export interface ServiceContent {
   candidates: string[];
   process: { title: string; desc: string }[];
   // Long-form deepening sections, each ~1,000 words combined per service
-  // — populated to lift pillar word count from ~600 (intro + benefits +
+  //, populated to lift pillar word count from ~600 (intro + benefits +
   // candidates + process) into the 2,500–4,000 range the SEO playbook
   // requires for a real service pillar.
   deepDive?: string[];               // 4 paragraphs, mechanics + how it really works
@@ -25,9 +25,9 @@ export const serviceContent: Record<string, ServiceContent> = {
 
   'google-business-profile': {
     intro: [
-      'Google Business Profile (GBP, formerly Google My Business) is the single highest-leverage local SEO asset for any Miami business. It controls how you appear in the Map Pack, the knowledge panel, and the local mobile search results — together accounting for 60–80% of a typical Miami small business\'s organic search traffic. Most "verified" GBPs are completing 30–40% of the available signal stack.',
-      'Optimization is much deeper than verification. Primary and secondary category selection (the single biggest ranking lever in the GBP), service-area definition, services list with descriptions and pricing, photo cadence and tagging, weekly Posts, Q&A seeding and monitoring, attribute completeness, products module, messaging settings, and the half-dozen smaller modules that most businesses never touch. Specialists work through the full stack methodically — usually a 2–4 week initial project, then ongoing maintenance.',
-      'Beyond the structural optimization, the ongoing work matters more than most realize. Posts published weekly, photos added monthly, Q&A monitored and seeded with FAQs, customer questions answered within hours, attribute updates as the business evolves. The "set it and forget it" GBPs lose ranking ground over time to actively-managed competitors — this is one of the most reliable patterns in local SEO.',
+      'Google Business Profile (GBP, formerly Google My Business) is the single highest-leverage local SEO asset for any Miami business. It controls how you appear in the Map Pack, the knowledge panel, and the local mobile search results, together accounting for 60–80% of a typical Miami small business\'s organic search traffic. Most "verified" GBPs are completing 30–40% of the available signal stack.',
+      'Optimization is much deeper than verification. Primary and secondary category selection (the single biggest ranking lever in the GBP), service-area definition, services list with descriptions and pricing, photo cadence and tagging, weekly Posts, Q&A seeding and monitoring, attribute completeness, products module, messaging settings, and the half-dozen smaller modules that most businesses never touch. Specialists work through the full stack methodically, usually a 2–4 week initial project, then ongoing maintenance.',
+      'Beyond the structural optimization, the ongoing work matters more than most realize. Posts published weekly, photos added monthly, Q&A monitored and seeded with FAQs, customer questions answered within hours, attribute updates as the business evolves. The "set it and forget it" GBPs lose ranking ground over time to actively-managed competitors, this is one of the most reliable patterns in local SEO.',
     ],
     benefits: [
       {
@@ -67,7 +67,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Discovery call and audit',
-        desc: 'The specialist runs a full GBP audit and presents findings — what\'s set up correctly, what\'s suboptimal, what\'s missing. You see the audit before any contract.',
+        desc: 'The specialist runs a full GBP audit and presents findings, what\'s set up correctly, what\'s suboptimal, what\'s missing. You see the audit before any contract.',
       },
       {
         title: 'Initial optimization project',
@@ -107,9 +107,9 @@ export const serviceContent: Record<string, ServiceContent> = {
 
   'local-citation-building': {
     intro: [
-      'Citations — your Name, Address, and Phone (NAP) listed on directories and review sites — are the third-largest local ranking factor after GBP and reviews. They serve two purposes: directly as a ranking signal (Google uses them to confirm your business is legitimate and located where you claim), and indirectly through referral traffic from the highest-quality directories.',
+      'Citations, your Name, Address, and Phone (NAP) listed on directories and review sites, are the third-largest local ranking factor after GBP and reviews. They serve two purposes: directly as a ranking signal (Google uses them to confirm your business is legitimate and located where you claim), and indirectly through referral traffic from the highest-quality directories.',
       'For most Miami small businesses, 30–60 high-quality citations cover the practical ceiling. Apple Maps, Yelp, BBB, Bing Places, the major industry-specific directories (Healthgrades for medical, Avvo for legal, Houzz for home services), local Miami-area business directories, and a handful of niche directories relevant to your sector. The "build 200 citations" packages from cheap services usually waste budget on low-quality directories that no one uses and pass no ranking value.',
-      'The cleanup work is harder than the build work. Most established Miami businesses have 5–20 inconsistent or duplicate citations created by data aggregators (Acxiom, Infogroup, Localeze) over the years — different business names, old addresses, disconnected phone numbers. Specialists work through the audit, claim what can be claimed, correct what can be corrected, and submit deletion requests for duplicates. The cleanup phase is usually the highest-impact week of work in a new local SEO engagement.',
+      'The cleanup work is harder than the build work. Most established Miami businesses have 5–20 inconsistent or duplicate citations created by data aggregators (Acxiom, Infogroup, Localeze) over the years, different business names, old addresses, disconnected phone numbers. Specialists work through the audit, claim what can be claimed, correct what can be corrected, and submit deletion requests for duplicates. The cleanup phase is usually the highest-impact week of work in a new local SEO engagement.',
     ],
     benefits: [
       {
@@ -144,7 +144,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Citation audit',
-        desc: 'The specialist runs a full audit of existing citations — typically 50–200 listings discovered across the major directories and aggregator data sources.',
+        desc: 'The specialist runs a full audit of existing citations, typically 50–200 listings discovered across the major directories and aggregator data sources.',
       },
       {
         title: 'Cleanup phase',
@@ -188,8 +188,8 @@ export const serviceContent: Record<string, ServiceContent> = {
 
   'review-management': {
     intro: [
-      'Reviews are the second-largest local ranking factor (after GBP signals) and the largest conversion factor — meaning even if reviews didn\'t affect ranking at all, they would still drive more business than any other local SEO investment. The combined effect of ranking + conversion makes review work the highest-ROI lever in most local SEO programs.',
-      'Practical review management has three components: systematic acquisition (right post-purchase or post-service workflow, single-click review links, automated requests integrated with your CRM or POS), professional response strategy (every review responded to within 48 hours, calibrated tone, conversion-aware language), and negative-review handling within Google\'s policies (no incentivization, no fake-review removal — only legitimate policy-violation reporting).',
+      'Reviews are the second-largest local ranking factor (after GBP signals) and the largest conversion factor, meaning even if reviews didn\'t affect ranking at all, they would still drive more business than any other local SEO investment. The combined effect of ranking + conversion makes review work the highest-ROI lever in most local SEO programs.',
+      'Practical review management has three components: systematic acquisition (right post-purchase or post-service workflow, single-click review links, automated requests integrated with your CRM or POS), professional response strategy (every review responded to within 48 hours, calibrated tone, conversion-aware language), and negative-review handling within Google\'s policies (no incentivization, no fake-review removal, only legitimate policy-violation reporting).',
       'The benchmark that matters is not "more reviews than you have now" but "your top 3 competitors\' average review count plus 25%". If your competitors all have 200+ reviews, you need a multi-month acquisition push to catch up. If they have 30, you can be competitive at 40. The matched specialist tells you the actual benchmark, not a generic "more is better" answer.',
     ],
     benefits: [
@@ -207,7 +207,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Multi-platform integration',
-        desc: 'Beyond Google Reviews — Yelp, Facebook, sector-specific platforms (Avvo for legal, Healthgrades for medical). Single-acquisition workflow that distributes across the platforms relevant to your business.',
+        desc: 'Beyond Google Reviews, Yelp, Facebook, sector-specific platforms (Avvo for legal, Healthgrades for medical). Single-acquisition workflow that distributes across the platforms relevant to your business.',
       },
     ],
     candidateIntro: 'Review management is most valuable if:',
@@ -271,13 +271,13 @@ export const serviceContent: Record<string, ServiceContent> = {
   'on-page-local-seo': {
     intro: [
       'On-page local SEO is the website-side work that confirms geographic relevance to Google: local schema markup, location-specific landing pages, internal linking that builds topical authority around your service area, page-speed optimization (a confirmed ranking factor since 2021), and the technical foundations that distinguish a well-optimized local business website from a generic small-business site.',
-      'For service-area businesses (plumbers, electricians, mobile services), the highest-impact piece is usually neighborhood landing pages — one page per major Miami neighborhood you actually serve, each with genuinely different content (testimonials specific to that area, neighborhood-relevant photos, local landmarks for context). Token-swap pages where "Brickell" is replaced with "Wynwood" and called done are penalized; real differentiation matters.',
-      'For storefront businesses, the priorities shift towards local schema, store-specific landing page optimization, and the on-page signals that confirm geographic prominence — embedded maps, address consistency with GBP, hours and contact information using proper schema, and the local-business specific structured data that surfaces in rich results.',
+      'For service-area businesses (plumbers, electricians, mobile services), the highest-impact piece is usually neighborhood landing pages, one page per major Miami neighborhood you actually serve, each with genuinely different content (testimonials specific to that area, neighborhood-relevant photos, local landmarks for context). Token-swap pages where "Brickell" is replaced with "Wynwood" and called done are penalized; real differentiation matters.',
+      'For storefront businesses, the priorities shift towards local schema, store-specific landing page optimization, and the on-page signals that confirm geographic prominence, embedded maps, address consistency with GBP, hours and contact information using proper schema, and the local-business specific structured data that surfaces in rich results.',
     ],
     benefits: [
       {
         title: 'Local schema implementation',
-        desc: 'LocalBusiness, Restaurant, Dentist, Attorney, or sector-specific schema implemented correctly. Most Miami small business sites have either no schema or wrong schema — fixing this is high-leverage technical work.',
+        desc: 'LocalBusiness, Restaurant, Dentist, Attorney, or sector-specific schema implemented correctly. Most Miami small business sites have either no schema or wrong schema, fixing this is high-leverage technical work.',
       },
       {
         title: 'Neighborhood landing pages that don\'t look templated',
@@ -312,7 +312,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Implementation roadmap',
-        desc: 'A prioritized list of changes — what moves rankings most for your situation, what\'s nice-to-have, what can wait. With realistic time and cost estimates.',
+        desc: 'A prioritized list of changes, what moves rankings most for your situation, what\'s nice-to-have, what can wait. With realistic time and cost estimates.',
       },
       {
         title: 'Implementation phase',
@@ -352,14 +352,14 @@ export const serviceContent: Record<string, ServiceContent> = {
 
   'local-link-building': {
     intro: [
-      'Local link building is materially different from generic SEO link building. Generic SEO targets domain authority — getting links from any high-authority site. Local SEO link building targets local relevance and proximity — getting links from Miami-area publications, business associations, charity partnerships, and Miami-relevant industry sites. A guest post in the Miami New Times is worth more for local rankings than one in TechCrunch, even though TechCrunch has higher domain authority.',
+      'Local link building is materially different from generic SEO link building. Generic SEO targets domain authority, getting links from any high-authority site. Local SEO link building targets local relevance and proximity, getting links from Miami-area publications, business associations, charity partnerships, and Miami-relevant industry sites. A guest post in the Miami New Times is worth more for local rankings than one in TechCrunch, even though TechCrunch has higher domain authority.',
       'The practical sources are: sponsorships of local Miami events, awards programs (Miami Herald "Best of" lists, sector-specific recognition), guest contributions to Miami industry publications, partnerships with Miami charities, being interviewed as a local expert in Miami-area press, and the high-quality Miami business directories (Chamber of Commerce, well-known local trade associations) that pass real link value.',
-      'None of these are quick. Most quality local links take 3–6 months from outreach to publication. The specialist plans the campaign, handles outreach, and tracks placements — but the relationships are yours to maintain. Local link building done right produces a slow accumulation of relationships and authority that compounds over years; done wrong (paid directory spam, low-quality guest posts) actively harms rather than helps.',
+      'None of these are quick. Most quality local links take 3–6 months from outreach to publication. The specialist plans the campaign, handles outreach, and tracks placements, but the relationships are yours to maintain. Local link building done right produces a slow accumulation of relationships and authority that compounds over years; done wrong (paid directory spam, low-quality guest posts) actively harms rather than helps.',
     ],
     benefits: [
       {
         title: 'Miami-relevant link prospecting',
-        desc: 'Specialists identify the local publications, organizations, and partnership opportunities specifically relevant to your sector and Miami sub-market — not generic outreach lists.',
+        desc: 'Specialists identify the local publications, organizations, and partnership opportunities specifically relevant to your sector and Miami sub-market, not generic outreach lists.',
       },
       {
         title: 'Outreach handling',
@@ -389,7 +389,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Prospect list and strategy',
-        desc: 'The specialist builds a prioritized prospect list — publications, organizations, sponsorship opportunities — specific to your sector and goals.',
+        desc: 'The specialist builds a prioritized prospect list, publications, organizations, sponsorship opportunities, specific to your sector and goals.',
       },
       {
         title: 'Outreach campaign',
@@ -433,14 +433,14 @@ export const serviceContent: Record<string, ServiceContent> = {
 
   'map-pack-optimization': {
     intro: [
-      'The Map Pack — Google\'s top-3 local results — is what most clients actually mean when they say "I want to be on Google". It\'s the single most valuable local SEO outcome and the one that drives the majority of high-intent local search traffic. Unlike generic organic ranking, Map Pack ranking is driven by a specific signal stack: proximity (distance from searcher), prominence (overall authority), and relevance (match to the query).',
-      'Map Pack optimization is the integrated strategy across GBP, reviews, citations, and on-page that puts your business in the top 3 for the queries you care about. It\'s not a tactic — it\'s the layer above the individual tactics, the framework that decides which tactics matter most for your specific competitive situation. Most engagements that promise "Map Pack ranking" deliver good citation building, decent GBP optimization, and call it done — without the strategic glue that actually wins ranking.',
+      'The Map Pack, Google\'s top-3 local results, is what most clients actually mean when they say "I want to be on Google". It\'s the single most valuable local SEO outcome and the one that drives the majority of high-intent local search traffic. Unlike generic organic ranking, Map Pack ranking is driven by a specific signal stack: proximity (distance from searcher), prominence (overall authority), and relevance (match to the query).',
+      'Map Pack optimization is the integrated strategy across GBP, reviews, citations, and on-page that puts your business in the top 3 for the queries you care about. It\'s not a tactic, it\'s the layer above the individual tactics, the framework that decides which tactics matter most for your specific competitive situation. Most engagements that promise "Map Pack ranking" deliver good citation building, decent GBP optimization, and call it done, without the strategic glue that actually wins ranking.',
       'No reputable specialist will guarantee specific Map Pack rankings. Algorithms change, competitors invest, and proximity (one of the three core factors) is outside any specialist\'s control. What good specialists guarantee: methodical execution of the proven ranking factor stack, transparent reporting via grid-based tracking (not the unreliable rank trackers most agencies use), and a realistic 6–9 month roadmap for competitive Miami queries.',
     ],
     benefits: [
       {
         title: 'Integrated multi-tactic strategy',
-        desc: 'Not just GBP, not just citations — the strategic combination that actually moves rankings for your specific Miami sub-market and sector.',
+        desc: 'Not just GBP, not just citations, the strategic combination that actually moves rankings for your specific Miami sub-market and sector.',
       },
       {
         title: 'Grid-based rank tracking',
@@ -452,7 +452,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Honest competitor analysis',
-        desc: 'Specialists tell you when you\'re competing with businesses that have spent 5 years and $100k+ on Map Pack ranking — and what that means for your timeline and budget.',
+        desc: 'Specialists tell you when you\'re competing with businesses that have spent 5 years and $100k+ on Map Pack ranking, and what that means for your timeline and budget.',
       },
     ],
     candidateIntro: 'Map Pack optimization is the right scope when:',
@@ -470,7 +470,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Competitive audit',
-        desc: 'The specialist analyzes your top 3–5 Miami competitors across all ranking factors — GBP completeness, review velocity, citation profile, on-page, link profile.',
+        desc: 'The specialist analyzes your top 3–5 Miami competitors across all ranking factors, GBP completeness, review velocity, citation profile, on-page, link profile.',
       },
       {
         title: 'Strategy and roadmap',
@@ -478,7 +478,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Execution',
-        desc: 'Multi-tactic execution managed by the specialist — usually a monthly retainer covering GBP work, review acquisition, citation maintenance, on-page improvements, and link building.',
+        desc: 'Multi-tactic execution managed by the specialist, usually a monthly retainer covering GBP work, review acquisition, citation maintenance, on-page improvements, and link building.',
       },
       {
         title: 'Monthly reporting and adjustment',
@@ -521,7 +521,7 @@ export const serviceContent: Record<string, ServiceContent> = {
     benefits: [
       {
         title: 'Long-tail query capture',
-        desc: 'Strategic content built around the specific questions Miami searchers are asking — not generic "what is local SEO" filler.',
+        desc: 'Strategic content built around the specific questions Miami searchers are asking, not generic "what is local SEO" filler.',
       },
       {
         title: 'Neighborhood landing pages that rank',
@@ -529,7 +529,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Sustainable cadence',
-        desc: 'Specialists set up a publishing rhythm you can actually sustain — weekly or fortnightly — and the editorial workflow that produces it without overwhelming the business owner.',
+        desc: 'Specialists set up a publishing rhythm you can actually sustain, weekly or fortnightly, and the editorial workflow that produces it without overwhelming the business owner.',
       },
       {
         title: 'Compounding authority',
@@ -542,7 +542,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       'Service-area businesses needing high-quality neighborhood landing pages',
       'Businesses in topical-authority-driven verticals (legal, medical, financial) where blog content is a major ranking driver',
       'Owners willing to provide expertise via interview or rough draft, even if not via finished writing',
-      'Multi-year time horizons — content compounds, but compounding requires sustained input',
+      'Multi-year time horizons, content compounds, but compounding requires sustained input',
     ],
     process: [
       {
@@ -555,7 +555,7 @@ export const serviceContent: Record<string, ServiceContent> = {
       },
       {
         title: 'Production workflow setup',
-        desc: 'Hybrid workflow established — interview, voice memo, or draft format that captures your expertise, with specialist editing and SEO optimization.',
+        desc: 'Hybrid workflow established, interview, voice memo, or draft format that captures your expertise, with specialist editing and SEO optimization.',
       },
       {
         title: 'Steady publication',

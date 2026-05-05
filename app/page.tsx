@@ -78,7 +78,7 @@ export default function HomePage() {
           <div className="container-width">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mb-10">
               <div className="lg:col-span-5">
-                <p className="eyebrow mb-3">— Reality check</p>
+                <p className="eyebrow mb-3">Reality check</p>
                 <h2 className="font-display font-bold text-[32px] lg:text-[44px] leading-tight text-ink">
                   {problemFraming.heading}
                 </h2>
@@ -152,7 +152,7 @@ export default function HomePage() {
         <section className="bg-paper py-16 lg:py-24">
           <div className="container-width">
             <div className="mb-10 lg:mb-12">
-              <p className="eyebrow mb-3">— Seven services</p>
+              <p className="eyebrow mb-3">Seven services</p>
               <h2 className="font-display font-bold text-[30px] lg:text-[42px] leading-tight text-ink mb-3">
                 What we match for
               </h2>
@@ -179,11 +179,11 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ─── Local Pack + GBP — what success actually looks like ─ */}
+        {/* ─── Local Pack + GBP, what success actually looks like ─ */}
         <section className="bg-bone py-16 lg:py-24">
           <div className="container-width">
             <div className="max-w-2xl mb-10 lg:mb-12">
-              <p className="eyebrow mb-3">— What a result looks like</p>
+              <p className="eyebrow mb-3">What a result looks like</p>
               <h2 className="font-display font-bold text-[30px] lg:text-[42px] leading-tight text-ink mb-4">
                 Two artifacts you should see from any specialist you hire.
               </h2>
@@ -220,7 +220,7 @@ export default function HomePage() {
           <div className="container-width">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mb-12">
               <div className="lg:col-span-7">
-                <p className="text-[10px] font-mono uppercase tracking-[0.22em] text-brand-300 mb-3">— How it works</p>
+                <p className="text-[10px] font-mono uppercase tracking-[0.22em] text-brand-300 mb-3">How it works</p>
                 <h2 className="font-display font-bold text-[32px] lg:text-[44px] leading-tight">
                   {howItWorks.heading}
                 </h2>
@@ -244,7 +244,7 @@ export default function HomePage() {
         <section className="bg-paper py-16 lg:py-24">
           <div className="container-width">
             <div className="max-w-2xl mb-10 lg:mb-12">
-              <p className="eyebrow mb-3">— Sample deliverables</p>
+              <p className="eyebrow mb-3">Sample deliverables</p>
               <h2 className="font-display font-bold text-[30px] lg:text-[42px] leading-tight text-ink mb-4">
                 What the first 90 days should produce.
               </h2>
@@ -309,7 +309,7 @@ export default function HomePage() {
         <section className="bg-bone py-16 lg:py-24">
           <div className="container-width">
             <div className="mb-10 lg:mb-12 max-w-2xl">
-              <p className="eyebrow mb-3">— Why us</p>
+              <p className="eyebrow mb-3">Why us</p>
               <h2 className="font-display font-bold text-[30px] lg:text-[42px] leading-tight text-ink">
                 {whyMatchingService.heading}
               </h2>
@@ -329,7 +329,7 @@ export default function HomePage() {
         <section className="bg-paper py-16 lg:py-24">
           <div className="container-width">
             <div className="mb-10">
-              <p className="eyebrow mb-3">— Coverage</p>
+              <p className="eyebrow mb-3">Coverage</p>
               <h2 className="font-display font-bold text-[30px] lg:text-[42px] leading-tight text-ink mb-3">
                 Miami neighborhoods we cover
               </h2>
@@ -357,7 +357,7 @@ export default function HomePage() {
         {/* ─── FAQ ───────────────────────────────────────────────── */}
         <section className="bg-bone py-16 lg:py-24">
           <div className="container-width max-w-4xl">
-            <p className="eyebrow mb-3">— Common questions</p>
+            <p className="eyebrow mb-3">Common questions</p>
             <FAQ faqs={FAQS_HOME} title={faqSectionTitle} />
           </div>
         </section>

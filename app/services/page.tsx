@@ -68,7 +68,7 @@ export default function ServicesIndexPage() {
         <section className="bg-paper py-16 lg:py-20">
           <div className="container-width">
             <div className="mb-8">
-              <p className="eyebrow mb-3">— What you actually pay</p>
+              <p className="eyebrow mb-3">What you actually pay</p>
               <h2 className="font-display font-bold text-[30px] lg:text-[40px] leading-tight text-ink mb-3">
                 Typical Miami local SEO pricing
               </h2>
@@ -123,7 +123,7 @@ export default function ServicesIndexPage() {
 
         <section className="py-16 lg:py-20 bg-bone">
           <div className="container-width max-w-4xl">
-            <p className="eyebrow mb-3">— Common questions</p>
+            <p className="eyebrow mb-3">Common questions</p>
             <FAQ faqs={FAQS_SERVICES} title="Common questions about Miami local SEO services" />
           </div>
         </section>

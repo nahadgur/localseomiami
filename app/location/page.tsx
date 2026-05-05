@@ -60,7 +60,7 @@ export default function LocationsIndexPage() {
               if (areas.length === 0) return null;
               return (
                 <div key={region.key}>
-                  <p className="eyebrow mb-2">— {region.label}</p>
+                  <p className="eyebrow mb-2">{region.label}</p>
                   <h2 className="font-display font-bold text-[26px] text-ink leading-tight mb-6">
                     {region.label}
                   </h2>
@@ -98,7 +98,7 @@ export default function LocationsIndexPage() {
 
         <section className="bg-paper py-14 lg:py-20">
           <div className="container-width max-w-4xl">
-            <p className="eyebrow mb-3">— Common questions</p>
+            <p className="eyebrow mb-3">Common questions</p>
             <FAQ faqs={FAQS_LOCATION} title="Common questions about Miami coverage" />
           </div>
         </section>

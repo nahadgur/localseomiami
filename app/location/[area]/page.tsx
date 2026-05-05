@@ -70,7 +70,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
     '@context': 'https://schema.org',
     '@type': 'Service',
     '@id': `${siteConfig.url}/location/${hub.slug}/#service`,
-    name: `${siteConfig.name} — ${hub.name}`,
+    name: `${siteConfig.name}, ${hub.name}`,
     url: `${siteConfig.url}/location/${hub.slug}/`,
     description: `Free local SEO matching service for ${hub.name} (${hub.zip}) businesses. Vetted specialists across Miami metro.`,
     provider: { '@id': `${siteConfig.url}/#organization` },
@@ -127,7 +127,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
         {/* Single full-width content column, no sidebar */}
         <article className="container-width py-14 lg:py-20 max-w-4xl space-y-14">
 
-          {/* Section 1: PROFILE CARDS — dominant business type + key challenge */}
+          {/* Section 1: PROFILE CARDS, dominant business type + key challenge */}
           {lp && (
             <section className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="relative overflow-hidden bg-white border border-ink/10 rounded-xl p-5">
@@ -158,7 +158,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
           {/* Section 2: INTRO */}
           {ac && (
             <section>
-              <p className="eyebrow mb-3">— {hub.name} in detail</p>
+              <p className="eyebrow mb-3">{hub.name} in detail</p>
               <h2 className="font-display font-bold text-[28px] lg:text-[36px] leading-tight text-ink mb-5">
                 {ac.introHeading}
               </h2>
@@ -168,10 +168,10 @@ export default function AreaPage({ params }: { params: { area: string } }) {
             </section>
           )}
 
-          {/* Section 3: LOCAL MARKET LANDSCAPE — bespoke deep content */}
+          {/* Section 3: LOCAL MARKET LANDSCAPE, bespoke deep content */}
           {deep && deep.localNarrative.length > 0 && (
             <section>
-              <p className="eyebrow mb-3">— Local market landscape</p>
+              <p className="eyebrow mb-3">Local market landscape</p>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 Inside the {hub.name} local SEO landscape
               </h2>
@@ -184,7 +184,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
           {/* Section 4: WHY SPECIALISM MATTERS HERE */}
           {deep && deep.whyMattersHere.length > 0 && (
             <section>
-              <p className="eyebrow mb-3">— Where specialism moves the needle</p>
+              <p className="eyebrow mb-3">Where specialism moves the needle</p>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 Where specialism moves the needle in {hub.name}
               </h2>
@@ -198,10 +198,10 @@ export default function AreaPage({ params }: { params: { area: string } }) {
             </section>
           )}
 
-          {/* Section 5: RECENT ENGAGEMENTS — case-numbered cards */}
+          {/* Section 5: RECENT ENGAGEMENTS, case-numbered cards */}
           {deep && deep.localExamples.length > 0 && (
             <section>
-              <p className="eyebrow mb-3">— Recent engagements</p>
+              <p className="eyebrow mb-3">Recent engagements</p>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 Recent {hub.name} engagement scenarios
               </h2>
@@ -233,7 +233,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
           {ac?.whySpecialistMatters && (
             <section>
               <div className="bg-brand-50 border-l-4 border-brand-500 rounded-r-md p-6">
-                <p className="eyebrow text-brand-600 mb-2">— Why a specialist matters here</p>
+                <p className="eyebrow text-brand-600 mb-2">Why a specialist matters here</p>
                 <p className="text-[15px] text-ink/80 leading-relaxed italic">{ac.whySpecialistMatters}</p>
               </div>
             </section>
@@ -242,7 +242,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
           {/* Section 7: BUSINESS PROFILE */}
           {ac?.businessProfile && (
             <section>
-              <p className="eyebrow mb-3">— Business profile</p>
+              <p className="eyebrow mb-3">Business profile</p>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 {ac.businessProfile.heading}
               </h2>
@@ -262,7 +262,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
           {/* Section 8: COMMON OPPORTUNITIES */}
           {ac?.commonOpportunities && ac.commonOpportunities.length > 0 && (
             <section>
-              <p className="eyebrow mb-3">— Common opportunities</p>
+              <p className="eyebrow mb-3">Common opportunities</p>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 Common SEO opportunities for {hub.name} businesses
               </h2>
@@ -278,7 +278,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
 
           {/* Section 9: COVERAGE */}
           <section>
-            <p className="eyebrow mb-3">— Coverage</p>
+            <p className="eyebrow mb-3">Coverage</p>
             <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-2">
               {hub.name} sub-areas we cover
             </h2>
@@ -299,7 +299,7 @@ export default function AreaPage({ params }: { params: { area: string } }) {
           {/* Section 10: BUSINESS MIX from locationProfile */}
           {lp && (
             <section>
-              <p className="eyebrow mb-3">— Businesses we typically match</p>
+              <p className="eyebrow mb-3">Businesses we typically match</p>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 Who we connect to {hub.name} specialists
               </h2>
@@ -324,14 +324,14 @@ export default function AreaPage({ params }: { params: { area: string } }) {
           {/* Section 11: LOCAL CONTEXT */}
           {ac?.localContext && (
             <section className="bg-paper border border-ink/10 rounded-lg p-6">
-              <p className="eyebrow mb-3">— {hub.name} in context</p>
+              <p className="eyebrow mb-3">{hub.name} in context</p>
               <p className="text-[15px] text-ink/80 leading-relaxed">{ac.localContext}</p>
             </section>
           )}
 
-          {/* Section 12: SERVICES IN {cityName} — links back to /services/[slug], NOT combo */}
+          {/* Section 12: SERVICES IN {cityName}, links back to /services/[slug], NOT combo */}
           <section>
-            <p className="eyebrow mb-3">— Services in {hub.name}</p>
+            <p className="eyebrow mb-3">Services in {hub.name}</p>
             <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-3">
               Local SEO services in {hub.name}
             </h2>
@@ -368,13 +368,13 @@ export default function AreaPage({ params }: { params: { area: string } }) {
           </section>
 
           {/* Section 13: FAQ */}
-          <FAQ faqs={faqs} title={`${hub.name} local SEO — common questions`} />
+          <FAQ faqs={faqs} title={`${hub.name} local SEO, common questions`} />
         </article>
 
         {/* Other neighborhoods strip */}
         <section className="bg-paper py-14 lg:py-18 border-t border-ink/8">
           <div className="container-width">
-            <p className="eyebrow mb-3">— Other neighborhoods</p>
+            <p className="eyebrow mb-3">Other neighborhoods</p>
             <h2 className="font-display font-bold text-[24px] lg:text-[30px] leading-tight text-ink mb-6">
               Other Miami neighborhoods we cover
             </h2>

@@ -144,7 +144,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
     '@context': 'https://schema.org',
     '@type': 'Service',
     '@id': `${siteConfig.url}/services/${service.slug}/#service`,
-    name: `${service.title} — Miami local SEO matching`,
+    name: `${service.title}, Miami local SEO matching`,
     url: `${siteConfig.url}/services/${service.slug}/`,
     description: service.description,
     provider: { '@id': `${siteConfig.url}/#organization` },
@@ -193,7 +193,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
 
           {/* Section 1: WHAT THIS IS */}
           <section>
-            <p className="eyebrow mb-3">— What this is</p>
+            <p className="eyebrow mb-3">What this is</p>
             <h2 className="font-display font-bold text-[28px] lg:text-[36px] leading-tight text-ink mb-5">
               {service.title}: what it covers
             </h2>
@@ -204,7 +204,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
 
           {/* Section 2: BENEFITS, watermark cards */}
           <section>
-            <p className="eyebrow mb-3">— What good execution looks like</p>
+            <p className="eyebrow mb-3">What good execution looks like</p>
             <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-6">
               What good {service.title.toLowerCase()} looks like
             </h2>
@@ -229,7 +229,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
           {/* Section 3: HOW IT ACTUALLY WORKS, deepDive */}
           {content.deepDive && content.deepDive.length > 0 && (
             <section>
-              <p className="eyebrow mb-3">— How it actually works</p>
+              <p className="eyebrow mb-3">How it actually works</p>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 The mechanics behind {service.title.toLowerCase()}
               </h2>
@@ -242,7 +242,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
           {/* Section 4: EDGE CASES */}
           {content.edgeCases && content.edgeCases.length > 0 && (
             <section>
-              <p className="eyebrow mb-3">— Edge cases</p>
+              <p className="eyebrow mb-3">Edge cases</p>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 Where the standard playbook breaks
               </h2>
@@ -259,7 +259,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
           {/* Section 5: WORKED EXAMPLES with $-amounts */}
           {content.workedExamples && content.workedExamples.length > 0 && (
             <section>
-              <p className="eyebrow mb-3">— Worked examples</p>
+              <p className="eyebrow mb-3">Worked examples</p>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 Three real Miami engagement scenarios
               </h2>
@@ -292,7 +292,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
             <section>
               <div className="flex items-center gap-2 mb-3">
                 <AlertTriangle size={16} className="text-red-600" />
-                <p className="eyebrow text-red-600 m-0">— Common mistakes</p>
+                <p className="eyebrow text-red-600 m-0">Common mistakes</p>
               </div>
               <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
                 {mistakes.headline}
@@ -316,7 +316,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
               <div className="bg-brand-50 border-l-4 border-brand-500 rounded-r-md p-6">
                 <div className="flex items-center gap-2 mb-3">
                   <ArrowRight size={14} className="text-brand-600" />
-                  <p className="eyebrow text-brand-600 m-0">— Pairs well with</p>
+                  <p className="eyebrow text-brand-600 m-0">Pairs well with</p>
                 </div>
                 <h3 className="font-display font-semibold text-[22px] text-ink mb-3 leading-tight">
                   {pairedService.title}
@@ -331,7 +331,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
 
           {/* Section 8: WHO THIS FITS */}
           <section>
-            <p className="eyebrow mb-3">— Who it suits</p>
+            <p className="eyebrow mb-3">Who it suits</p>
             <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-3">
               Is {service.title.toLowerCase()} right for your Miami business?
             </h2>
@@ -350,7 +350,7 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
 
           {/* Section 9: PROCESS */}
           <section>
-            <p className="eyebrow mb-3">— The matching process</p>
+            <p className="eyebrow mb-3">The matching process</p>
             <h2 className="font-display font-bold text-[26px] lg:text-[32px] leading-tight text-ink mb-5">
               How {service.title.toLowerCase()} matching works
             </h2>
@@ -371,14 +371,14 @@ export default function ServicePage({ params }: { params: { serviceSlug: string 
 
           {/* Section 10: FAQ */}
           <section>
-            <FAQ faqs={[...service.faqs, ...FAQS_SERVICES]} title={`${service.title} — common questions`} />
+            <FAQ faqs={[...service.faqs, ...FAQS_SERVICES]} title={`${service.title}, common questions`} />
           </section>
         </article>
 
         {/* Section 11: OTHER SERVICES STRIP, replaces sidebar widget */}
         <section className="bg-paper py-14 lg:py-18 border-t border-ink/8">
           <div className="container-width">
-            <p className="eyebrow mb-3">— Continue exploring</p>
+            <p className="eyebrow mb-3">Continue exploring</p>
             <h2 className="font-display font-bold text-[24px] lg:text-[30px] leading-tight text-ink mb-6">
               Other Miami local SEO services
             </h2>

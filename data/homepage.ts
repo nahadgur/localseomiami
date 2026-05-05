@@ -9,9 +9,9 @@ export const heroContent = {
 export const problemFraming = {
   heading: 'Why most Miami businesses don\'t rank',
   paragraphs: [
-    'The Map Pack — Google\'s top-3 local results — drives the majority of high-intent local search traffic in Miami. Real estate searches, restaurant searches, "near me" searches, even branded searches all surface the Map Pack first. If your business isn\'t in the top 3, you are competing for the leftover ~20% of clicks.',
+    'The Map Pack, Google\'s top-3 local results, drives the majority of high-intent local search traffic in Miami. Real estate searches, restaurant searches, "near me" searches, even branded searches all surface the Map Pack first. If your business isn\'t in the top 3, you are competing for the leftover ~20% of clicks.',
     'Most Miami businesses don\'t rank because the local SEO investment got allocated wrong: cheap citation packages that pass no value, agencies promising "30-day results" that no algorithm will actually deliver, or DIY work focused on the easy 20% (verifying the GBP) without touching the harder 80% (the full optimization stack, citation cleanup, review systems, on-page schema, local link building).',
-    'The matching service exists because finding a local SEO specialist with genuine track record in your sector and Miami sub-market is hard — most agencies that show up for "Miami local SEO" searches are themselves nationally-focused with weak Miami credentials. We vet for live local Miami ranking results, not just generic SEO experience.',
+    'The matching service exists because finding a local SEO specialist with genuine track record in your sector and Miami sub-market is hard, most agencies that show up for "Miami local SEO" searches are themselves nationally-focused with weak Miami credentials. We vet for live local Miami ranking results, not just generic SEO experience.',
   ],
 };
 
@@ -26,7 +26,7 @@ export const howItWorks = {
     {
       step: '2',
       title: 'We match you with a vetted specialist',
-      desc: 'Within 24 business hours we connect you with a specialist who has live local ranking results in your sector and Miami sub-market — not generic SEO experience.',
+      desc: 'Within 24 business hours we connect you with a specialist who has live local ranking results in your sector and Miami sub-market, not generic SEO experience.',
     },
     {
       step: '3',
@@ -41,7 +41,7 @@ export const whyMatchingService = {
   points: [
     {
       title: 'Sector-specific track record',
-      desc: 'Most agencies pitch "we do local SEO" without proving live ranking results in your specific sector. We vet for actual current rankings — Brickell law firms, Wynwood galleries, Coral Gables restaurants, etc. — and match accordingly.',
+      desc: 'Most agencies pitch "we do local SEO" without proving live ranking results in your specific sector. We vet for actual current rankings, Brickell law firms, Wynwood galleries, Coral Gables restaurants, etc., and match accordingly.',
     },
     {
       title: 'Miami sub-market expertise',
