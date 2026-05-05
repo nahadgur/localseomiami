@@ -25,7 +25,7 @@ export const blogArticles: BlogArticle[] = [
     title: 'Why Miami local SEO takes longer than most other US cities',
     metaTitle: 'Why Miami Local SEO Takes Longer (2026)',
     metaDescription:
-      'Miami local SEO timelines are longer than typical US cities. Here is why, competitive density, bilingual market dynamics, and what realistic ranking timelines look like.',
+      'Miami local SEO timelines are longer than typical US cities. Here is why: competitive density, bilingual market dynamics, and what realistic ranking timelines look like.',
     category: 'Strategy',
     publishDate: '2026-05-04',
     excerpt:
@@ -36,10 +36,10 @@ export const blogArticles: BlogArticle[] = [
 
       { type: 'h2', text: 'Reason 1: Competitive density is high' },
       { type: 'p', text: 'Miami is the third-largest US city by metropolitan population (behind only New York and Los Angeles), and a major international business center. The professional services and hospitality verticals are extremely well-served, meaning the businesses you\'re competing against for Map Pack ranking are often well-resourced, well-organized, and already running sophisticated local SEO programs.' },
-      { type: 'p', text: 'A Brickell law firm competing for "Miami corporate lawyer" is typically up against firms with 200+ Google Reviews, 50+ citations, multiple Miami press placements, full GBP optimization, and an active blog. Catching that profile from zero takes time, usually 9–12 months of methodical work.' },
+      { type: 'p', text: 'A Brickell law firm competing for "Miami corporate lawyer" is typically up against firms with 200+ Google Reviews, 50+ citations, multiple Miami press placements, full GBP optimization, and an active blog. Catching that profile from zero takes time. Usually 9–12 months of methodical work.' },
 
       { type: 'h2', text: 'Reason 2: The bilingual market doubles the work' },
-      { type: 'p', text: 'Roughly 70% of Miami-Dade residents speak Spanish at home. For businesses serving the Hispanic market, restaurants in Little Havana, professional services in Doral, retail across the city, local SEO is genuinely bilingual work. Spanish keyword research, Spanish GBP descriptions, Spanish content programs, Spanish review responses.' },
+      { type: 'p', text: 'Roughly 70% of Miami-Dade residents speak Spanish at home. For businesses serving the Hispanic market (restaurants in Little Havana, professional services in Doral, retail across the city) local SEO is genuinely bilingual work. Spanish keyword research, Spanish GBP descriptions, Spanish content programs, Spanish review responses.' },
       { type: 'p', text: 'Bilingual local SEO is not "twice the work" exactly, but it is materially more work than English-only. Specialists who try to copy English work into Spanish via translation underperform meaningfully against specialists who research the Spanish keywords independently and produce native-quality Spanish content.' },
 
       { type: 'h2', text: 'Reason 3: Multi-platform optimization is broader' },
@@ -48,7 +48,7 @@ export const blogArticles: BlogArticle[] = [
 
       { type: 'h2', text: 'Reason 4: Citation cleanup is harder in older Miami businesses' },
       { type: 'p', text: 'Many established Miami businesses have decades of digital presence, multiple business name variations, multiple addresses (relocations, expansions, contractions), multiple phone numbers (acquired during merger or rebrand), and the citation data corruption that accumulates over 10+ years.' },
-      { type: 'p', text: 'Cleaning up an established Miami business\'s citation profile often takes 6–8 weeks of focused work, claiming abandoned listings, correcting inconsistent NAP data, deleting duplicates introduced by automated aggregators. The cleanup typically pays back materially in ranking improvement, but it is not fast work.' },
+      { type: 'p', text: 'Cleaning up an established Miami business\'s citation profile often takes 6–8 weeks of focused work: claiming abandoned listings, correcting inconsistent NAP data, deleting duplicates introduced by automated aggregators. The cleanup typically pays back materially in ranking improvement, but it is not fast work.' },
 
       { type: 'h2', text: 'What does a realistic Miami timeline look like?' },
       { type: 'list', items: [
@@ -80,9 +80,9 @@ export const blogArticles: BlogArticle[] = [
     category: 'GBP',
     publishDate: '2026-05-04',
     excerpt:
-      'Most Miami business GBPs are completing only 30–40% of the available signal stack, and the missing 60% includes the highest-impact ranking levers. Here are the mistakes we see most often.',
+      'Most Miami business GBPs are completing only 30–40% of the available signal stack. The missing 60% includes the highest-impact ranking levers. Here are the mistakes we see most often.',
     content: [
-      { type: 'p', text: 'When we audit Miami business Google Business Profiles, the same mistakes appear repeatedly. Most are not technically broken, the GBP is verified, the basic info is right, but the signal stack that actually drives ranking is incomplete or actively misconfigured.' },
+      { type: 'p', text: 'When we audit Miami business Google Business Profiles, the same mistakes appear repeatedly. Most are not technically broken (the GBP is verified, the basic info is right), but the signal stack that actually drives ranking is incomplete or actively misconfigured.' },
       { type: 'p', text: 'Here are the GBP mistakes we see most often in Miami audits, ranked by ranking-impact severity.' },
 
       { type: 'h2', text: 'Mistake 1: Wrong primary category' },
@@ -90,12 +90,12 @@ export const blogArticles: BlogArticle[] = [
       { type: 'p', text: 'Example: a personal injury law firm in Brickell with primary category "Lawyer" instead of "Personal Injury Attorney". The narrower specific category ranks substantially better for the relevant queries because it matches user search intent more precisely. We see this pattern across nearly every vertical, generic primary categories where specific ones are available and would rank better.' },
 
       { type: 'h2', text: 'Mistake 2: Service-area-business address showing publicly' },
-      { type: 'p', text: 'Service-area businesses (plumbers, electricians, mobile services, home-based consultants) should hide their address and define a service area. Many Miami service-area businesses have their home address showing publicly, which both invites GBP suspension (Google\'s policy explicitly requires hiding the address for service-area businesses) and visibly diminishes the listing in search results.' },
+      { type: 'p', text: 'Service-area businesses (plumbers, electricians, mobile services, home-based consultants) should hide their address and define a service area. Many Miami service-area businesses have their home address showing publicly. This both invites GBP suspension (Google\'s policy explicitly requires hiding the address for service-area businesses) and visibly diminishes the listing in search results.' },
       { type: 'p', text: 'Fix: in GBP settings, set the business location to "I deliver goods and services to my customers", define the service area by city or radius, and remove the public-facing address.' },
 
       { type: 'h2', text: 'Mistake 3: Photos uploaded but not categorized' },
       { type: 'p', text: 'Google\'s GBP photo system has explicit categories: Cover, Logo, Interior, Exterior, At Work, Team, Identity, and several sector-specific options. Photos uploaded without categorization (which is the default if you upload via the mobile app without specifying) provide weaker ranking and discovery signals than properly-categorized photos.' },
-      { type: 'p', text: 'Fix: categorize all photos correctly. Cover photo should be the most representative single image of the business. Logo should be the actual brand logo. Interior, exterior, and team photos should be sorted accordingly. Photos in unrelated categories actively hurt, a "team" photo classified as "exterior" is a confusing signal.' },
+      { type: 'p', text: 'Fix: categorize all photos correctly. Cover photo should be the most representative single image of the business. Logo should be the actual brand logo. Interior, exterior, and team photos should be sorted accordingly. Photos in unrelated categories actively hurt. A "team" photo classified as "exterior" is a confusing signal.' },
 
       { type: 'h2', text: 'Mistake 4: Q&A unmonitored and unseeded' },
       { type: 'p', text: 'Anyone, including competitors, can post questions to your GBP. Many Miami businesses have unanswered questions sitting on their listings, sometimes for months. Worse, some have intentionally-misleading questions posted by competitors and never addressed.' },
@@ -134,31 +134,31 @@ export const blogArticles: BlogArticle[] = [
     excerpt:
       'Reviews are the second-largest local ranking factor and the largest conversion factor. But most Miami businesses ask for reviews ad-hoc and inconsistently. Here is what a systematic review acquisition system looks like.',
     content: [
-      { type: 'p', text: 'Reviews drive both ranking and conversion in local search. The combined effect makes review work the highest-ROI lever in most local SEO programs, but most Miami businesses ask for reviews ad-hoc, inconsistently, and at the wrong moments. The result is a steady trickle of reviews when a systematic system would produce a steady stream.' },
+      { type: 'p', text: 'Reviews drive both ranking and conversion in local search. The combined effect makes review work the highest-ROI lever in most local SEO programs. But most Miami businesses ask for reviews ad-hoc, inconsistently, and at the wrong moments. The result is a steady trickle of reviews when a systematic system would produce a steady stream.' },
       { type: 'p', text: 'Here is what a working review acquisition system looks like, and the key decisions in setting one up.' },
 
       { type: 'h2', text: 'Decision 1: When to ask' },
-      { type: 'p', text: 'The review request should land at the moment of peak satisfaction, typically right after a positive customer interaction. For most Miami business types, this looks like:' },
+      { type: 'p', text: 'The review request should land at the moment of peak satisfaction: typically right after a positive customer interaction. For most Miami business types, this looks like:' },
       { type: 'list', items: [
         'Restaurants: 10–20 minutes after the customer leaves the table (give them time to walk to their car or settle the bill, not so long that the experience fades)',
         'Hotels: morning of check-out, before the customer has fully detached from the experience',
         'Service providers (plumbers, electricians, HVAC): right after the job is completed and the customer has confirmed satisfaction',
         'Retail: 2–4 hours after purchase if the product is for immediate use; 1–2 days later if it requires unboxing or installation',
-        'Professional services (legal, medical, financial): at the natural transaction completion point, case closed, treatment finished, advice delivered',
+        'Professional services (legal, medical, financial): at the natural transaction completion point (case closed, treatment finished, advice delivered)',
       ] },
       { type: 'p', text: 'Wrong timing kills the response rate. Asking too early (before the customer has fully experienced the service) feels presumptuous. Asking too late (after the experience has faded) gets ignored. The right timing is "the experience is fresh enough to motivate but complete enough to evaluate."' },
 
       { type: 'h2', text: 'Decision 2: How to ask' },
-      { type: 'p', text: 'The technical mechanism matters less than people think. SMS, email, and printed cards with QR codes all work, what matters is that the request is single-click (no need to log in, search for the business, navigate to the right page) and personal (mentions the customer\'s name and the specific service or product).' },
+      { type: 'p', text: 'The technical mechanism matters less than people think. SMS, email, and printed cards with QR codes all work. What matters is that the request is single-click (no need to log in, search for the business, navigate to the right page) and personal (mentions the customer\'s name and the specific service or product).' },
       { type: 'p', text: 'Single-click review links are easy to generate from your GBP, the place ID makes a unique URL that opens the review submission form directly. Most CRM and POS systems can generate these automatically per customer.' },
       { type: 'p', text: 'Personalization beats generic by 3–5x in our experience. "Hi Maria, thank you for choosing us for your closing today. If you have a moment, we\'d be grateful for a quick review at [link]" outperforms "We hope you had a great experience! Please leave us a review."' },
 
       { type: 'h2', text: 'Decision 3: Which platforms' },
-      { type: 'p', text: 'Most Miami businesses should focus on Google Reviews first and only, Google is by far the dominant platform for local search ranking and conversion. Once you have 50+ Google Reviews, then consider expanding to:' },
+      { type: 'p', text: 'Most Miami businesses should focus on Google Reviews first and only. Google is by far the dominant platform for local search ranking and conversion. Once you have 50+ Google Reviews, then consider expanding to:' },
       { type: 'list', items: [
         'Yelp (still meaningful for restaurants, personal services, certain demographics)',
         'TripAdvisor (essential for tourism-vertical businesses on South Beach, Wynwood, Coconut Grove)',
-        'Industry-specific platforms, Avvo for legal, Healthgrades for medical, Houzz for home services',
+        'Industry-specific platforms (Avvo for legal, Healthgrades for medical, Houzz for home services)',
         'Facebook Reviews (lower SEO impact than Google but still worth a basic presence)',
       ] },
       { type: 'p', text: 'Spreading review requests across 4 platforms from day one dilutes the effort and produces 4 thin profiles instead of one strong Google Reviews profile. Build to 50 Google Reviews first, then expand.' },
@@ -202,7 +202,7 @@ export const blogArticles: BlogArticle[] = [
     excerpt:
       'Most Miami businesses hire the first agency that pitches them. Here is how to evaluate properly, specific questions to ask, red flags to watch, and what realistic deliverables actually look like.',
     content: [
-      { type: 'p', text: 'Most Miami businesses hire the first local SEO agency that pitches them, get a year of underwhelming results, and move to the next agency that pitches them. The cycle continues. The actual mistake is upstream of any specific agency choice, it\'s the lack of an evaluation framework before signing the first contract.' },
+      { type: 'p', text: 'Most Miami businesses hire the first local SEO agency that pitches them, get a year of underwhelming results, and move to the next agency that pitches them. The cycle continues. The actual mistake is upstream of any specific agency choice. It\'s the lack of an evaluation framework before signing the first contract.' },
       { type: 'p', text: 'Here is the evaluation framework we use for vetting agencies into our matching network. Use it to evaluate any agency you\'re considering, whether through us or directly.' },
 
       { type: 'h2', text: '1. Ask for live ranking proof in your sector' },

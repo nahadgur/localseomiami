@@ -23,12 +23,12 @@ export const services: Service[] = [
       {
         question: 'My Google Business Profile is already verified. What is there to optimize?',
         answer:
-          'Verification is just the entry ticket. The optimization stack is much deeper: primary and secondary category selection (often the single biggest ranking lever), service-area definition, service list with descriptions and pricing, photo cadence and tagging, weekly Posts, Q&A seeding and monitoring, attribute completeness, and the products/services modules. Most "verified" GBPs are completing 30–40% of the available signal stack, getting to 90%+ moves rankings.',
+          'Verification is just the entry ticket. The optimization stack is much deeper: primary and secondary category selection (often the single biggest ranking lever), service-area definition, service list with descriptions and pricing, photo cadence and tagging, weekly Posts, Q&A seeding and monitoring, attribute completeness, and the products/services modules. Most "verified" GBPs are completing 30–40% of the available signal stack. Getting to 90%+ moves rankings.',
       },
       {
         question: 'Should I use my home address or a service area for my GBP?',
         answer:
-          'Service-area businesses (no public-facing premises, plumbers, electricians, mobile services) should hide the address and define the service area. Storefront businesses should use the storefront address. Hybrid businesses (consultants who see clients at home AND travel) face a real choice; the specialist will explain the tradeoff. Wrong selection here causes either suspension (showing a hidden home address) or weaker rankings (treating a storefront like a service-area business).',
+          'Service-area businesses without public-facing premises (plumbers, electricians, mobile services) should hide the address and define the service area. Storefront businesses should use the storefront address. Hybrid businesses (consultants who see clients at home AND travel) face a real choice; the specialist will explain the tradeoff. Wrong selection here causes either suspension (showing a hidden home address) or weaker rankings (treating a storefront like a service-area business).',
       },
       {
         question: 'Do GBP posts actually help rankings?',
@@ -44,23 +44,23 @@ export const services: Service[] = [
     slug: 'local-citation-building',
     shortLabel: 'Local citation building & cleanup',
     description:
-      'Citations (NAP, Name, Address, Phone, listed on directories and review sites) are the third-largest local ranking factor after GBP and reviews. Specialists clean up inconsistent or duplicate listings, build out missing high-value citations, and monitor for ongoing data corruption.',
+      'Citations (your NAP, Name, Address and Phone, listed on directories and review sites) are the third-largest local ranking factor after GBP and reviews. Specialists clean up inconsistent or duplicate listings, build out missing high-value citations, and monitor for ongoing data corruption.',
     icon: 'List',
     faqs: [
       {
         question: 'How many citations do I actually need?',
         answer:
-          'For most Miami small businesses, 30–60 high-quality citations cover the practical ceiling, Apple Maps, Yelp, BBB, the major industry-specific directories, local Miami-area business directories, and a handful of niche directories relevant to your sector. The "build 200 citations" packages from cheap services usually waste budget on low-quality directories that no one uses.',
+          'For most Miami small businesses, 30–60 high-quality citations cover the practical ceiling: Apple Maps, Yelp, BBB, the major industry-specific directories, local Miami-area business directories, and a handful of niche directories relevant to your sector. The "build 200 citations" packages from cheap services usually waste budget on low-quality directories that no one uses.',
       },
       {
         question: 'My business name is slightly different on different sites. Does that matter?',
         answer:
-          'Yes, more than most realize. Inconsistent NAP data confuses Google\'s entity matching, when "Joe\'s Plumbing" on Yelp doesn\'t match "Joe\'s Plumbing LLC" on the BBB and "Joe Plumbing" on Apple Maps, the algorithm treats these as potentially three different businesses. Citation consistency cleanup is often the highest-impact week of work in a new local SEO engagement.',
+          'Yes, more than most realize. Inconsistent NAP data confuses Google\'s entity matching. When "Joe\'s Plumbing" on Yelp doesn\'t match "Joe\'s Plumbing LLC" on the BBB and "Joe Plumbing" on Apple Maps, the algorithm treats these as potentially three different businesses. Citation consistency cleanup is often the highest-impact week of work in a new local SEO engagement.',
       },
       {
         question: 'Can\'t I just submit to all the directories myself?',
         answer:
-          'You can, but the cleanup work is harder than the build work. Removing duplicates, claiming abandoned listings created by automated aggregators, and fixing legacy data inconsistencies often requires verification calls, postcard verification, or specialist relationships with directory operators. DIY citation building works for the easy 20%, the messy long tail is what specialists do efficiently.',
+          'You can, but the cleanup work is harder than the build work. Removing duplicates, claiming abandoned listings created by automated aggregators, and fixing legacy data inconsistencies often requires verification calls, postcard verification, or specialist relationships with directory operators. DIY citation building works for the easy 20%. The messy long tail is what specialists do efficiently.',
       },
     ],
   },
@@ -87,7 +87,7 @@ export const services: Service[] = [
       {
         question: 'What about negative reviews, can they be removed?',
         answer:
-          'Only if they violate Google\'s policies (fake, off-topic, conflict of interest, illegal content). Genuine-but-negative reviews cannot be removed. The professional response strategy, acknowledge, take the conversation offline, demonstrate the issue is being handled, actually converts better than no negatives at all. A 5.0 average looks suspicious; a 4.6 with thoughtful responses to occasional 3-star reviews looks human.',
+          'Only if they violate Google\'s policies (fake, off-topic, conflict of interest, illegal content). Genuine-but-negative reviews cannot be removed. The professional response strategy (acknowledge, take the conversation offline, demonstrate the issue is being handled) actually converts better than no negatives at all. A 5.0 average looks suspicious; a 4.6 with thoughtful responses to occasional 3-star reviews looks human.',
       },
     ],
   },
@@ -114,7 +114,7 @@ export const services: Service[] = [
       {
         question: 'How does page speed affect local SEO?',
         answer:
-          'Page speed is a confirmed Google ranking factor (Core Web Vitals) and a major conversion factor, every additional second of load time costs ~10% of your conversions. For local SEO specifically, mobile page speed matters most because most local search is mobile. Specialists optimize Largest Contentful Paint, Cumulative Layout Shift, and mobile responsiveness as part of any meaningful retainer.',
+          'Page speed is a confirmed Google ranking factor (Core Web Vitals) and a major conversion factor. Every additional second of load time costs ~10% of your conversions. For local SEO specifically, mobile page speed matters most because most local search is mobile. Specialists optimize Largest Contentful Paint, Cumulative Layout Shift, and mobile responsiveness as part of any meaningful retainer.',
       },
     ],
   },
@@ -125,7 +125,7 @@ export const services: Service[] = [
     slug: 'local-link-building',
     shortLabel: 'Local link building',
     description:
-      'Backlinks from Miami-area publications, local business associations, charity partnerships, sponsorships, and Miami-relevant industry sites. Local links are a different ranking factor from generic SEO link building, proximity-and-prominence focused, not just domain authority.',
+      'Backlinks from Miami-area publications, local business associations, charity partnerships, sponsorships, and Miami-relevant industry sites. Local links are a different ranking factor from generic SEO link building. Proximity-and-prominence focused, not just domain authority.',
     icon: 'Link',
     faqs: [
       {
@@ -136,7 +136,7 @@ export const services: Service[] = [
       {
         question: 'Are paid local directory links worth it?',
         answer:
-          'Some are, most aren\'t. The Miami Chamber of Commerce, well-known local trade associations, and a few high-quality Miami-specific business directories pass real link value. The "pay $50 to be listed in 100 directories" services pass nothing, Google has long since discounted those.',
+          'Some are, most aren\'t. The Miami Chamber of Commerce, well-known local trade associations, and a few high-quality Miami-specific business directories pass real link value. The "pay $50 to be listed in 100 directories" services pass nothing. Google has long since discounted those.',
       },
       {
         question: 'Should I be guest-posting on national sites for local SEO?',
@@ -152,18 +152,18 @@ export const services: Service[] = [
     slug: 'map-pack-optimization',
     shortLabel: 'Map Pack 3-pack ranking strategy',
     description:
-      'The integrated strategy across GBP, reviews, citations, and on-page that puts your business in the top 3 results for high-value local queries. This is what most clients actually want when they say "local SEO", and the layer above the individual tactical services.',
+      'The integrated strategy across GBP, reviews, citations, and on-page that puts your business in the top 3 results for high-value local queries. This is what most clients actually want when they say "local SEO": the layer above the individual tactical services.',
     icon: 'Target',
     faqs: [
       {
         question: 'Can you guarantee top-3 Map Pack ranking?',
         answer:
-          'No reputable specialist will guarantee specific rankings, and any agency that does is lying. Map Pack rankings are driven by Google\'s algorithm and competitor activity, both of which are outside any specialist\'s control. What specialists can guarantee: methodical execution of the proven ranking factor stack, transparent reporting of progress, and a realistic 6–9 month roadmap for competitive queries.',
+          'No reputable specialist will guarantee specific rankings. Any agency that does is lying. Map Pack rankings are driven by Google\'s algorithm and competitor activity, both of which are outside any specialist\'s control. What specialists can guarantee: methodical execution of the proven ranking factor stack, transparent reporting of progress, and a realistic 6–9 month roadmap for competitive queries.',
       },
       {
         question: 'What kind of queries can realistically get into the Map Pack?',
         answer:
-          'Most "service + city" and "service + neighborhood" queries are achievable for properly-optimized businesses with sufficient reviews. Highly competitive verticals in Miami (real estate, personal injury law, plastic surgery, dentistry in Brickell) require longer timelines and bigger investments, typically 9–12 months for top-3 placement against established competitors.',
+          'Most "service + city" and "service + neighborhood" queries are achievable for properly-optimized businesses with sufficient reviews. Highly competitive verticals in Miami (real estate, personal injury law, plastic surgery, dentistry in Brickell) require longer timelines and bigger investments: typically 9–12 months for top-3 placement against established competitors.',
       },
       {
         question: 'How do I track Map Pack rankings?',
@@ -185,7 +185,7 @@ export const services: Service[] = [
       {
         question: 'How often should I publish local content?',
         answer:
-          'Once per week for most small businesses, once per two weeks for service businesses with limited topical breadth. Less than monthly is below the threshold for meaningful momentum. More than weekly is generally counterproductive, quality drops faster than quantity helps.',
+          'Once per week for most small businesses, once per two weeks for service businesses with limited topical breadth. Less than monthly is below the threshold for meaningful momentum. More than weekly is generally counterproductive. Quality drops faster than quantity helps.',
       },
       {
         question: 'Should I write the content myself or have the specialist do it?',
