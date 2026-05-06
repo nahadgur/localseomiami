@@ -67,14 +67,14 @@ export default function ContactPage() {
                 eyebrow="General questions"
                 title="Email us"
                 body="Questions about how the matching service works, complaints about a matched specialist, or feedback. We respond within two business days."
-                email="hello@localseomiami.com"
+                email="hello@localmiamiseo.com"
               />
 
               <Card
                 eyebrow="CCPA and privacy"
                 title="Data requests"
                 body="Subject access requests, data deletion requests, or any other privacy matter under CCPA or general US privacy law. We respond within 30 days."
-                email="privacy@localseomiami.com"
+                email="privacy@localmiamiseo.com"
                 footer={<>See our full <Link href="/privacy/" className="text-brand-600 underline hover:text-brand-700">privacy notice</Link> for what we collect and your rights.</>}
               />
 
@@ -82,7 +82,7 @@ export default function ContactPage() {
                 eyebrow="For specialists"
                 title="Join the network"
                 body="Local SEO specialists with verifiable Miami ranking work, get in touch about joining the matched network. We verify live track record, sector experience, and monthly capacity before accepting any new partner."
-                email="partners@localseomiami.com"
+                email="partners@localmiamiseo.com"
               />
             </aside>
           </div>

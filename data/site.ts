@@ -2,15 +2,15 @@
 export const siteConfig = {
   name: 'Local SEO Miami',
   tagline: 'Get matched with vetted Miami local SEO specialists',
-  url: 'https://www.localseomiami.com',
+  url: 'https://www.localmiamiseo.com',
   description:
     'Free matching service connecting Miami small and medium businesses with vetted local SEO specialists. Google Business Profile optimization, citation building, review management, and Map Pack ranking strategies for Brickell, Wynwood, South Beach, and the wider Miami metro.',
   // Geographic service area (used in schema). Centralized so org/service
   // schemas don't depend on string-parsing the site name.
   serviceArea: 'Miami, Florida',
-  // Google Analytics tracking ID, placeholder until set up. ConsentBanner
-  // only loads GA when this is non-empty AND consent has been granted.
-  gaId: '',
+  // Google Analytics tracking ID. ConsentBanner only loads GA when
+  // this is non-empty AND consent has been granted (CCPA-aware).
+  gaId: 'G-0QD5MP5KLC',
 };
 
 // Real client testimonials only. Empty until verifiable reviews are

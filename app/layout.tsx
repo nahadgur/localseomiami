@@ -34,6 +34,9 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   alternates: { canonical: siteConfig.url },
   robots: { index: true, follow: true },
+  verification: {
+    google: '7vcj3Co2QR41MbVH4fhYN39gz9GbNZkEXZom64Iablc',
+  },
   icons: {
     icon: [
       { url: '/favicon.ico' },
