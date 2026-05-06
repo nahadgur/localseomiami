@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Local SEO Miami logo">
+  <title>Local SEO Miami</title>
+  <path fill="#FFFFFF" fill-rule="evenodd" d="
+    M 304 220
+    L 700 220
+    L 804 324
+    L 804 720
+    A 84 84 0 0 1 720 804
+    L 304 804
+    A 84 84 0 0 1 220 720
+    L 220 304
+    A 84 84 0 0 1 304 220
+    Z
+    M 332 312
+    L 668 312
+    L 724 368
+    L 724 692
+    A 32 32 0 0 1 692 724
+    L 332 724
+    A 32 32 0 0 1 300 692
+    L 300 344
+    A 32 32 0 0 1 332 312
+    Z
+  "/>
+  <circle cx="412" cy="412" r="44" fill="#FFFFFF"/>
+</svg>
