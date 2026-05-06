@@ -8,6 +8,8 @@ export interface Service {
   description: string;
   icon: string;
   faqs: FAQ[];
+  metaTitle: string;        // <=60 chars, brand suffix appended via layout template
+  metaDescription: string;  // <=155 chars
 }
 
 export const services: Service[] = [
@@ -19,6 +21,9 @@ export const services: Service[] = [
     description:
       'The single highest-leverage local SEO asset. Specialists optimize categories, services, attributes, photos, posts, Q&A, and the GBP signal stack that drives Map Pack ranking. Most Miami businesses see 30–60% improvement in GBP-driven calls within 90 days of correct optimization.',
     icon: 'MapPin',
+    metaTitle: 'Google Business Profile Optimization | Miami',
+    metaDescription:
+      'Specialists tune GBP categories, services, photos, posts, and the Map Pack signal stack. Most Miami businesses see 30-60% lift in 90 days.',
     faqs: [
       {
         question: 'My Google Business Profile is already verified. What is there to optimize?',
@@ -46,6 +51,9 @@ export const services: Service[] = [
     description:
       'Citations (your NAP, Name, Address and Phone, listed on directories and review sites) are the third-largest local ranking factor after GBP and reviews. Specialists clean up inconsistent or duplicate listings, build out missing high-value citations, and monitor for ongoing data corruption.',
     icon: 'List',
+    metaTitle: 'Local Citation Building & NAP Cleanup | Miami',
+    metaDescription:
+      'Clean up duplicate listings, build the 30-60 high-value citations Miami businesses actually need, and monitor for ongoing NAP data corruption.',
     faqs: [
       {
         question: 'How many citations do I actually need?',
@@ -73,6 +81,9 @@ export const services: Service[] = [
     description:
       'Reviews are the second-largest local ranking factor and the largest conversion factor. Specialists set up systematic review request workflows (post-purchase, post-service), respond to reviews professionally, and manage negative review situations within Google\'s policies.',
     icon: 'Star',
+    metaTitle: 'Review Acquisition & Reputation for Miami SMBs',
+    metaDescription:
+      'Systematic review-request workflows, professional response strategy, and negative-review handling within Google policy. Built for Miami SMB ranking.',
     faqs: [
       {
         question: 'How many reviews do I need to compete?',
@@ -100,6 +111,9 @@ export const services: Service[] = [
     description:
       'The website-side work, local schema markup, location-specific landing pages, internal linking, page-speed optimization, and the technical foundations Google uses to confirm geographic relevance. Often the difference between ranking 4th and 1st in the Map Pack.',
     icon: 'Code',
+    metaTitle: 'On-Page Local SEO for Miami Sites',
+    metaDescription:
+      'LocalBusiness schema, neighborhood landing pages, internal linking, and Core Web Vitals tuned for Miami-area Map Pack rankings.',
     faqs: [
       {
         question: 'Do I need separate landing pages for every Miami neighborhood I serve?',
@@ -127,6 +141,9 @@ export const services: Service[] = [
     description:
       'Backlinks from Miami-area publications, local business associations, charity partnerships, sponsorships, and Miami-relevant industry sites. Local links are a different ranking factor from generic SEO link building. Proximity-and-prominence focused, not just domain authority.',
     icon: 'Link',
+    metaTitle: 'Local Link Building for Miami Businesses',
+    metaDescription:
+      'Citations and links from Miami chambers, neighborhood blogs, local sponsorships, and Miami New Times-tier press. Local relevance over generic authority.',
     faqs: [
       {
         question: 'How do I get local Miami publications to link to my business?',
@@ -154,6 +171,9 @@ export const services: Service[] = [
     description:
       'The integrated strategy across GBP, reviews, citations, and on-page that puts your business in the top 3 results for high-value local queries. This is what most clients actually want when they say "local SEO": the layer above the individual tactical services.',
     icon: 'Target',
+    metaTitle: 'Miami Map Pack Optimization & 3-Pack Strategy',
+    metaDescription:
+      'Integrated strategy across GBP, reviews, citations and on-page tuned for the Google Map Pack 3-pack in Miami-Dade. Realistic 6-9 month roadmaps.',
     faqs: [
       {
         question: 'Can you guarantee top-3 Map Pack ranking?',
@@ -181,6 +201,9 @@ export const services: Service[] = [
     description:
       'Editorial content built around Miami-relevant topics, neighborhood-specific landing pages, "best of" content for your service category, and the local-intent blog content that captures long-tail queries before competitors do. Ongoing rather than one-off.',
     icon: 'FileText',
+    metaTitle: 'Local Content Strategy for Miami SEO',
+    metaDescription:
+      'Neighborhood landing pages, location pillar content, and Miami-relevant editorial that captures long-tail local queries before competitors do.',
     faqs: [
       {
         question: 'How often should I publish local content?',

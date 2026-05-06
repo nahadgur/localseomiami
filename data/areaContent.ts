@@ -11,12 +11,17 @@ export interface AreaContent {
   businessProfile: { heading: string; points: string[] };
   commonOpportunities: string[];
   localContext: string;
+  metaTitle: string;        // <=60 chars
+  metaDescription: string;  // <=155 chars
   faqOverride?: { question: string; answer: string }[];
 }
 
 export const areaContent: Record<string, AreaContent> = {
 
   'brickell': {
+    metaTitle: 'Brickell Local SEO | Pro Service Firms in 33131',
+    metaDescription:
+      'Local SEO matching for Brickell law firms, wealth management, accounting and the dense 33131 professional-service catchment. Realistic 9-12 month roadmaps.',
     heroHeading: 'Local SEO services in Brickell (33131)',
     heroParagraph:
       'Brickell is Miami\'s financial center: banks, law firms, family offices, and the highest concentration of professional service businesses anywhere in South Florida. Local SEO competition here is intense and rewards highly-strategic execution. We match Brickell businesses with vetted specialists who know the financial-district playbook.',
@@ -51,6 +56,9 @@ export const areaContent: Record<string, AreaContent> = {
   },
 
   'downtown': {
+    metaTitle: 'Downtown Miami Local SEO Services (33132)',
+    metaDescription:
+      'Local SEO for Downtown Miami SMBs: hotels, restaurants, professional services and the dense 33132 retail corridor. Vetted specialist matching, free.',
     heroHeading: 'Local SEO services in Downtown Miami (33132)',
     heroParagraph:
       'Downtown Miami is the civic and historic core: government buildings, historic Flagler Street commerce, Bayside tourist anchor, and a growing residential population in Park West and the river district. Mixed business landscape, mixed local SEO opportunity. We match Downtown businesses with vetted specialists.',
@@ -85,6 +93,9 @@ export const areaContent: Record<string, AreaContent> = {
   },
 
   'wynwood': {
+    metaTitle: 'Wynwood Local SEO | Arts District Specialists',
+    metaDescription:
+      'Local SEO matching for Wynwood galleries, restaurants, breweries and creative agencies. Specialists who understand the 33127 visitor-driven market.',
     heroHeading: 'Local SEO services in Wynwood (33127)',
     heroParagraph:
       'Wynwood is Miami\'s arts and creative district: galleries, design studios, breweries, restaurants, and the highest concentration of independent creative businesses anywhere in South Florida. The Wynwood Walls anchor the tourism flow; the surrounding businesses compete for that foot traffic and the larger Miami creative-services market.',
@@ -119,6 +130,9 @@ export const areaContent: Record<string, AreaContent> = {
   },
 
   'south-beach': {
+    metaTitle: 'South Beach Local SEO for 33139 Hospitality',
+    metaDescription:
+      'Local SEO matching for South Beach restaurants, hotels, boutiques and event venues. Tourist-driven Map Pack strategy for the 33139 corridor.',
     heroHeading: 'Local SEO services in South Beach (33139)',
     heroParagraph:
       'South Beach is Miami\'s tourism-and-luxury beachfront core: Art Deco hotels, Lincoln Road retail, Ocean Drive restaurants, and one of America\'s highest-density tourism markets. The local SEO dynamics here center on review velocity, multilingual visibility, and the integration with international travel platforms.',
@@ -153,6 +167,9 @@ export const areaContent: Record<string, AreaContent> = {
   },
 
   'coconut-grove': {
+    metaTitle: 'Coconut Grove Local SEO Specialists | 33133',
+    metaDescription:
+      'Local SEO matching for Coconut Grove boutiques, restaurants, professional services and family-oriented businesses across the 33133 catchment.',
     heroHeading: 'Local SEO services in Coconut Grove (33133)',
     heroParagraph:
       'Coconut Grove is Miami\'s historic bayfront village: established residential, the CocoWalk lifestyle center, marina-and-restaurant character, and a mix of village commerce that has resisted heavy gentrification. The local SEO landscape skews towards established businesses with longstanding customer relationships.',
@@ -187,6 +204,9 @@ export const areaContent: Record<string, AreaContent> = {
   },
 
   'coral-gables': {
+    metaTitle: 'Coral Gables Local SEO | Pro Services 33134',
+    metaDescription:
+      'Local SEO matching for Coral Gables professional services, boutique retail and the high-AOV 33134 residential catchment. Vetted specialist network.',
     heroHeading: 'Local SEO services in Coral Gables (33134)',
     heroParagraph:
       'Coral Gables is Miami\'s most architecturally distinctive incorporated city: Mediterranean-style design, Miracle Mile pedestrian retail, the University of Miami at the southern boundary, and one of the strongest professional-services concentrations outside Brickell. Local SEO competition is high-quality, sector-segmented, and rewards strategic execution.',
@@ -222,6 +242,9 @@ export const areaContent: Record<string, AreaContent> = {
   },
 
   'little-havana': {
+    metaTitle: 'Little Havana Local SEO for 33135 Businesses',
+    metaDescription:
+      'Local SEO matching for Little Havana restaurants, family-run businesses and the Calle Ocho commercial spine. Bilingual specialist availability.',
     heroHeading: 'Local SEO services in Little Havana (33135)',
     heroParagraph:
       'Little Havana is the Cuban-American cultural and culinary heart of Miami: Calle Ocho, Domino Park, the historic Versailles café, and the densest Cuban heritage business concentration outside Cuba itself. Local SEO here demands fluent bilingual optimization and genuine cultural understanding.',
@@ -257,6 +280,9 @@ export const areaContent: Record<string, AreaContent> = {
   },
 
   'doral': {
+    metaTitle: 'Doral Local SEO | Corporate & Latin Business',
+    metaDescription:
+      'Local SEO matching for Doral corporate offices, Latin American business hubs, retail and the 33178 catchment around the Trump National corridor.',
     heroHeading: 'Local SEO services in Doral (33178)',
     heroParagraph:
       'Doral is one of Miami\'s most rapidly-growing incorporated cities: major commercial-and-industrial corridors near Miami International Airport, the planned Downtown Doral mixed-use development, and a heavily Latin American (especially Venezuelan) population that has reshaped the city\'s business mix. Local SEO here is bilingual-default and growth-market dynamic.',
@@ -292,6 +318,9 @@ export const areaContent: Record<string, AreaContent> = {
   },
 
   'aventura': {
+    metaTitle: 'Aventura Local SEO Services | 33180',
+    metaDescription:
+      'Local SEO matching for Aventura retail, restaurants, professional services and the high-AOV 33180 mall-anchored commercial catchment.',
     heroHeading: 'Local SEO services in Aventura (33180)',
     heroParagraph:
       'Aventura is north Miami-Dade\'s premier shopping and lifestyle center: the Aventura Mall as regional retail anchor, the country club ring of premium residential, and a high concentration of professional services and dining serving the affluent demographic. Local SEO here rewards quality execution and patient timelines.',
@@ -326,6 +355,9 @@ export const areaContent: Record<string, AreaContent> = {
   },
 
   'pinecrest': {
+    metaTitle: 'Pinecrest Local SEO | 33156 Affluent Catchment',
+    metaDescription:
+      'Local SEO matching for Pinecrest professional services, boutique retail and the high-LTV 33156 residential catchment in southern Miami-Dade.',
     heroHeading: 'Local SEO services in Pinecrest (33156)',
     heroParagraph:
       'Pinecrest is one of Miami-Dade\'s premier residential villages: large-lot estates, top-rated schools, the Pinecrest Gardens public space, and a quietly affluent demographic. The local SEO opportunity here is concentrated in services serving this resident population: premium professionals and lifestyle services that command high lifetime client values.',
