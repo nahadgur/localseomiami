@@ -7,7 +7,7 @@ import { services } from '@/data/services';
 
 interface Props { area?: string; service?: string; }
 
-const GAS_URL = '';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbxNQ_PkYQvyEb-mgPJMHxaILsVYK5IJ5AZcuX0lpQ8WhV8aWv0_EPGuzJOVruyMsPuj/exec';
 
 const budgetRanges = [
   'Under $1,000/mo',
