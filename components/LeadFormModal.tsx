@@ -66,18 +66,43 @@ export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultAre
 
   if (!mounted) return null;
 
+  function fieldIdForError(msg: string): string | null {
+    const m = msg.toLowerCase();
+    if (m.includes('name')) return 'm-name';
+    if (m.includes('email')) return 'm-email';
+    if (m.includes('company')) return 'm-company';
+    if (m.includes('website')) return 'm-website';
+    if (m.includes('service') || m.includes('interest')) return 'm-svc';
+    if (m.includes('budget')) return 'm-budget';
+    if (m.includes('area') || m.includes('neighborhood') || m.includes('neighbourhood')) return 'm-area';
+    return null;
+  }
+
+  function pulseField(el: HTMLElement | null) {
+    if (!el) return;
+    el.classList.remove('field-pulse');
+    void el.offsetWidth;
+    el.classList.add('field-pulse');
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    setTimeout(() => el.focus({ preventScroll: true }), 200);
+  }
+
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
     const form = e.currentTarget;
-    const consent = (form.querySelector('#m-consent') as HTMLInputElement)?.checked;
-    if (!consent) {
-      setError('Please confirm your consent to continue.');
+    setError('');
+
+    if (!form.checkValidity()) {
+      const firstInvalid = form.querySelector(':invalid') as HTMLElement | null;
+      pulseField(firstInvalid);
+      const labelText =
+        firstInvalid && (firstInvalid as HTMLInputElement).labels?.[0]?.textContent?.replace(/\*$/, '').trim();
+      setError(labelText ? `Please complete: ${labelText}` : 'Please fill in the highlighted field.');
       return;
     }
 
     setSubmitting(true);
-    setError('');
 
     const payload = {
       name:    (form.querySelector('#m-name')    as HTMLInputElement).value.trim(),
@@ -93,8 +118,6 @@ export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultAre
 
     try {
       if (GAS_URL) {
-        // URLSearchParams = form-encoded, no CORS preflight. Drop
-        // mode:'no-cors' so server-side rejections actually surface.
         const res = await fetch(GAS_URL, {
           method: 'POST',
           body: new URLSearchParams(payload as Record<string, string>),
@@ -108,7 +131,10 @@ export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultAre
       setSubmitted(true);
     } catch (err) {
       console.error('Lead submission failed:', err);
-      setError('Something went wrong. Please try again.');
+      const msg = err instanceof Error ? err.message : 'Something went wrong. Please try again.';
+      setError(msg);
+      const fieldId = fieldIdForError(msg);
+      if (fieldId) pulseField(form.querySelector(`#${fieldId}`) as HTMLElement | null);
     } finally {
       setSubmitting(false);
     }
@@ -154,7 +180,7 @@ export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultAre
               </p>
             </div>
           ) : (
-            <form onSubmit={submit} noValidate className="flex flex-col gap-3">
+            <form onSubmit={submit} className="flex flex-col gap-3">
               <div>
                 <label htmlFor="m-name" className={labelClass}>Your name *</label>
                 <input ref={firstInputRef} id="m-name" type="text" required className={fieldClass} placeholder="e.g. Maria Rodriguez" autoComplete="name" />
