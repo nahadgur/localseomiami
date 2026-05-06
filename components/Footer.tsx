@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { services } from '@/data/services';
 import { AREA_HUBS } from '@/data/locations';
 import { siteConfig } from '@/data/site';
@@ -9,9 +10,12 @@ export function Footer() {
       <div className="container-width py-14 grid grid-cols-1 md:grid-cols-4 gap-10 text-[13px]">
         {/* Brand */}
         <div>
-          <p className="font-display font-semibold text-[19px] text-white leading-tight tracking-tight mb-4">
-            Local SEO <span className="text-brand-300">Miami</span>
-          </p>
+          <div className="flex items-center gap-2.5 mb-4">
+            <Image src="/logo-mark-white.svg" alt="" width={28} height={28} />
+            <p className="font-display font-semibold text-[19px] text-white leading-tight tracking-tight">
+              Local SEO <span className="text-brand-300">Miami</span>
+            </p>
+          </div>
           <p className="leading-relaxed mb-4 text-white/55">
             Free matching service connecting Miami small and medium businesses with vetted local SEO specialists across all major Miami metro neighborhoods and zip codes.
           </p>
