@@ -51,18 +51,22 @@ export function HeroLeadForm({ area, service }: Props) {
 
     try {
       if (GAS_URL) {
-        await fetch(GAS_URL, {
+        // URLSearchParams = form-encoded, no CORS preflight. Apps Script
+        // reads e.parameter directly. Drop mode:'no-cors' so server-side
+        // rejections (validation errors, etc.) actually surface.
+        const res = await fetch(GAS_URL, {
           method: 'POST',
-          mode: 'no-cors',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload),
+          body: new URLSearchParams(payload as Record<string, string>),
         });
+        const json = await res.json().catch(() => ({ ok: false, error: 'Bad response' }));
+        if (!json.ok) throw new Error(json.error || `HTTP ${res.status}`);
       } else {
         // eslint-disable-next-line no-console
         console.warn('GAS_URL not configured, payload:', payload);
       }
       setDone(true);
-    } catch {
+    } catch (err) {
+      console.error('Lead submission failed:', err);
       setError('Something went wrong. Please try again.');
     } finally {
       setSubmitting(false);
