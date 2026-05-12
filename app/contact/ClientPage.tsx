@@ -23,7 +23,7 @@ export default function ContactPage() {
             <Breadcrumbs dark items={[{ label: 'Contact' }]} />
             <p className="text-[10px] font-mono uppercase tracking-[0.22em] text-brand-300 mt-6 mb-4">Get in touch</p>
             <h1 className="font-display font-bold text-[34px] lg:text-[46px] leading-tight max-w-2xl mb-5">
-              How to reach Local SEO Miami
+              How to reach Local Miami SEO
             </h1>
             <p className="text-[15px] lg:text-[17px] text-white/80 max-w-2xl leading-relaxed">
               The fastest route to a matched specialist is the form on the right. Other channels (general questions, privacy, network applications) are listed below.
@@ -40,7 +40,7 @@ export default function ContactPage() {
               <div>
                 <p className="font-bold text-amber-800 mb-2">We are a referral service, not an agency</p>
                 <p className="text-[14px] text-ink/80 leading-relaxed">
-                  Local SEO Miami matches your business with vetted specialists who do the actual SEO work. We do not bill, retain, or perform engagements ourselves. CCPA-aware: see our <Link href="/privacy/" className="text-brand-700 underline hover:text-brand-800">privacy notice</Link> for what we collect and how to request deletion.
+                  Local Miami SEO matches your business with vetted specialists who do the actual SEO work. We do not bill, retain, or perform engagements ourselves. CCPA-aware: see our <Link href="/privacy/" className="text-brand-700 underline hover:text-brand-800">privacy notice</Link> for what we collect and how to request deletion.
                 </p>
               </div>
             </div>

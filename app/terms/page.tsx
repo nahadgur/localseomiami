@@ -8,7 +8,7 @@ import { siteConfig } from '@/data/site';
 export const metadata: Metadata = {
   title: 'Terms of use',
   description:
-    'Terms of use for Local SEO Miami, a free matching service connecting Miami businesses with vetted local SEO specialists.',
+    'Terms of use for Local Miami SEO, a free matching service connecting Miami businesses with vetted local SEO specialists.',
   alternates: { canonical: '/terms/' },
   robots: { index: true, follow: true },
 };

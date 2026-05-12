@@ -8,7 +8,7 @@ import { siteConfig } from '@/data/site';
 export const metadata: Metadata = {
   title: 'Privacy notice',
   description:
-    'How Local SEO Miami collects, uses, and protects personal data submitted through our matching service. CCPA-aware privacy notice covering enquiry data, cookies, and your rights.',
+    'How Local Miami SEO collects, uses, and protects personal data submitted through our matching service. CCPA-aware privacy notice covering enquiry data, cookies, and your rights.',
   alternates: { canonical: '/privacy/' },
   robots: { index: true, follow: true },
 };

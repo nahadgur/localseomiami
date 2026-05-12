@@ -22,7 +22,7 @@ export function Header({ onOpenModal }: Props) {
       <nav className="container-width flex items-center justify-between h-16" aria-label="Site navigation">
         <Link href="/" className="flex items-center gap-2.5 font-display font-semibold text-[19px] text-ink leading-none tracking-tight">
           <Image src="/logo-mark.svg" alt="" width={28} height={28} priority />
-          <span>Local SEO <span className="text-brand-500">Miami</span></span>
+          <span>Local <span className="text-brand-500">Miami</span> SEO</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-7 text-[14px] text-ink/75">

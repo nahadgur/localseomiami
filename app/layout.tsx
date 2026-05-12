@@ -37,15 +37,6 @@ export const metadata: Metadata = {
   verification: {
     google: '7vcj3Co2QR41MbVH4fhYN39gz9GbNZkEXZom64Iablc',
   },
-  icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
-    ],
-    apple: '/apple-touch-icon.png',
-  },
   manifest: '/site.webmanifest',
   openGraph: {
     type: 'website',
@@ -54,7 +45,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     locale: 'en_US',
-    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Local SEO Miami — get matched with a vetted local SEO specialist' }],
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Local Miami SEO, get matched with a vetted local SEO specialist' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -74,7 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     '@type': 'WebSite',
     '@id': `${siteConfig.url}/#website`,
     name: siteConfig.name,
-    alternateName: siteConfig.tagline,
+    alternateName: ['Local SEO Miami', siteConfig.tagline],
     url: siteConfig.url,
     publisher: { '@id': `${siteConfig.url}/#organization` },
     inLanguage: 'en-US',
@@ -85,6 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     '@type': 'Organization',
     '@id': `${siteConfig.url}/#organization`,
     name: siteConfig.name,
+    alternateName: 'Local SEO Miami',
     url: siteConfig.url,
     logo: `${siteConfig.url}/android-chrome-512x512.png`,
     description: siteConfig.description,

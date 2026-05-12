@@ -8,7 +8,7 @@ import { siteConfig } from '@/data/site';
 export const metadata: Metadata = {
   title: 'About the matching service',
   description:
-    'Local SEO Miami is a free matching service connecting Miami businesses with vetted local SEO specialists. We are not an SEO agency, we introduce businesses to qualified specialists.',
+    'Local Miami SEO is a free matching service connecting Miami businesses with vetted local SEO specialists. We are not an SEO agency, we introduce businesses to qualified specialists.',
   alternates: { canonical: '/about/' },
   robots: { index: true, follow: true },
 };

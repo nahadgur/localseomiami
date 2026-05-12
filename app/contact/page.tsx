@@ -4,7 +4,7 @@ import ContactPageClient from './ClientPage';
 
 const title = 'Contact';
 const description =
-  'How to reach Local SEO Miami. Free matching with vetted local SEO specialists across Brickell, Wynwood, South Beach, Coral Gables, and the wider Miami metro.';
+  'How to reach Local Miami SEO. Free matching with vetted local SEO specialists across Brickell, Wynwood, South Beach, Coral Gables, and the wider Miami metro.';
 const canonical = `${siteConfig.url}/contact/`;
 
 export const metadata: Metadata = {

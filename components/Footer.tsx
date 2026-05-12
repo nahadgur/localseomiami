@@ -13,7 +13,7 @@ export function Footer() {
           <div className="flex items-center gap-2.5 mb-4">
             <Image src="/logo-mark-white.svg" alt="" width={28} height={28} />
             <p className="font-display font-semibold text-[19px] text-white leading-tight tracking-tight">
-              Local SEO <span className="text-brand-300">Miami</span>
+              Local <span className="text-brand-300">Miami</span> SEO
             </p>
           </div>
           <p className="leading-relaxed mb-4 text-white/55">

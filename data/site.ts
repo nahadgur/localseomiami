@@ -1,6 +1,6 @@
 // data/site.ts
 export const siteConfig = {
-  name: 'Local SEO Miami',
+  name: 'Local Miami SEO',
   tagline: 'Get matched with vetted Miami local SEO specialists',
   url: 'https://www.localmiamiseo.com',
   description:
