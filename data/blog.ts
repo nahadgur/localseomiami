@@ -14,14 +14,20 @@ export interface BlogArticle {
   metaTitle: string;
   metaDescription: string;
   category: 'Strategy' | 'GBP' | 'Reviews' | 'Local';
+  hub: string;                 // parent guide-hub slug
+  draft: boolean;              // draft:true 404s and is excluded everywhere
   publishDate: string;
+  dateModified?: string;
   excerpt: string;
+  faqs?: { question: string; answer: string }[];
   content: ContentBlock[];
 }
 
 export const blogArticles: BlogArticle[] = [
   {
     slug: 'why-miami-local-seo-takes-longer-than-other-cities',
+    hub: 'ranking-in-the-miami-map-pack',
+    draft: false,
     title: 'Why Miami local SEO takes longer than most other US cities',
     metaTitle: 'Why Miami Local SEO Takes Longer (2026)',
     metaDescription:
@@ -73,6 +79,8 @@ export const blogArticles: BlogArticle[] = [
 
   {
     slug: 'google-business-profile-mistakes-miami-businesses-make',
+    hub: 'google-business-profile-optimization',
+    draft: false,
     title: 'Google Business Profile mistakes Miami businesses make most often',
     metaTitle: 'GBP Mistakes Miami Businesses Make (2026)',
     metaDescription:
@@ -125,6 +133,8 @@ export const blogArticles: BlogArticle[] = [
 
   {
     slug: 'review-acquisition-strategy-for-miami-small-businesses',
+    hub: 'google-reviews-and-reputation',
+    draft: false,
     title: 'Review acquisition strategy for Miami small businesses',
     metaTitle: 'Review Acquisition for Miami Businesses (2026)',
     metaDescription:
@@ -193,6 +203,8 @@ export const blogArticles: BlogArticle[] = [
 
   {
     slug: 'how-to-evaluate-a-miami-local-seo-agency',
+    hub: 'choosing-a-miami-seo-agency',
+    draft: false,
     title: 'How to evaluate a Miami local SEO agency before hiring',
     metaTitle: 'How to Evaluate a Miami Local SEO Agency',
     metaDescription:
@@ -266,4 +278,10 @@ export const blogArticles: BlogArticle[] = [
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>
   blogArticles.find(a => a.slug === slug);
 
-export const getAllBlogSlugs = (): string[] => blogArticles.map(a => a.slug);
+// Draft gate: draft spokes 404 and are excluded from /blog, hub grids and the
+// sitemap until the publisher flips them live.
+export const getPublishedArticles = (): BlogArticle[] => blogArticles.filter(a => !a.draft);
+export const getArticlesByHub = (hub: string): BlogArticle[] =>
+  blogArticles.filter(a => a.hub === hub && !a.draft);
+
+export const getAllBlogSlugs = (): string[] => getPublishedArticles().map(a => a.slug);
