@@ -273,6 +273,80 @@ export const blogArticles: BlogArticle[] = [
       { type: 'p', text: 'Most genuinely strong specialists are happy to do paid audits. Most weak specialists try to convert audit conversations directly to retainer pitches without producing the audit document. The pattern is informative.' },
     ],
   },
+
+  {
+    slug: 'fix-inconsistent-nap-miami-business-listings',
+    hub: 'local-citations-and-nap-consistency',
+    draft: true,
+    title: 'How to fix inconsistent NAP across your Miami business listings',
+    metaTitle: 'Fix Inconsistent NAP for Miami Listings (2026)',
+    metaDescription:
+      'Mismatched name, address, and phone data across directories drags down Miami map pack rankings. A step-by-step cleanup process to audit, standardize, and monitor your NAP.',
+    category: 'Local',
+    publishDate: '2026-06-10',
+    dateModified: '2026-06-10',
+    excerpt:
+      'Your business listed three different ways across Yelp, Apple Maps, and old directories is quietly costing you map pack visibility. Here is the step-by-step process for auditing, standardizing, and monitoring NAP across your Miami listings.',
+    faqs: [
+      {
+        question: 'What exactly counts as a NAP inconsistency?',
+        answer:
+          'Any difference in your Name, Address, or Phone number between two listings. That includes obvious mismatches like an old phone number, but also subtle ones: "Ave" vs "Avenue", "Ste 200" vs "Suite 200", "SW 8th St" vs "Southwest 8th Street", a tracking phone number on one platform and your real line on another, or a slightly different legal name vs trade name. Google reads these as signals about whether your business data is trustworthy, so even small formatting differences add up across dozens of citations.',
+      },
+      {
+        question: 'Does a suite or unit number really matter for NAP?',
+        answer:
+          'Yes. The suite line is one of the most common sources of inconsistency for Miami office and retail tenants in buildings around Brickell and downtown. Pick one format ("Suite 410" is cleaner than "#410" or "Ste 410") and use it identically everywhere, including on your own website and in your Google Business Profile. Leaving it off some listings and on others is itself an inconsistency.',
+      },
+      {
+        question: 'How long does NAP cleanup take for an established Miami business?',
+        answer:
+          'For a newer business with a handful of listings, a day or two. For an established Miami business with a decade of history, multiple past addresses, and listings created by automated data aggregators, cleanup is usually 6 to 8 weeks of focused work. The slow part is not editing the data, it is claiming abandoned listings, removing duplicates, and pushing corrections through data aggregators that feed dozens of smaller directories downstream.',
+      },
+      {
+        question: 'Should I fix my website or the directories first?',
+        answer:
+          'Your website and Google Business Profile first. They are the canonical source of truth, so decide your exact name, address, and phone format there, then match every directory to it. Fixing directories before you have settled on a canonical format just means redoing the work when you change your mind.',
+      },
+      {
+        question: 'Do I have to fix every single listing?',
+        answer:
+          'Focus on the high-value citations first: Google Business Profile, Apple Maps, Bing Places, Yelp, the major data aggregators, and the directories specific to your industry. These carry the most weight and feed many smaller sites. The long tail of obscure directories matters far less, and chasing all of it is where DIY cleanups tend to stall.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'Inconsistent NAP, your business Name, Address, and Phone number listed differently across directories, quietly drags down your Miami map pack ranking and confuses the customers trying to find you. Fixing it means auditing every listing, choosing one canonical format, correcting the high-value citations first, and monitoring for the data drift that creeps back in over time.' },
+      { type: 'p', text: 'This is unglamorous work, but for established Miami businesses it is often the single highest-return cleanup available, because years of relocations, rebrands, and automated directory submissions tend to leave NAP data badly fragmented. This article is part of our guide to [local citations and NAP consistency](/guides/local-citations-and-nap-consistency/), and walks through the cleanup process step by step.' },
+
+      { type: 'h2', text: 'What NAP inconsistency actually is' },
+      { type: 'p', text: 'A citation is any place online where your business name, address, and phone number appear together: Apple Maps, Yelp, the Better Business Bureau, Florida and Miami-Dade business directories, your chamber of commerce listing, and industry-specific sites. NAP consistency means that information reads identically everywhere.' },
+      { type: 'p', text: 'Inconsistency is rarely a single big error. It is the accumulation of small differences: an abandoned listing with a phone number from two offices ago, "8th Street" written as "8 St" on one site and "Eighth Street" on another, a suite number present on some listings and missing on others, or a call-tracking number that was added to one platform and never reconciled. Each difference on its own is minor. Across forty or fifty citations, the pattern tells search engines your data is unreliable.' },
+
+      { type: 'h2', text: 'Why it hurts Miami businesses specifically' },
+      { type: 'p', text: 'Citations are the third-largest local ranking factor after your Google Business Profile and your reviews, and consistency is what gives them value. When Google sees the same NAP repeated cleanly across authoritative sources, it gains confidence in your location and is more willing to rank you in the map pack. When it sees conflicting data, that confidence drops.' },
+      { type: 'p', text: 'Miami compounds the problem in two ways. First, many established businesses here have long, messy histories: a Coral Gables firm that started in one building, expanded, contracted, and rebranded over fifteen years carries layers of stale listing data. Second, bilingual operations sometimes list a Spanish trade name on some directories and an English legal name on others, creating name inconsistencies that look like two different businesses. Older neighborhoods with deep small-business roots, like [Little Havana](/location/little-havana/), are where this legacy data corruption shows up most.' },
+
+      { type: 'h2', text: 'Step 1: Audit every listing you can find' },
+      { type: 'p', text: 'You cannot fix what you have not catalogued. Start by searching your business name, your phone number, and each past address in Google, and record every listing that appears, along with exactly how the NAP reads on each one. Pay special attention to the variations: the number on Yelp may differ from the number on Apple Maps, and an old aggregator listing may be feeding wrong data to a dozen smaller sites you have never heard of.' },
+      { type: 'p', text: 'Specialists run this audit with tools that scan hundreds of directories at once and flag mismatches and duplicates automatically, which is far faster than manual searching for a business with a long history. Whether you do it by hand or with software, the output you want is a single spreadsheet: every listing, its URL, and the exact name, address, and phone as currently published.' },
+
+      { type: 'h2', text: 'Step 2: Set one canonical NAP format' },
+      { type: 'p', text: 'Before you change anything in the directories, decide the single correct version of your NAP and write it down. This is the format you will match everywhere. Make deliberate choices on the details that vary: spell out "Avenue" or abbreviate it, use "Suite" consistently, decide whether the directional goes before or after ("SW 8th Street"), and confirm the exact legal or trade name you want associated with the business.' },
+      { type: 'p', text: 'Set this canonical format on your own website and your Google Business Profile first, since those are your sources of truth, then bring every other listing into line with them. One real phone number, not a call-tracking number, should be the public NAP phone everywhere; routing and tracking can be handled without fragmenting your citation data.' },
+
+      { type: 'h2', text: 'Step 3: Fix the high-value citations first' },
+      { type: 'p', text: 'Not all citations carry equal weight, so sequence the cleanup. Correct the foundational platforms first: Google Business Profile, Apple Maps, Bing Places, Yelp, and the major US data aggregators that syndicate business data downstream to hundreds of smaller directories. Fixing an aggregator often corrects many listings at once.' },
+      { type: 'p', text: 'Then work through the directories specific to your industry and the local Miami-area business directories that actually send referral traffic. The cleanup is harder than the original build: it means claiming abandoned listings, merging or removing duplicates created by automated submissions, and sometimes verifying ownership by phone or postcard. This is the stage where a business with a decade of history typically benefits from bringing in help, and the part of the work our network of vetted [citation cleanup specialists](/services/local-citation-building/) handles most efficiently.' },
+
+      { type: 'h2', text: 'Step 4: Monitor for drift' },
+      { type: 'p', text: 'NAP data does not stay clean on its own. Aggregators repopulate old data, customers suggest edits to your Google listing, and new directories scrape and republish outdated information. A profile you cleaned this quarter can quietly drift back out of sync within a year if no one is watching.' },
+      { type: 'p', text: 'Build a light monitoring habit: re-audit your core citations a few times a year, watch for unverified edits to your Google Business Profile, and correct new inconsistencies before they spread. Google publishes guidance on keeping your business information accurate in the [Google Business Profile Help Center](https://support.google.com/business/answer/3038177), which is worth reviewing when you set up your canonical format. The goal is not a one-time cleanup but a stable, durable NAP that search engines can trust year after year.' },
+
+      { type: 'h2', text: 'The realistic payoff' },
+      { type: 'p', text: 'Citation cleanup rarely produces an overnight jump, because it works alongside your profile and reviews rather than instead of them. What it does is remove a persistent drag on your ranking and rebuild the data confidence that lets your other local SEO work pay off. For an established Miami business carrying years of fragmented listings, that is often the difference between hovering just outside the map pack and breaking into the top three for the queries that matter.' },
+      { type: 'p', text: 'If your listing history is long and tangled, you do not have to untangle it alone. We connect Miami businesses with vetted local SEO specialists who do this cleanup for a living, and matching is free. We do not deliver the SEO ourselves; we introduce you to specialists who do.' },
+    ],
+  },
 ];
 
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>

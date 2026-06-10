@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowRight, Clock, AlertCircle } from 'lucide-react';
@@ -15,6 +15,34 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { FAQ } from '@/components/FAQ';
 import { buildBreadcrumbSchema } from '@/lib/breadcrumbs';
 import { editorialAuthorJsonLd, buildFaqPageSchema, AUTHOR_ID } from '@/lib/schema';
+
+// Parse markdown-style [label](href) into nodes. Internal paths use next/link,
+// http(s) links open in a new tab. Plain text without links passes through
+// unchanged, so existing posts render exactly as before.
+function renderText(text: string): ReactNode {
+  const parts: ReactNode[] = [];
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  let k = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    const label = m[1];
+    const href = m[2];
+    if (/^https?:\/\//.test(href)) {
+      parts.push(
+        <a key={k++} href={href} target="_blank" rel="noopener noreferrer" className="font-semibold text-brand-600 hover:text-brand-700 underline">{label}</a>
+      );
+    } else {
+      parts.push(
+        <Link key={k++} href={href} className="font-semibold text-brand-600 hover:text-brand-700 underline">{label}</Link>
+      );
+    }
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts.length === 1 ? parts[0] : parts;
+}
 
 function renderBlock(block: ContentBlock, i: number) {
   switch (block.type) {
@@ -33,13 +61,13 @@ function renderBlock(block: ContentBlock, i: number) {
     case 'p':
       return (
         <p key={i} className="text-[15.5px] text-ink/80 leading-relaxed mb-4">
-          {block.text}
+          {renderText(block.text ?? '')}
         </p>
       );
     case 'list':
       return (
         <ul key={i} className="list-disc pl-6 space-y-2 mb-5 text-[15px] text-ink/80 leading-relaxed">
-          {block.items?.map((item, j) => <li key={j}>{item}</li>)}
+          {block.items?.map((item, j) => <li key={j}>{renderText(item)}</li>)}
         </ul>
       );
     case 'note':
@@ -47,7 +75,7 @@ function renderBlock(block: ContentBlock, i: number) {
         <div key={i} className="bg-brand-50 border-l-4 border-brand-500 rounded-md p-4 my-6">
           <div className="flex items-start gap-3">
             <AlertCircle size={16} className="text-brand-600 flex-shrink-0 mt-0.5" />
-            <p className="text-[14px] text-ink/85 leading-relaxed">{block.text}</p>
+            <p className="text-[14px] text-ink/85 leading-relaxed">{renderText(block.text ?? '')}</p>
           </div>
         </div>
       );
