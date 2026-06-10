@@ -347,6 +347,82 @@ export const blogArticles: BlogArticle[] = [
       { type: 'p', text: 'If your listing history is long and tangled, you do not have to untangle it alone. We connect Miami businesses with vetted local SEO specialists who do this cleanup for a living, and matching is free. We do not deliver the SEO ourselves; we introduce you to specialists who do.' },
     ],
   },
+
+  {
+    slug: 'title-tags-meta-descriptions-miami-pages',
+    hub: 'on-page-local-seo',
+    draft: true,
+    title: 'Writing title tags and meta descriptions for Miami local pages',
+    metaTitle: 'Title Tags and Meta Descriptions for Miami Pages',
+    metaDescription:
+      'How to write title tags and meta descriptions that win clicks for your Miami local business pages. Length limits, local modifiers, and templates by page type.',
+    category: 'Local',
+    publishDate: '2026-06-10',
+    dateModified: '2026-06-10',
+    excerpt:
+      'Title tags and meta descriptions decide whether your Miami business page earns the click. Here is how to write both well: the right length, the local modifiers that matter, and copy-ready templates for service pages, neighborhood pages, and blog posts.',
+    faqs: [
+      {
+        question: 'Do meta descriptions affect Google rankings?',
+        answer:
+          'Not directly. Google has said for years that meta descriptions are not a ranking factor. What they affect is click-through rate, the share of people who see your result and choose to click it. A page that ranks fourth but writes a sharper description than the three above it can pull clicks away from them, and the higher engagement that follows can support your ranking indirectly. So write meta descriptions for the human deciding where to click, not for the algorithm.',
+      },
+      {
+        question: 'How long should a title tag be?',
+        answer:
+          'Aim for roughly 50 to 60 characters, or about 600 pixels, which is where Google typically truncates titles in desktop results. The exact cutoff is measured in pixels, not characters, so a title full of wide letters truncates sooner. Put your most important words, the service and the Miami location, in the first 50 characters so they survive even if the tail gets cut. Meta descriptions have more room, around 150 to 160 characters before truncation.',
+      },
+      {
+        question: 'Should I put "Miami" in every title tag?',
+        answer:
+          'On location-intent pages, yes, but be specific where you can. A page targeting a single neighborhood should name that neighborhood (Brickell, Coral Gables, Wynwood) rather than defaulting to "Miami", because the more specific term matches local search intent more precisely and faces less competition. Reserve the broad "Miami" modifier for citywide service pages and your homepage, and let neighborhood pages own their neighborhood.',
+      },
+      {
+        question: 'Does Google always use the title tag I write?',
+        answer:
+          'No. Google rewrites titles in search results when it judges your tag a poor match for the query, when the tag is stuffed with keywords, or when it is too long. The way to keep your written title is to make it accurate, concise, and clearly descriptive of the page. Pages with keyword-stuffed or boilerplate titles get rewritten most often, so a clean title is also the most stable one.',
+      },
+      {
+        question: 'What is the difference between a title tag and an H1?',
+        answer:
+          'The title tag is the clickable headline that appears in search results and the browser tab; it lives in the page head and is written for searchers scanning a results page. The H1 is the visible headline at the top of the page itself, written for the visitor who has already arrived. They can be similar but should not be identical: the title tag carries the location and service for the click, while the H1 can be a touch longer or more welcoming because the click has already happened.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'Title tags and meta descriptions are the two pieces of code that decide whether your Miami business page earns a click from search results. The title tag is the headline; the meta description is the pitch underneath it. Get both right and you lift click-through without touching your rankings at all.' },
+      { type: 'p', text: 'They are also among the easiest on-page elements to fix and the most commonly neglected. This article is part of our guide to [on-page local SEO](/guides/on-page-local-seo/), and walks through how to write title tags and meta descriptions that work for Miami local pages, with copy-ready templates by page type.' },
+
+      { type: 'h2', text: 'What each one actually does' },
+      { type: 'p', text: 'The title tag is the bold blue headline in a Google result and the text in the browser tab. It is the single biggest influence on whether someone clicks, and it is a genuine ranking signal: Google reads it to understand what the page is about. The meta description is the gray summary line beneath the title. It is not a ranking factor, but it is your sales pitch in the results page, the two sentences that turn an impression into a visit.' },
+      { type: 'p', text: 'For a Miami business, the job of both is to signal local relevance fast. Someone searching "personal injury lawyer Brickell" is scanning a crowded results page in a second or two. The result that names the service and the neighborhood plainly, and reads like it was written for that exact search, wins the click over the one with a vague or truncated title.' },
+
+      { type: 'h2', text: 'Writing the title tag' },
+      { type: 'p', text: 'Keep it to about 50 to 60 characters so Google does not truncate it, and front-load the words that matter. The reliable structure for a local page is service, then location, then brand: "Water Damage Restoration in Coral Gables | Brand". If the title gets cut, the service and neighborhood still survive because you put them first.' },
+      { type: 'p', text: 'Use the most specific location the page deserves. A page built for one neighborhood should name that neighborhood, not the whole city, which is why a [Brickell](/location/brickell/) location page should say "Brickell" in its title rather than competing in the much broader "Miami" pool. Write one unique title per page; duplicated titles across a set of neighborhood pages are a common reason Google rewrites them or collapses them in results. Avoid stuffing two or three near-identical keywords into one title, which both reads badly and invites a rewrite.' },
+
+      { type: 'h2', text: 'Writing the meta description' },
+      { type: 'p', text: 'You have around 150 to 160 characters before Google truncates the description, so treat it as two tight sentences. Name the service and the location, state the single most compelling reason to choose this page, and end with a light call to action. Because it does not affect ranking, you are writing purely for the human deciding where to click, which is freeing: lead with the benefit, not the keyword.' },
+      { type: 'p', text: 'Mirror the language real Miami searchers use. If people search "free estimate", say "free estimate"; if they care about same-day service in hurricane season, say so. Match the intent of the query the page targets, write a distinct description for every page, and never leave it blank, because an empty meta description hands Google a random snippet of body text that rarely sells as well as a sentence you wrote on purpose. Google publishes plain guidance on this in its [Search Central documentation on titles and snippets](https://developers.google.com/search/docs/appearance/title-link), worth a read when you set your house style.' },
+
+      { type: 'h2', text: 'Templates by page type' },
+      { type: 'p', text: 'A small set of patterns covers almost every page on a Miami local site. Adapt the wording, but keep the structure consistent so the work stays fast.' },
+      { type: 'list', items: [
+        'Service page (citywide): Title "[Service] in Miami | [Brand]" / Description "[Service] for Miami businesses. [Key differentiator]. Get a free quote today."',
+        'Neighborhood page: Title "[Service] in [Neighborhood] | [Brand]" / Description "Looking for [service] in [Neighborhood]? [Local proof point]. Request your free estimate."',
+        'Service-plus-neighborhood page: Title "[Neighborhood] [Service] | [Brand]" / Description "[Service] serving [Neighborhood] and nearby. [Benefit]. Talk to a local specialist."',
+        'Blog or guide post: Title "[Specific question or topic] | [Brand]" / Description "[One-line answer to the topic]. [What the reader will learn]."',
+      ] },
+      { type: 'p', text: 'Notice that none of these repeat a keyword three times or pad the title with filler. The location does the local-SEO work; the benefit does the persuasion. That division keeps both elements short enough to survive truncation.' },
+
+      { type: 'h2', text: 'Mistakes that quietly cost clicks' },
+      { type: 'p', text: 'The most common failure is the default title, the one a theme or page builder generates automatically, which often reads "Home" or "Services - Page 2" and tells a searcher nothing. Close behind is the duplicated title across a whole folder of neighborhood pages, which makes Coral Gables, Doral, and Aventura pages indistinguishable in results. Both are fixable in an afternoon and both move click-through immediately.' },
+      { type: 'p', text: 'Other recurring problems: titles over 60 characters that truncate mid-phrase, meta descriptions left blank or copied across pages, keyword stuffing that triggers a Google rewrite, and brand-first titles that bury the service and location behind the company name. On a local site, the searcher rarely knows your brand yet, so leading with it wastes the most valuable characters you have.' },
+
+      { type: 'h2', text: 'Where this fits, and getting help' },
+      { type: 'p', text: 'Title tags and meta descriptions are the cheapest meaningful on-page win available. They cost no link building, no content production, and no technical migration, just careful writing applied page by page. For a Miami site with dozens of service and neighborhood pages, a systematic pass usually lifts click-through across the whole site within a few weeks of Google recrawling.' },
+      { type: 'p', text: 'If you would rather have this handled as part of a wider on-page program, we connect Miami businesses with vetted [on-page SEO specialists](/services/on-page-local-seo/) who audit and rewrite titles and descriptions at scale, then track the click-through change. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do.' },
+    ],
+  },
 ];
 
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>

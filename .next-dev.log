@@ -1,0 +1,39 @@
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:4020
+
+ ✓ Starting...
+ ✓ Ready in 1819ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.9s (686 modules)
+ GET / 200 in 3062ms
+ ○ Compiling /guides/[slug] ...
+ ✓ Compiled /guides/[slug] in 1930ms (685 modules)
+ GET /guides/google-business-profile-optimization/ 200 in 2312ms
+ GET /guides/ranking-in-the-miami-map-pack/ 200 in 70ms
+ GET /guides/local-citations-and-nap-consistency/ 200 in 74ms
+ GET /guides/google-reviews-and-reputation/ 200 in 56ms
+ GET /guides/on-page-local-seo/ 200 in 50ms
+ GET /guides/local-link-building/ 200 in 24ms
+ GET /guides/local-content-strategy/ 200 in 51ms
+ GET /guides/near-me-voice-and-mobile-local-search/ 200 in 36ms
+ GET /guides/technical-seo-for-local-business/ 200 in 53ms
+ GET /guides/choosing-a-miami-seo-agency/ 200 in 68ms
+ ✓ Compiled /guides in 149ms (680 modules)
+ GET /guides/ 200 in 237ms
+ GET / 200 in 66ms
+ GET / 200 in 48ms
+ GET /guides/google-business-profile-optimization/ 200 in 85ms
+ GET /guides/ranking-in-the-miami-map-pack/ 200 in 82ms
+ ✓ Compiled /blog/[slug] in 313ms (715 modules)
+ GET /blog/google-business-profile-mistakes-miami-businesses-make/ 200 in 678ms
+ ✓ Compiled /blog in 204ms (722 modules)
+ GET /blog/ 200 in 284ms
+ GET /blog/ 200 in 34ms
+ ✓ Compiled in 140ms (708 modules)
+ GET /blog/google-business-profile-mistakes-miami-businesses-make/ 404 in 91ms
+ GET /guides/google-business-profile-optimization/ 200 in 68ms
+ GET /blog/ 200 in 77ms
+ ✓ Compiled /sitemap.xml in 244ms (426 modules)
+ GET /sitemap.xml 200 in 576ms
+ ✓ Compiled in 158ms (748 modules)
+ GET /blog/google-business-profile-mistakes-miami-businesses-make/ 200 in 99ms
