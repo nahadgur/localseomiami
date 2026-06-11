@@ -3,6 +3,17 @@
 Dated run-blocks from the `miami-seo-writer` scheduler and any build handoffs
 for Claude Code. Newest at top.
 
+## 2026-06-11 — miami-seo-writer run
+
+- Site: localseomiami (localmiamiseo.com)
+- Spoke: `seasonal-content-calendar-miami-businesses` (hub: `local-content-strategy` / H7, draft: true)
+- First spoke under the previously empty H7 content hub (round-robin into a thin hub, after H3/H5/H6).
+- ~1,250 words, answer-first ~50-word opening, 6 H2 sections, 6 distinct FAQs. US English, no em dashes.
+- Linking: UP-link to /guides/local-content-strategy/; pillar link /services/local-content-strategy/; location link /location/south-beach/; matching CTA. External: 1, Google Search Central helpful-content docs. No sibling links (H7 had no published spokes). Testimonials untouched/empty, LMS editorial byline, matching framing.
+- tsc --noEmit: clean (exit 0). check-links: 0 broken (18 slugs). SILO-PLAN section 8 updated to 4 published + 4 draft = 8 written; buffer 4.
+- REPAIR THIS RUN: the Edit-tool write to data/blog.ts truncated the file on the Windows side again (recurring CRLF/truncation bug). Rebuilt data/blog.ts tail LF-only via shell. ALSO found app/blog/[slug]/ClientPage.tsx and app/guides/[slug]/GuideClient.tsx already truncated in the working tree from a prior session (211/158 lines vs 224/168 in HEAD); restored both verbatim from `git show HEAD:` so the only intended diff is data/blog.ts + docs/SILO-PLAN.md. renderText helper confirmed present in restored ClientPage.
+- git: see status below.
+
 ## 2026-06-10 — miami-seo-writer run
 
 - Site: localseomiami (localmiamiseo.com)

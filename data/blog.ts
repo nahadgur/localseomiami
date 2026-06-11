@@ -498,6 +498,81 @@ export const blogArticles: BlogArticle[] = [
       { type: 'p', text: 'If you would rather have this handled as part of a structured program, we connect Miami businesses with vetted [link building specialists](/services/local-link-building/) who pursue real local opportunities and steer well clear of the toxic shortcuts. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do.' },
     ],
   },
+
+  {
+    slug: 'seasonal-content-calendar-miami-businesses',
+    hub: 'local-content-strategy',
+    draft: true,
+    title: 'Building a seasonal content calendar for your Miami business',
+    metaTitle: 'Seasonal Content Calendar for Miami Businesses',
+    metaDescription:
+      'Miami demand swings with hurricane season, the winter snowbird influx, and event spikes. Here is how to build a seasonal content calendar that publishes ahead of each one.',
+    category: 'Strategy',
+    publishDate: '2026-06-11',
+    dateModified: '2026-06-11',
+    excerpt:
+      'Miami search demand is unusually seasonal: hurricane season, the winter snowbird influx, and a packed event calendar each move what customers look for. Here is how to map those cycles and build a content calendar that publishes ahead of demand instead of chasing it.',
+    faqs: [
+      {
+        question: 'How far ahead should I publish seasonal content?',
+        answer:
+          'Publish six to eight weeks before demand peaks, not during it. Google needs time to crawl, index, and build trust in a page before it will rank it, and that ramp can take weeks for a competitive query. A hurricane-prep page posted in early May is positioned for the June through November season; one posted during a July storm watch has already missed the searches. The practical rule for Miami is to work a full season ahead of where the calendar actually is.',
+      },
+      {
+        question: 'What are the main seasonal cycles in Miami?',
+        answer:
+          'Three dominate. Hurricane season runs June through November and drives demand for preparation, repair, and recovery services. The winter snowbird and tourist influx runs roughly November through April and lifts demand across hospitality, real estate, healthcare, and home services. And a dense event calendar, from Art Basel in December to the Calle Ocho festival in March, creates sharp local spikes in specific neighborhoods. Most Miami businesses are touched by at least one of the three.',
+      },
+      {
+        question: 'Should seasonal pages be deleted after the season ends?',
+        answer:
+          'No. Deleting and recreating a page every year throws away the ranking authority it built. Keep one permanent URL for each recurring season and update it each year with fresh dates, specifics, and any new information. A page that has existed and been refreshed for three hurricane seasons will outrank a brand-new page every time, because its history and accumulated links carry forward.',
+      },
+      {
+        question: 'Does seasonal content actually rank, or is it too short-lived?',
+        answer:
+          'It ranks well when you treat it as a permanent asset rather than a disposable post. Demand for the topic is seasonal, but the page is evergreen: it sits quietly in the off-season and surges when searches return, provided you have kept the same URL and refreshed it. The businesses that struggle are the ones who publish a dated post each year and start the ranking climb from zero every time.',
+      },
+      {
+        question: 'How is a seasonal calendar different from a regular content calendar?',
+        answer:
+          'A regular content calendar schedules publishing at a steady cadence regardless of timing. A seasonal calendar works backward from when demand peaks, setting publish dates weeks ahead of each spike so the content is already ranking when searches arrive. The two work together: your evergreen service and guide content runs year-round, while the seasonal layer is timed deliberately around Miami demand cycles.',
+      },
+      {
+        question: 'Can one business serve both hurricane-season and snowbird audiences?',
+        answer:
+          'Often, yes, and the two seasons conveniently bookend the year. A home services company might run storm-preparation and recovery content from late spring through fall, then pivot to seasonal-resident and second-home maintenance content over the winter. Mapping both cycles on one calendar lets you keep a relevant, timely page in front of searchers almost year-round rather than going quiet between peaks.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'A seasonal content calendar plans your pages and articles around the demand cycles that actually move Miami searches: hurricane season, the winter snowbird influx, and the local event calendar. The goal is simple. Publish each piece six to eight weeks ahead of its peak so it is already ranking when customers start searching, instead of scrambling to post during the surge.' },
+      { type: 'p', text: 'Most content advice treats the calendar as a steady drumbeat of posts. For a Miami business that misses the point, because demand here is not steady. It swings hard with the seasons. This article is part of our guide to [local content strategy](/guides/local-content-strategy/), and walks through how to map Miami\'s cycles and time your content to them.' },
+
+      { type: 'h2', text: 'Why Miami demand is unusually seasonal' },
+      { type: 'p', text: 'Plenty of cities have a busy season. Miami has three overlapping ones, and they reshape what people search for far more than in a typical US market. Hurricane season from June through November drives waves of demand for storm preparation, shutters, roofing, water damage repair, and recovery services. The winter influx of snowbirds and tourists from roughly November through April lifts hospitality, real estate, healthcare, and home services as the seasonal population swells. And a packed event calendar, from Art Basel to Miami Music Week, concentrates demand in specific neighborhoods on specific dates.' },
+      { type: 'p', text: 'For a local business, that means the queries you want to rank for are not constant. The searches a roofer wants in September are different from the ones a property manager wants in January. A content calendar that ignores this publishes the right page at the wrong time, which is almost as wasteful as not publishing it at all.' },
+
+      { type: 'h2', text: 'Map your demand cycles before you write a word' },
+      { type: 'p', text: 'Start by listing the moments in the year when your specific customers need you most. A water damage company maps to hurricane season. A restaurant or hotel near [South Beach](/location/south-beach/) maps to the winter tourist season and the event calendar. A real estate or relocation business maps to the snowbird arrival in late fall and departure in spring. Write down each peak, when demand starts to build, and when it falls off.' },
+      { type: 'p', text: 'Then attach search intent to each peak. Before hurricane season, people search preparation and prevention terms. During an active storm watch, they search urgent service terms. After a storm, they search repair and insurance terms. One season can support three distinct pages aimed at three distinct moments. Mapping intent this way turns a vague sense of "we get busy in summer" into a concrete list of pages worth building.' },
+
+      { type: 'h2', text: 'Publish ahead of demand, not during it' },
+      { type: 'p', text: 'This is the single most important rule, and the one most often broken. A new page is not competitive the day it goes live. Google has to crawl it, index it, and develop enough confidence to rank it, and for a contested local query that ramp takes weeks. If you publish a hurricane-preparation page during a July storm watch, the search wave has already passed by the time the page is ranking.' },
+      { type: 'p', text: 'Work a full season ahead. Hurricane-prep content should be live and indexed in April or early May, well before the June start. Winter-season content for seasonal residents should be up by September or October, before the snowbirds arrive. Event-driven content should publish four to six weeks before the event. Build the publish dates backward from each peak and the calendar writes itself.' },
+
+      { type: 'h2', text: 'Turn each season into a content cluster' },
+      { type: 'p', text: 'A single page per season leaves traffic on the table. Each cycle can support a small cluster of related pages that capture the different ways people search around it. Hurricane season alone can justify a preparation checklist, a "what to do after storm damage" guide, an insurance-claim explainer, and a service page for emergency response. Each targets a different stage and a different intent, and together they cover the season far more thoroughly than one broad page.' },
+      { type: 'p', text: 'The clusters compound year over year. The first hurricane season you might publish two pages; the second, you refresh those and add two more. Within a few years you own a deep, authoritative set of pages for the season, which is exactly the kind of topical depth that ranks. Just keep each page genuinely distinct and useful, because thin, near-duplicate pages built only to chase a season are the fast way to undercut the whole effort.' },
+
+      { type: 'h2', text: 'Keep seasonal pages working year-round' },
+      { type: 'p', text: 'The biggest mistake with seasonal content is treating it as disposable. Businesses publish a dated post each year, let it go stale, and start the ranking climb from scratch the next season. The page never builds authority because it never gets the chance to age. Instead, keep one permanent URL per recurring season and refresh it annually with new dates, current specifics, and anything you learned last cycle. A hurricane-prep page that has been live and updated across three seasons will outrank a fresh one every time.' },
+      { type: 'p', text: 'Off-season, those pages do no harm by sitting quietly; they simply wait for demand to return. The combination of an evergreen URL and a yearly refresh gives you the best of both worlds: content that surges with the season and authority that accumulates across years. That is why a seasonal calendar belongs inside your broader content program rather than running as a separate, throwaway track.' },
+
+      { type: 'h2', text: 'Where this fits, and getting help' },
+      { type: 'p', text: 'A seasonal calendar is one layer of a complete Miami content strategy. Your evergreen service and guide pages run year-round; the seasonal layer sits on top, timed to publish ahead of each demand cycle so you are ranking when searches arrive. Google\'s own guidance on [creating helpful, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) is the standard to hold every seasonal page to, because timing only helps if the content genuinely deserves to rank.' },
+      { type: 'p', text: 'If planning and producing this ahead of each season is more than your team can carry, we connect Miami businesses with vetted [local content specialists](/services/local-content-strategy/) who build and maintain seasonal calendars as part of a wider program. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do.' },
+    ],
+  },
 ];
 
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>
