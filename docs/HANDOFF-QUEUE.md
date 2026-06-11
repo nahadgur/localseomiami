@@ -63,3 +63,21 @@ for Claude Code. Newest at top.
 - git: commit on main; push attempted (see status below).
 - Next run: continue thin-hub round-robin — H6 link building, H7 content,
   H8 near-me/voice, H9 technical (all still 0 spokes).
+
+### 2026-06-10 run — git status correction
+
+- Commit `9adbf7c` is on local `main` but NOT pushed: this sandbox has no GitHub
+  credentials (`could not read Username for https://github.com`). Claude Code
+  (native, credentialed) should `git push origin main`.
+- The repo `.git` mount here forbids unlink, so commits were made via an external
+  GIT_INDEX_FILE. A stale `.git/index.lock` (06:19) could not be removed from the
+  sandbox; it is harmless to a native Claude Code session. The default `.git/index`
+  was left dirty by the workaround — run `git reset` (native) to tidy; working
+  tree and HEAD are correct.
+- `.next-dev.log` was accidentally swept into commit `9adbf7c` by `git add -A`.
+  A follow-up commit to untrack it FAILED: failed git ops left stuck
+  `.git/HEAD.lock` and `.git/objects/maintenance.lock` that the sandbox cannot
+  unlink. Native cleanup: `rm -f .git/*.lock .git/objects/maintenance.lock`,
+  then `git rm --cached .next-dev.log`, add `.next-dev.log` to `.gitignore`,
+  commit, and `git push origin main`. `.gitignore` already has the entry staged
+  in the working tree.
