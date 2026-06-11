@@ -81,3 +81,10 @@ for Claude Code. Newest at top.
   then `git rm --cached .next-dev.log`, add `.next-dev.log` to `.gitignore`,
   commit, and `git push origin main`. `.gitignore` already has the entry staged
   in the working tree.
+
+## 2026-06-11 — miami-seo-writer run
+- Site: localseomiami
+- Spoke: earn-local-backlinks-miami-sponsorships (hub: local-link-building, draft: true)
+- New spoke for the previously empty H6 link-building hub (round-robin into a thin hub).
+- ~1150 words, answer-first opening, 6 sections, 6 FAQs. Up-link to /guides/local-link-building/, pillar link to /services/local-link-building/, location link to /location/brickell/, matching CTA. External: Google Search Central spam policies. Testimonials empty, LMS editorial byline.
+- tsc --noEmit: clean. check-links: 0 broken (17 slugs). Commit + push below.

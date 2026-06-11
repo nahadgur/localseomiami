@@ -12,6 +12,11 @@ import { Footer } from '@/components/Footer';
 import { LeadFormModal } from '@/components/LeadFormModal';
 import { HeroLeadForm } from '@/components/HeroLeadForm';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { SpokeHero } from '@/components/SpokeHero';
+
+function estReadMins(text: string): number {
+  return Math.max(3, Math.round(text.trim().split(/\s+/).filter(Boolean).length / 200));
+}
 import { FAQ } from '@/components/FAQ';
 import { buildBreadcrumbSchema } from '@/lib/breadcrumbs';
 import { editorialAuthorJsonLd, buildFaqPageSchema, AUTHOR_ID } from '@/lib/schema';
@@ -132,24 +137,25 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 
       <main className="flex-grow bg-bone">
 
-        <section className="bg-ink text-white">
-          <div className="container-width pt-10 pb-12">
-            <Breadcrumbs dark items={[{ label: 'Insights', href: '/blog/' }, { label: article.title }]} />
-            <div className="max-w-3xl mt-6">
-              <div className="flex items-center gap-3 text-[10px] font-mono uppercase tracking-[0.18em] text-brand-300 mb-4">
-                <span>{article.category}</span>
-                <span className="w-1 h-1 rounded-full bg-white/30" />
-                <span className="flex items-center gap-1"><Clock size={11} /> {article.publishDate}</span>
-                <span className="w-1 h-1 rounded-full bg-white/30" />
-                <span>By LMS</span>
-              </div>
-              <h1 className="font-display font-bold text-[32px] lg:text-[44px] leading-tight text-white mb-4">
-                {article.title}
-              </h1>
-              <p className="text-[15px] lg:text-[17px] text-white/75 leading-relaxed">
-                {article.excerpt}
-              </p>
+        <section className="bg-bone">
+          <div className="container-width pt-8">
+            <Breadcrumbs items={[{ label: 'Insights', href: '/blog/' }, { label: article.title }]} />
+          </div>
+          <div className="container-width pt-4 pb-10">
+            <SpokeHero
+              title={article.title}
+              hubName={hub?.title ?? null}
+              hubSlug={article.hub}
+              readMins={estReadMins(article.content.map((b: { text?: string; items?: string[] }) => (b.text || '') + ' ' + ((b.items || []).join(' '))).join(' '))}
+            />
+            <div className="mt-4 flex items-center gap-3 text-[11px] font-mono uppercase tracking-[0.18em] text-stone-500">
+              <span>{article.category}</span>
+              <span className="w-1 h-1 rounded-full bg-stone-300" />
+              <span className="flex items-center gap-1"><Clock size={11} /> {article.publishDate}</span>
             </div>
+            {/* Real heading kept for SEO/a11y; the SVG above is decorative. */}
+            <h1 className="sr-only">{article.title}</h1>
+            <p className="text-[15px] lg:text-[17px] text-stone-600 leading-relaxed mt-4 max-w-3xl">{article.excerpt}</p>
           </div>
         </section>
 

@@ -93,7 +93,7 @@ UK SEO sites.
 
 ## 8. Status tracker
 
-10 hubs built. Spokes: 4 published + 2 draft buffer = 6 written of ~100 target. Buffer (parked drafts awaiting publisher): 2.
+10 hubs built. Spokes: 4 published + 3 draft buffer = 7 written of ~100 target. Buffer (parked drafts awaiting publisher): 3.
 
 ## Slug rules (writer: follow on every spoke)
 
