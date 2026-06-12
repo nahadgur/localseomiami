@@ -573,6 +573,81 @@ export const blogArticles: BlogArticle[] = [
       { type: 'p', text: 'If planning and producing this ahead of each season is more than your team can carry, we connect Miami businesses with vetted [local content specialists](/services/local-content-strategy/) who build and maintain seasonal calendars as part of a wider program. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do.' },
     ],
   },
+  {
+    slug: 'voice-search-optimization-miami-businesses',
+    hub: 'near-me-voice-and-mobile-local-search',
+    draft: true,
+    title: 'Voice search optimization for Miami local businesses',
+    metaTitle: 'Voice Search Optimization for Miami Businesses',
+    metaDescription:
+      'How Miami businesses win voice search: conversational spoken queries, bilingual Spanish demand, accurate profile hours, and the structured data that helps.',
+    category: 'Local',
+    publishDate: '2026-06-12',
+    dateModified: '2026-06-12',
+    excerpt:
+      'When a Miami customer asks their phone for a nearby service, the assistant usually reads back a single business. Here is how voice search picks that answer, why the Spanish-speaking market changes the math, and what makes your business the one it names.',
+    faqs: [
+      {
+        question: 'What is voice search optimization for a local business?',
+        answer:
+          'It is the work of making your business the spoken answer when someone asks a phone or smart speaker for a nearby service. There is no separate voice algorithm to game. You optimize the same local signals that power the map pack, a complete Google Business Profile, accurate hours, strong reviews, and clean structured data, then shape your content around the natural, conversational way people phrase requests out loud.',
+      },
+      {
+        question: 'Do I need Spanish content to rank for voice search in Miami?',
+        answer:
+          'For most Miami businesses, yes. Roughly 70 percent of Miami-Dade residents speak Spanish at home, and many speak to their devices in Spanish, asking for things like a pharmacy or a plumber "cerca de mi." If your profile and content exist only in English, you are invisible for every spoken Spanish query in neighborhoods like Doral and Little Havana. Real Spanish content, not machine translation, is what captures that demand.',
+      },
+      {
+        question: 'Where do voice assistants get their answers?',
+        answer:
+          'From the same local index that produces Google\'s map pack and Maps results, not a separate voice system. The assistant reads your Google Business Profile and the structured data on your site, then reads back the business it understands most clearly. That is why clean, complete, and consistent profile data matters more for voice than any voice-specific trick.',
+      },
+      {
+        question: 'Do I need to add "near me" or voice phrases to my website?',
+        answer:
+          'No. You do not need the literal phrase "near me" anywhere on your site, and stuffing in robotic voice keywords does not help. What helps is content written in plain, natural language that answers the real questions customers ask, because that is what an assistant can read back cleanly. Write the way your customers speak, not in keyword fragments.',
+      },
+      {
+        question: 'How can I tell if voice search is sending me customers?',
+        answer:
+          'Voice does not appear as its own line in most analytics, so you track it indirectly. Watch for growth in long, conversational, question-style queries in Google Business Profile and Search Console insights, rising calls and direction requests from your profile, and an increase in mobile "open now" visibility. Trends across those signals tell you your voice and near-me presence is improving.',
+      },
+      {
+        question: 'Does structured data improve my chances in voice results?',
+        answer:
+          'Indirectly, yes. LocalBusiness and FAQ markup do not boost rankings on their own, but they hand search engines your name, address, phone, hours, and answers in a format they can read without guessing. When an assistant is choosing a single answer to speak, it favors the listing it understands most clearly, so removing ambiguity with accurate structured data works in your favor.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'Voice search optimization makes your Miami business the spoken answer when someone asks a phone or smart speaker for a nearby service. There is no separate voice algorithm. You win by strengthening the same local signals behind the map pack, then shaping your content around the natural, conversational way people actually ask out loud.' },
+      { type: 'p', text: 'Voice and mobile search lean on one thing above all: a clear, well-maintained local presence that an assistant can read aloud with confidence. This article is part of our guide to [near me, voice and mobile local search](/guides/near-me-voice-and-mobile-local-search/), and focuses specifically on the voice side, including the bilingual reality of the Miami market.' },
+
+      { type: 'h2', text: 'How voice search finds local businesses' },
+      { type: 'p', text: 'When someone asks Siri, Google Assistant, or Alexa for a nearby plumber or a late-night pharmacy, the assistant is not running a special voice index. It pulls from the same local results that power Google\'s map pack: relevance, distance, and prominence. What changes is the format of the answer. A typed search returns a list the user scans; a voice query usually returns a single result, sometimes two or three. That compression raises the stakes, because ranking fourth still earns clicks on a screen, while a voice assistant reading one answer aloud makes second place effectively invisible.' },
+      { type: 'p', text: 'Because the answer is assembled from your Google Business Profile and the structured data on your site, voice optimization is less about new tactics and more about making your existing local signals clean, complete, and machine-readable. A profile with the right primary category, accurate hours, and genuine reviews is what qualifies you to be the spoken answer in [Brickell](/location/brickell/), Doral, or anywhere else you serve.' },
+
+      { type: 'h2', text: 'People speak differently than they type' },
+      { type: 'p', text: 'The single biggest shift with voice is phrasing. Typed searches are clipped, like "emergency dentist miami." Spoken searches are full questions: "where is the nearest emergency dentist that is open right now?" Voice queries are longer, more conversational, and far more likely to begin with who, what, where, or how. Optimizing for voice means making sure your content answers those questions in the same natural language a customer would use, rather than only the compressed keywords they would type into a box.' },
+      { type: 'p', text: 'In practice that means building genuinely useful question-and-answer content: a clear FAQ section, service pages that state plainly what you do, who you serve, where, and when, and answers written the way a person speaks. When your page already contains a sentence that directly answers a spoken question, you give the assistant something clean to read back. Content that buries the answer in marketing language gives it nothing to work with.' },
+
+      { type: 'h2', text: 'Miami voice search is bilingual' },
+      { type: 'p', text: 'Voice optimization in Miami is not complete in English alone. Roughly 70 percent of Miami-Dade residents speak Spanish at home, and a large share of them speak to their devices in Spanish. A customer in Doral or Little Havana is as likely to ask for a "farmacia cerca de mi abierta ahora" as the English equivalent. If your local presence and content exist only in English, you are invisible for every one of those spoken Spanish queries, no matter how strong your English SEO is.' },
+      { type: 'p', text: 'Serving the Spanish voice market well means more than running English content through a translator. It means researching how Spanish-speaking Miami customers actually phrase requests, adding Spanish business descriptions and content, and making sure your profile reflects the languages you serve. Neighborhoods like [Doral](/location/doral/) and Little Havana are where this matters most, and businesses that treat Spanish voice search as a genuine channel rather than an afterthought capture demand their English-only competitors never see.' },
+
+      { type: 'h2', text: 'Hours and the profile decide the moment' },
+      { type: 'p', text: 'Voice queries are overwhelmingly urgent and on the move. People ask their phone for a service when they need it immediately, which makes two profile details decisive. The first is hours. Voice assistants and the "open now" filter exclude closed businesses outright, so if your hours are wrong, or you have not set special hours for a holiday or a storm closure, you simply will not be offered as the answer at the exact moment someone is ready to act. In a city with hurricane-season disruptions and irregular holiday schedules, keeping hours current is the difference between appearing and vanishing.' },
+      { type: 'p', text: 'The second is the path to action. A spoken result that cannot be acted on instantly is wasted. A tap-to-call number, an accurate address that maps cleanly for directions, and a fast-loading mobile site all determine whether a voice result becomes a customer. Most of this lives on your Google Business Profile, which is why voice optimization and [Google Business Profile optimization](/services/google-business-profile/) are really the same work approached from different angles. Google\'s own [Business Profile Help](https://support.google.com/business/) is the authority on keeping that data accurate.' },
+
+      { type: 'h2', text: 'Structured data and natural-language content' },
+      { type: 'p', text: 'Structured data is how you hand a search engine the facts in a format it can read without guessing. LocalBusiness markup spells out your name, address, phone, hours, and area served, and FAQ markup labels your questions and answers so they are easy to surface. None of it is a magic ranking boost, but it removes ambiguity, and a voice assistant choosing a single answer rewards the listing it understands most clearly. The vocabulary maintained at [Schema.org](https://schema.org/LocalBusiness) is the reference for what each field means.' },
+      { type: 'p', text: 'Pair that markup with content written in real questions and plain answers, and you cover both halves of voice: the machine-readable facts and the spoken-language match. Keep your profile and your site saying the same thing, because contradictions between what your structured data claims and what your profile shows undercut the confidence an assistant needs to read your business aloud.' },
+
+      { type: 'h2', text: 'Where this fits, and getting help' },
+      { type: 'p', text: 'Voice search is not a separate discipline to bolt on. It is what strong local SEO looks like when the result is spoken instead of displayed: a complete, accurate, bilingual-ready profile, clean structured data, and content phrased the way Miami customers actually talk. Get those right and you are positioned for voice, near me, and mobile searches at the same time, because they all draw on the same underlying signals.' },
+      { type: 'p', text: 'If auditing your profile, building out Spanish content, and implementing structured data is more than your team can take on, we connect Miami businesses with vetted [local search specialists](/services/google-business-profile/) who handle it as part of a wider local SEO program. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do.' },
+    ],
+  },
+
 ];
 
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>

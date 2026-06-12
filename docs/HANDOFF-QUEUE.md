@@ -99,3 +99,11 @@ for Claude Code. Newest at top.
 - New spoke for the previously empty H6 link-building hub (round-robin into a thin hub).
 - ~1150 words, answer-first opening, 6 sections, 6 FAQs. Up-link to /guides/local-link-building/, pillar link to /services/local-link-building/, location link to /location/brickell/, matching CTA. External: Google Search Central spam policies. Testimonials empty, LMS editorial byline.
 - tsc --noEmit: clean. check-links: 0 broken (17 slugs). Commit + push below.
+
+## 2026-06-12 — miami-seo-writer run
+- Site: localseomiami
+- Spoke: voice-search-optimization-miami-businesses (hub: near-me-voice-and-mobile-local-search, draft: true)
+- New spoke for the previously empty H8 near-me/voice hub (round-robin into a thin hub; H9 technical still empty, next).
+- ~1073 words, answer-first opening, 6 sections, 6 FAQs. Up-link to /guides/near-me-voice-and-mobile-local-search/, pillar link to /services/google-business-profile/ (hub's aligned service), location links to /location/brickell/ and /location/doral/, matching CTA. External: Schema.org LocalBusiness + Google Business Profile Help (two domains, named authorities). Testimonials empty, LMS editorial byline. Bilingual Spanish voice angle for Miami substance.
+- NOTE: bash mount Windows->Linux sync was stale mid-run; a manual cp/mv round-trip clobbered blog.ts with the stale view. Recovered by restoring data/blog.ts, docs/HANDOFF-QUEUE.md, docs/SILO-PLAN.md from HEAD via `git show HEAD:path > path` (the .git mount forbids unlink), then re-spliced the spoke via a Python in-place write. Do NOT use cp/mv round-trips on this mount.
+- tsc --noEmit: clean. check-links: 0 broken (19 slugs). Commit + push below.
