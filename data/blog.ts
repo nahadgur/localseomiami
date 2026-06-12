@@ -1,5 +1,5 @@
 // data/blog.ts
-// Hand-written blog content. Start with 4 posts; add as you go.
+// Hand-written blog content. Spokes are added one per writer run.
 // All posts are non-AI hand-written for genuine local SEO authority signals.
 
 export interface ContentBlock {
@@ -645,6 +645,78 @@ export const blogArticles: BlogArticle[] = [
       { type: 'h2', text: 'Where this fits, and getting help' },
       { type: 'p', text: 'Voice search is not a separate discipline to bolt on. It is what strong local SEO looks like when the result is spoken instead of displayed: a complete, accurate, bilingual-ready profile, clean structured data, and content phrased the way Miami customers actually talk. Get those right and you are positioned for voice, near me, and mobile searches at the same time, because they all draw on the same underlying signals.' },
       { type: 'p', text: 'If auditing your profile, building out Spanish content, and implementing structured data is more than your team can take on, we connect Miami businesses with vetted [local search specialists](/services/google-business-profile/) who handle it as part of a wider local SEO program. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do.' },
+    ],
+  },
+
+
+  {
+    slug: 'core-web-vitals-miami-small-business',
+    hub: 'technical-seo-for-local-business',
+    draft: true,
+    title: 'Core Web Vitals for Miami small business websites',
+    metaTitle: 'Core Web Vitals for Miami Small Business Sites',
+    metaDescription:
+      'What Core Web Vitals measure, why they matter for Miami local rankings, and the practical fixes that improve LCP, INP, and CLS on a small business website.',
+    category: 'Strategy',
+    publishDate: '2026-06-12',
+    dateModified: '2026-06-12',
+    excerpt:
+      'Core Web Vitals are Google\'s three measurements of how your website actually feels to use: loading speed, responsiveness, and visual stability. Here is what each one means for a Miami small business site, how to check your scores for free, and the handful of fixes that move them.',
+    faqs: [
+      {
+        question: 'Are Core Web Vitals a major ranking factor?',
+        answer:
+          'They are a confirmed ranking signal, but a modest one. Relevance, your Google Business Profile, reviews, and content quality all matter more. Think of Core Web Vitals as a tiebreaker among similar competitors and, more importantly, as a conversion factor: a slow page loses Miami customers who searched on a phone and will not wait for it to load, regardless of where it ranks.',
+      },
+      {
+        question: 'Do Core Web Vitals affect the map pack?',
+        answer:
+          'Not directly. Map pack rankings are driven by your Google Business Profile, proximity, and reviews, not by your page speed. But the map pack sends people to your website, and if that landing page is slow or janky on a phone, you lose the customer after winning the click. Core Web Vitals protect the value of every visit your local SEO earns.',
+      },
+      {
+        question: 'What counts as a passing score?',
+        answer:
+          'Google\'s published thresholds are an LCP of 2.5 seconds or less, an INP of 200 milliseconds or less, and a CLS of 0.1 or less, each measured at the 75th percentile of real user visits. In plain terms: the page shows its main content quickly, reacts to taps almost instantly, and nothing jumps around while it loads, for most of your real visitors, most of the time.',
+      },
+      {
+        question: 'My site is on Wix or Squarespace. Can I still pass?',
+        answer:
+          'Usually, yes. Modern website builders have improved their platform performance substantially, and the biggest problems on builder sites are typically self-inflicted: enormous uncompressed photos, autoplaying video backgrounds, and a stack of third-party widgets. You control all of those. What you cannot easily change on a builder is the underlying platform, so if scores stay poor after cleaning up your own content, that is a signal to consider a rebuild.',
+      },
+      {
+        question: 'Do I need a developer to fix Core Web Vitals?',
+        answer:
+          'Not always. Compressing images, removing unused widgets, and limiting fonts are owner-level fixes on most platforms. Code-level work like deferring scripts, restructuring templates, or fixing layout shift in a custom theme generally does need a developer or a technical SEO specialist. Run the free tests first; the report usually makes it obvious which category your problems fall into.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'Core Web Vitals are Google\'s three measurements of real-world user experience: how fast your page shows its main content (LCP), how quickly it responds to taps and clicks (INP), and how much the layout shifts while loading (CLS). For most Miami small business sites, passing them comes down to images, scripts, and hosting.' },
+      { type: 'p', text: 'They are also the part of technical SEO that owners can actually see and feel, because a failing score is just a slow, jumpy page. This article is part of our guide to [technical SEO for local business websites](/guides/technical-seo-for-local-business/), and covers what each metric means, how to test your site for free, and which fixes are worth your time.' },
+
+      { type: 'h2', text: 'The three metrics in plain terms' },
+      { type: 'p', text: 'Largest Contentful Paint (LCP) measures how long it takes for the biggest visible element, usually your hero image or headline, to appear. Interaction to Next Paint (INP) measures how quickly the page responds when someone taps a button or opens a menu. Cumulative Layout Shift (CLS) measures how much the page jumps around as it loads, the effect that makes you tap the wrong link because an ad pushed everything down.' },
+      { type: 'p', text: 'Google\'s thresholds, published in its [Core Web Vitals documentation](https://developers.google.com/search/docs/appearance/core-web-vitals), are 2.5 seconds or less for LCP, 200 milliseconds or less for INP, and 0.1 or less for CLS. The scores that count are field data: measurements collected from your real visitors\' devices and connections, assessed at the 75th percentile. That detail matters in Miami, where a meaningful share of your traffic is on a phone over a cellular connection, in a car, on a sidewalk, or at a job site, not on office wifi.' },
+
+      { type: 'h2', text: 'Why this matters for a Miami local business' },
+      { type: 'p', text: 'As a ranking signal, page experience is real but modest. It will not lift a thin site over a strong one, and it has no direct effect on the map pack. Where it bites is the step after the ranking: someone searches on their phone, taps your result, and either gets your page within a couple of seconds or gives up and taps the competitor below you. Local searches are heavily mobile and heavily urgent, so the tolerance for slow pages is lower than almost anywhere else in search.' },
+      { type: 'p', text: 'Miami sites also carry some characteristic weight. Restaurant, hospitality, and service businesses here lean on big photography and video to sell the experience, bilingual sites often load twice the fonts and sometimes duplicate scripts, and a customer searching from a high-rise in [Brickell](/location/brickell/) or a busy stretch of Calle Ocho is on whatever signal the building or the street gives them. A page that feels fine on your office computer can be a five-second wait for the person actually trying to buy from you.' },
+
+      { type: 'h2', text: 'How to check your scores for free' },
+      { type: 'p', text: 'Run your homepage and your most important service page through [PageSpeed Insights](https://pagespeed.web.dev/), Google\'s free testing tool. The top section shows field data from real Chrome users where enough traffic exists; the lab section below diagnoses specific problems and points at the resources causing them. Test the mobile result, not the desktop one, since mobile is what Google indexes and what most of your local customers use.' },
+      { type: 'p', text: 'If you have Google Search Console set up, its Core Web Vitals report shows which groups of pages pass and fail across the whole site, which beats testing pages one at a time. Check these reports a few times a year and after any redesign, new plugin, or platform change. Scores drift as content and widgets accumulate, and a site that passed last year can quietly fail today.' },
+
+      { type: 'h2', text: 'The fixes that actually move each metric' },
+      { type: 'p', text: 'For LCP, the usual culprit is the hero image. Resize photos to the dimensions they are displayed at, compress them, and use modern formats where your platform supports them. A 4 MB photo straight off a phone camera, common on restaurant and salon sites, can double your load time by itself. Decent hosting and caching matter too: if the server takes two seconds to respond, no image work will get you under the threshold.' },
+      { type: 'list', items: [
+        'LCP: compress and resize images, avoid video backgrounds on key landing pages, use quality hosting with caching.',
+        'INP: remove widgets you do not use, limit chat, booking, and tracking scripts, and defer what does not need to load first.',
+        'CLS: set dimensions on images and embeds, reserve space for banners, and limit custom fonts so text does not reflow.',
+      ] },
+      { type: 'p', text: 'INP problems almost always trace to JavaScript: every chat widget, booking plugin, review carousel, and analytics tag competes for the phone\'s processor at load time. Audit what is installed, remove what you do not actively use, and load the rest only when needed. CLS is the most mechanical fix of the three: give every image and embed explicit dimensions so the browser reserves the space, and stop late-loading banners from shoving content down the page.' },
+
+      { type: 'h2', text: 'When good enough is good enough' },
+      { type: 'p', text: 'Chasing a perfect 100 lab score is a poor use of a small business owner\'s time. The goal is passing field data on the pages that earn you customers: your homepage, your service pages, and your location pages. Once those pass, further optimization returns very little, and your effort is better spent on content, reviews, and the rest of your local SEO. Page speed supports the on-page work, it does not replace it, which is why we treat it as part of [on-page local SEO](/services/on-page-local-seo/) rather than a separate project.' },
+      { type: 'p', text: 'If your scores are failing and the report points at template code, render-blocking scripts, or server problems rather than oversized photos, that is developer territory. We connect Miami businesses with vetted local SEO specialists who handle technical cleanup as part of a wider program, and matching is free. We do not deliver the SEO ourselves; we introduce you to specialists who do.' },
     ],
   },
 
