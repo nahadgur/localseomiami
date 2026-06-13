@@ -648,7 +648,6 @@ export const blogArticles: BlogArticle[] = [
     ],
   },
 
-
   {
     slug: 'core-web-vitals-miami-small-business',
     hub: 'technical-seo-for-local-business',
@@ -717,6 +716,142 @@ export const blogArticles: BlogArticle[] = [
       { type: 'h2', text: 'When good enough is good enough' },
       { type: 'p', text: 'Chasing a perfect 100 lab score is a poor use of a small business owner\'s time. The goal is passing field data on the pages that earn you customers: your homepage, your service pages, and your location pages. Once those pass, further optimization returns very little, and your effort is better spent on content, reviews, and the rest of your local SEO. Page speed supports the on-page work, it does not replace it, which is why we treat it as part of [on-page local SEO](/services/on-page-local-seo/) rather than a separate project.' },
       { type: 'p', text: 'If your scores are failing and the report points at template code, render-blocking scripts, or server problems rather than oversized photos, that is developer territory. We connect Miami businesses with vetted local SEO specialists who handle technical cleanup as part of a wider program, and matching is free. We do not deliver the SEO ourselves; we introduce you to specialists who do.' },
+    ],
+  },
+
+  {
+    slug: 'choose-google-business-profile-categories-miami',
+    hub: 'google-business-profile-optimization',
+    draft: true,
+    title: 'How to choose the right Google Business Profile categories for your Miami business',
+    metaTitle: 'Choosing GBP Categories for Miami Businesses',
+    metaDescription:
+      'Your primary Google Business Profile category is one of the strongest local ranking signals you control. How Miami businesses should pick it, which secondary categories to add, and what to avoid.',
+    category: 'GBP',
+    publishDate: '2026-06-13',
+    dateModified: '2026-06-13',
+    excerpt:
+      'Google only ranks your business for searches that match your categories, and most Miami profiles either pick a primary category that is too broad or stuff secondaries that dilute it. Here is how to choose categories that match what you actually sell.',
+    faqs: [
+      {
+        question: 'What is the difference between a primary and a secondary category?',
+        answer:
+          'Your primary category is the single strongest category signal Google reads, and it carries far more ranking weight than the rest. Secondary categories tell Google about additional services you offer and can help you appear for related searches, but they do not match the primary in influence. That is why the most consequential decision is the primary, not how many secondaries you add.',
+      },
+      {
+        question: 'How many secondary categories should I add?',
+        answer:
+          'Only as many as describe services you genuinely deliver as a core part of the business. Google allows up to nine secondaries, but using all nine is rarely right. Each category you add slightly broadens what Google thinks you are, and a profile that claims to be six different kinds of business ranks like none of them. Two to four accurate secondaries is the typical sweet spot.',
+      },
+      {
+        question: 'Can I create my own category if mine does not exist?',
+        answer:
+          'No. Categories come from a fixed list Google maintains, currently several thousand options that change throughout the year. If your exact service is not listed, choose the closest available category and use your services list, business description, and website content to communicate the specifics. Do not pick an inaccurate category just because it sounds more impressive or more searched.',
+      },
+      {
+        question: 'Will changing my primary category hurt my rankings?',
+        answer:
+          'A category change usually causes some short-term ranking movement while Google re-evaluates the profile, and occasionally triggers a re-verification request. If your current primary is wrong or too broad, the correction is worth that turbulence. If your profile is ranking well and the category is accurate, do not change it just to experiment.',
+      },
+      {
+        question: 'Do categories affect which profile features I get?',
+        answer:
+          'Yes. Categories control more than ranking. They determine which attributes, booking buttons, menu links, and product or service fields Google offers your profile. A restaurant category unlocks menu features, a hotel category changes the profile layout entirely, and many service categories unlock quote request features. Picking the right category gives you tools the wrong one hides.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'Your Google Business Profile categories decide which searches you are even eligible to rank for. The primary category is the single strongest signal: choose the most specific option that matches your core business, add only the secondary categories you genuinely deliver, and resist the temptation to stuff broad categories in hope of wider reach.' },
+      { type: 'p', text: 'Category selection sounds like a thirty-second form field, but it shapes everything downstream, from the queries your profile can appear for to the features Google shows on it. This article is part of our guide to [optimizing your Google Business Profile](/guides/google-business-profile-optimization/) and walks through how to get the choice right for a Miami business.' },
+
+      { type: 'h2', text: 'Why categories carry so much weight' },
+      { type: 'p', text: 'Google matches local searches to businesses largely through categories. When someone in Brickell searches "personal injury attorney", Google assembles the map pack from profiles whose categories say that is what they are. If your primary category is the generic "Lawyer" rather than "Personal injury attorney", you are competing for the broad query and ceding the specific one to competitors who chose more precisely.' },
+      { type: 'p', text: 'The primary category is also a relevance multiplier for everything else on the profile. Reviews, photos, and posts all help, but they help most when Google is confident about what kind of business it is ranking. Google explains how it uses categories to match businesses to searches in its [Business Profile Help documentation](https://support.google.com/business/answer/3038177), which is worth reading before you make changes.' },
+
+      { type: 'h2', text: 'Choosing your primary category' },
+      { type: 'p', text: 'The rule is specificity. Pick the narrowest category that still describes your core business, the thing that earns most of your revenue. A Coral Gables firm that does mostly estate planning should choose "Estate planning attorney" over "Law firm". A Wynwood shop that earns its living on espresso should be a "Coffee shop", not a "Cafe" or a "Restaurant", even if it serves sandwiches.' },
+      { type: 'p', text: 'A practical way to validate the choice is to look at who currently ranks. Search your most valuable query from your part of town and check the categories of the three businesses in the map pack. Profile categories are visible on the listing, and tools can expose the full list. If every business ranking for your money query uses a category you have not set, that gap is usually the first thing to fix.' },
+      { type: 'p', text: 'For bilingual Miami businesses, note that categories are not free text and do not need translating. Google maintains one canonical category list and localizes the display language itself, so a Little Havana business serving a Spanish-speaking clientele picks the same category as anyone else and lets Google handle presentation.' },
+
+      { type: 'h2', text: 'Adding secondary categories without diluting the profile' },
+      { type: 'p', text: 'Secondary categories exist for real, substantial service lines, not aspirations. A Miami HVAC company that also does genuine duct cleaning work should add it. A dental practice that occasionally whitens teeth as part of general dentistry does not need "Teeth whitening service" as a category; the services list covers it.' },
+      { type: 'p', text: 'The cost of over-adding is dilution. Each category broadens Google\'s picture of the business, and a profile claiming to be a marketing agency, web designer, printer, and sign shop at once gives Google no confident answer about what it primarily is. When specialists audit underperforming Miami profiles, bloated category lists are one of the most common findings, alongside the issues covered in our breakdown of [the GBP mistakes Miami businesses make most often](/blog/google-business-profile-mistakes-miami-businesses-make/).' },
+
+      { type: 'h2', text: 'Categories change, so review yours periodically' },
+      { type: 'p', text: 'Google adds, renames, merges, and retires categories throughout the year. A more specific category than the one you chose two years ago may exist today, and occasionally a category you rely on is folded into another. A quick category review two or three times a year keeps the profile aligned, and it matters most in Miami\'s crowded service niches, where a newly released specific category is a brief window to out-position competitors still sitting on the broad one.' },
+      { type: 'p', text: 'When you do change the primary category, expect some ranking movement while Google re-evaluates the profile, and in some cases a re-verification prompt. Make the change deliberately, once, rather than cycling through options week to week, because repeated edits to core profile fields are a pattern Google treats with suspicion.' },
+
+      { type: 'h2', text: 'How this fits the bigger profile picture' },
+      { type: 'p', text: 'Categories set the ceiling; the rest of the profile determines how close you get to it. Accurate hours, complete attributes, real photos, steady reviews, and an accurate service area all build on the foundation the category choice creates. Category selection is one of the first things covered in a professional [Google Business Profile optimization](/services/google-business-profile/) engagement precisely because every other improvement compounds on top of it.' },
+      { type: 'p', text: 'If you are not sure whether your categories are helping or hurting, a specialist can audit the profile against the businesses actually ranking for your target queries. We connect Miami businesses with vetted local SEO specialists who do this every day, and matching is free. We do not deliver the SEO ourselves; we introduce you to specialists who do.' },
+    ],
+  },
+
+  {
+    slug: 'track-local-rankings-miami-neighborhoods',
+    hub: 'ranking-in-the-miami-map-pack',
+    draft: true,
+    title: 'How to Track Your Local Rankings Across Miami Neighborhoods',
+    metaTitle: 'Tracking Local Rankings by Miami Neighborhood',
+    metaDescription:
+      'Your map pack position changes block by block in Miami. How to track local rankings by neighborhood with a geo-grid, what to measure, and why your own search misleads you.',
+    category: 'Local',
+    publishDate: '2026-06-13',
+    dateModified: '2026-06-13',
+    excerpt:
+      'Checking your own rank from your office tells you almost nothing in a city as dense as Miami, where your map pack position shifts from one block to the next. Here is how to track local rankings the way they actually behave: neighborhood by neighborhood.',
+    faqs: [
+      {
+        question: 'Why can I not just search my business name to check my rank?',
+        answer:
+          'Because the result you see is personalized. Google factors in your device location, your search history, and whether you are signed in, so the map pack you see from your own desk is tuned to you and to that exact spot. A customer two miles away, or one who has never visited your site, sees something different. Searching yourself feels like checking your rank, but it measures one heavily biased data point, not how you rank across the area you serve.',
+      },
+      {
+        question: 'What is geo-grid rank tracking?',
+        answer:
+          'Geo-grid tracking checks your map pack position from many simulated locations laid out as a grid across your service area, rather than from a single point. Each grid point returns the rank you would hold for a searcher standing there, so the output is a map of your visibility: strong near your address, weaker as distance grows. It is the standard way specialists measure local rank because it matches how Google actually ranks the map pack, on distance as well as relevance and prominence.',
+      },
+      {
+        question: 'How often should I check my map pack rankings?',
+        answer:
+          'For most Miami businesses, a weekly or biweekly check is enough to spot real trends without chasing daily noise. Local rankings fluctuate naturally day to day, so a single bad reading rarely means anything. Track on a consistent schedule, from the same grid, so you are comparing like with like. Check more often only right after a major change, such as a category edit or a citation cleanup, when you want to see how the profile responds.',
+      },
+      {
+        question: 'Why do my rankings change from one Miami neighborhood to another?',
+        answer:
+          'Distance is one of Google\'s three local ranking factors, and Miami packs a lot of competing businesses into a small area. A firm three blocks closer to the searcher can take the spot you hold from your own address, so you might rank first in Brickell, mid-pack in Wynwood, and not at all in Doral. This is normal and expected. It is also why a single citywide rank check is misleading and a per-neighborhood view is essential.',
+      },
+      {
+        question: 'Do I need a paid tool to track local rankings?',
+        answer:
+          'A dedicated geo-grid tool makes tracking far more accurate and far less tedious, and most specialists use one. You can approximate it manually by checking from different points with location settings adjusted, but it is slow and easy to bias. For a business serious about its map pack performance across several Miami neighborhoods, a proper rank tracker pays for itself in clarity. A specialist will usually include this tracking as part of an engagement.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'To track your local rankings in Miami, measure your map pack position from multiple points across each neighborhood you serve, not from a single citywide search. Rankings shift block by block here, so a grid of readings across Brickell, Wynwood, Coral Gables, and your other target areas is the only honest picture of where you actually appear.' },
+      { type: 'p', text: 'Most owners check their rank the natural way: they search their service from their phone and see where they land. In a dense market that habit quietly misleads them. This article is part of our guide to [how the Miami map pack is ranked](/guides/ranking-in-the-miami-map-pack/), and it covers how to track your position in a way that reflects how Google really behaves across the city.' },
+
+      { type: 'h2', text: 'Why searching yourself tells you almost nothing' },
+      { type: 'p', text: 'When you search from your own device, Google personalizes the result. It knows where you are standing, what you have searched before, and whether you are signed in, and it tunes the map pack to all of that. From your office in Coral Gables you may sit comfortably in the top three, which feels like good news, but it only describes how you rank for someone at that exact spot with your browsing history.' },
+      { type: 'p', text: 'The customer you actually want is somewhere else: a few miles north in Aventura, across the bay on South Beach, or anywhere they happen to be holding their phone. Their result is built from their location, not yours. So the single most common way Miami owners check their rank is also the least reliable, because it measures the one place you are guaranteed to look strong.' },
+
+      { type: 'h2', text: 'Track by neighborhood, not by city' },
+      { type: 'p', text: 'Because distance is a ranking factor, your visibility is not one number, it is a map. You might top the pack within a half mile of your Brickell address, fade to fourth or fifth in Wynwood, and disappear entirely by the time you reach Doral or Kendall. A citywide average hides all of that and tells you nothing you can act on.' },
+      { type: 'p', text: 'The fix is geo-grid tracking. A rank tracker checks your position from a grid of points spread across your service area and returns the rank a searcher at each point would see. The output looks like a heat map: green where you dominate, red where you are invisible. For a Miami business that wants customers from several neighborhoods, that map is the difference between guessing and knowing. It shows exactly which areas you own and which ones a closer competitor is taking from you.' },
+      { type: 'p', text: 'Set the grid to cover the neighborhoods you genuinely serve and can reach, not the entire metro. A Little Havana restaurant has no reason to track rank in Pinecrest, and padding the grid with areas you do not serve just adds noise. Match the grid to your real catchment, then watch how it changes over time.' },
+
+      { type: 'h2', text: 'What to measure and how often' },
+      { type: 'p', text: 'Track three things together. First, your map pack rank for your money queries across the grid, the headline number. Second, your organic rank for the same terms, since the links below the pack still drive traffic. Third, the inputs that move those ranks, chiefly your review count and rating and any citation or profile changes, so you can connect cause to effect later.' },
+      { type: 'list', items: [
+        'Map pack position across the grid for each priority query.',
+        'Organic position for the same queries, tracked alongside the pack.',
+        'Review volume, average rating, and the dates of profile or citation changes.',
+      ] },
+      { type: 'p', text: 'A weekly or biweekly cadence suits most businesses. Local rankings wobble day to day for reasons no one can fully control, so daily checking invites you to overreact to noise. Track on a fixed schedule from the same grid so every reading is comparable, and tighten the cadence only after a deliberate change, such as a new primary category or a finished citation cleanup, when you want to watch the profile respond.' },
+
+      { type: 'h2', text: 'Turning tracking data into action' },
+      { type: 'p', text: 'Tracking is only useful if it changes what you do. When the grid shows a neighborhood where you are weak, that is where the next push belongs: a location page with real local substance, citations on directories that area trusts, or reviews from customers there who mention the neighborhood by name. The same patient timeline applies that we describe in [why Miami local SEO takes longer than most US cities](/blog/why-miami-local-seo-takes-longer-than-other-cities/), so judge progress over months, not days.' },
+      { type: 'p', text: 'Use the grid to set honest expectations too. If a competitor sits three blocks from a searcher and you are two miles away, distance alone may cap how high you can climb there, and your energy is better spent defending the areas you can win. Google\'s own guidance on [improving your local ranking](https://support.google.com/business/answer/7091) confirms that relevance, distance, and prominence work together, which is why tracking by location, rather than chasing one citywide number, is what tells you where effort will actually pay off.' },
+      { type: 'p', text: 'Sustained map pack gains across a market as competitive as Miami usually come from disciplined [map pack optimization](/services/map-pack-optimization/) guided by exactly this kind of data, often concentrated first in a core area like [Brickell](/location/brickell/) before expanding outward. We connect Miami businesses with vetted local SEO specialists who track rankings this way as a matter of routine, and matching is free. We do not deliver the SEO ourselves; we introduce you to specialists who do.' },
     ],
   },
 
