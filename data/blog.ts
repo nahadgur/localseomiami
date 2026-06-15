@@ -277,14 +277,14 @@ export const blogArticles: BlogArticle[] = [
   {
     slug: 'fix-inconsistent-nap-miami-business-listings',
     hub: 'local-citations-and-nap-consistency',
-    draft: true,
+    draft: false,
     title: 'How to fix inconsistent NAP across your Miami business listings',
     metaTitle: 'Fix Inconsistent NAP for Miami Listings (2026)',
     metaDescription:
       'Mismatched name, address, and phone data across directories drags down Miami map pack rankings. A step-by-step cleanup process to audit, standardize, and monitor your NAP.',
     category: 'Local',
-    publishDate: '2026-06-10',
-    dateModified: '2026-06-10',
+    publishDate: '2026-06-15',
+    dateModified: '2026-06-15',
     excerpt:
       'Your business listed three different ways across Yelp, Apple Maps, and old directories is quietly costing you map pack visibility. Here is the step-by-step process for auditing, standardizing, and monitoring NAP across your Miami listings.',
     faqs: [
@@ -925,6 +925,59 @@ export const blogArticles: BlogArticle[] = [
       { type: 'h2', text: 'A practical order of operations' },
       { type: 'p', text: 'Work from most important to least. Claim and fully complete your Google Business Profile first, following the official guidance in the [Google Business Profile Help Center](https://support.google.com/business/answer/3038177) so the listing is verified and accurate. Next, claim Apple Maps, Bing Places, Yelp, and Facebook with identical details. Then push your data through the major aggregators, and finally add the industry and local directories that fit your business. Decide your exact name, address, and phone format before you start, so every listing matches from the first entry.' },
       { type: 'p', text: 'Done in this order, directory building is a finite project rather than an endless one. If your business has a long Miami history and the listing landscape already looks tangled, we connect you with vetted [citation building specialists](/services/local-citation-building/) who handle selection, submission, and consistency as a single piece of work. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do.' },
+    ],
+  },
+
+  {
+    slug: 'review-gating-ftc-rules-miami-businesses',
+    hub: 'google-reviews-and-reputation',
+    draft: true,
+    title: 'Review Gating and the FTC Rules Miami Businesses Must Follow',
+    metaTitle: 'Review Gating and FTC Rules for Miami Businesses',
+    metaDescription:
+      'Review gating asks only happy customers for public reviews. Google bans it and the FTC review rule adds federal penalties. How Miami businesses stay compliant.',
+    category: 'Reviews',
+    publishDate: '2026-06-15',
+    dateModified: '2026-06-15',
+    excerpt:
+      'Review gating, screening customers so only the happy ones reach public review platforms, has moved from gray-area growth hack to genuine legal and platform risk. Here is what Google and the FTC prohibit, and the compliant approach that produces a more believable review profile.',
+    content: [
+      { type: 'p', text: 'Review gating is the practice of privately screening customers and routing only the happy ones to public review platforms while steering unhappy ones to a private channel. Google banned it in 2018, and the FTC\'s Consumer Reviews and Testimonials Rule now makes several related tactics federal violations. Here is what is prohibited and how a Miami business stays compliant.' },
+      { type: 'p', text: 'Plenty of Miami businesses still gate reviews without realizing it has become a real legal and platform risk rather than a clever shortcut. The downside ranges from a silent Google Business Profile suspension to federal civil penalties. The encouraging part is that the compliant approach is simpler to run and produces a more believable review profile, which is part of a healthy [Google review and reputation program](/guides/google-reviews-and-reputation/).' },
+
+      { type: 'h2', text: 'What review gating actually is' },
+      { type: 'p', text: 'Review gating adds a filter between the customer and the public review form. A typical setup asks customers privately how their experience was, then sends the satisfied ones a direct link to Google while diverting dissatisfied ones to a private feedback form that never reaches the public profile. The intent is to inflate the public rating by suppressing the negatives before they are ever written.' },
+      { type: 'p', text: 'You see it across Miami in everyday forms: a tablet at a Brickell clinic that only displays the Google review link after a customer taps a smiling face, or an automated text that branches happy customers to Google and everyone else to an internal survey. It is worth separating this from legitimate feedback collection. Asking every customer for private feedback is fine. Using that private answer to decide who gets invited to leave a public review is what crosses the line.' },
+
+      { type: 'h2', text: 'Why Google prohibits review gating' },
+      { type: 'p', text: 'Google\'s review policies require that you treat every customer the same way: solicit reviews from all of them, not a hand-picked subset selected by predicted sentiment. Selectively discouraging or preventing negative reviews while encouraging positive ones is an explicit policy violation, and has been since Google updated its guidance in 2018. The official guidance is set out in the [Google Business Profile Help Center](https://support.google.com/business/answer/7035772).' },
+      { type: 'p', text: 'Enforcement is unforgiving. Google can remove the affected reviews, suppress the profile, or suspend it outright, often with no warning and a slow appeals process. Because the Miami map pack ranks heavily on prominence, and reviews are a core prominence signal, a suspension can erase your local visibility overnight in exactly the dense neighborhoods where it is hardest to win it back.' },
+
+      { type: 'h2', text: 'What the FTC review rule prohibits' },
+      { type: 'p', text: 'The FTC\'s Rule on the Use of Consumer Reviews and Testimonials took effect on October 21, 2024, and it raises the stakes well beyond platform policy. According to the [FTC\'s guidance on the rule](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers), it bans a set of deceptive review practices outright:' },
+      { type: 'list', items: [
+        'Writing, buying, or selling fake reviews from people who do not exist or never used the business.',
+        'Offering any incentive conditioned on a review expressing a particular sentiment, positive or negative.',
+        'Owners, managers, and employees reviewing the business without clearly disclosing the relationship.',
+        'Suppressing reviews through unfounded legal threats or intimidation, or publishing only a misleading subset of the reviews received.',
+      ] },
+      { type: 'p', text: 'Review gating sits closest to that final provision on suppression and to the rules on conditioned incentives. Even where a specific gating setup might be argued not to fit one clause exactly, it almost always trips Google\'s policy and exposes you to the FTC\'s suppression provision. The safe reading is straightforward: do not build any system whose purpose is to keep genuine negative experiences off your public profile.' },
+
+      { type: 'h2', text: 'The penalties a Miami business faces' },
+      { type: 'p', text: 'There are two layers of risk. The platform layer is Google: removed reviews, a damaged ranking, or a suspended profile that takes weeks to recover, if it recovers at all. For a service business depending on the map pack for calls, that is a direct hit to revenue.' },
+      { type: 'p', text: 'The federal layer is the FTC, which can seek civil penalties of up to $53,088 per violation for knowing breaches of the rule, and has already issued warning letters to companies it believes are non-compliant. For a small Miami business, penalties at that scale are not a cost of doing business, they are existential. The combination of platform and federal exposure is why gating is no longer worth the perceived upside.' },
+
+      { type: 'h2', text: 'The compliant alternative that works better' },
+      { type: 'p', text: 'The compliant approach is also the more effective one: ask every customer for a review the same way, through the same single-click link, with no screening based on how happy they seem. Then respond professionally to the negatives that inevitably arrive. The mechanics of doing this consistently are covered in our guide to building a [systematic review request workflow](/blog/review-acquisition-strategy-for-miami-small-businesses/).' },
+      { type: 'p', text: 'A public profile that mixes mostly strong reviews with the occasional measured response to a three-star review is more persuasive than a suspicious wall of perfect five-star ratings. Prospective customers trust a 4.6 average with thoughtful replies more than a flawless 5.0, and that trust converts. Handled this way, negatives become proof that the profile is real and that you stand behind your work.' },
+      { type: 'p', text: 'If keeping a request system compliant and consistent is more than your team can manage, we connect Miami businesses with vetted [review management specialists](/services/review-management/) who build the workflow correctly from the start. The matching is free, with no obligation, and we do not deliver the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
+    ],
+    faqs: [
+      { question: 'Is review gating illegal in the United States?', answer: 'Review gating violates Google\'s review policies and can fall foul of the FTC\'s Consumer Reviews and Testimonials Rule, which took effect on October 21, 2024 and prohibits suppressing reviews or conditioning incentives on sentiment. Knowing violations can carry civil penalties of up to $53,088 each.' },
+      { question: 'What is the difference between asking for reviews and review gating?', answer: 'Asking for reviews means inviting every customer to leave honest public feedback through the same link. Gating means screening customers first and only routing the satisfied ones to the public review form while diverting the unhappy ones elsewhere. The selective routing is what crosses the line.' },
+      { question: 'Can I send unhappy customers to a private feedback form?', answer: 'You can collect private feedback from everyone, but you cannot use that private answer to decide who is invited to review you publicly. Offer all customers the same public review path; collecting internal feedback in parallel is fine as long as it does not gate who reaches the public profile.' },
+      { question: 'What happens if Google catches review gating?', answer: 'Google can remove the affected reviews, suppress your listing, or suspend the Google Business Profile outright, frequently without warning. Because reviews feed map-pack prominence, a suspension can wipe out your local visibility in competitive Miami neighborhoods and take weeks to appeal.' },
+      { question: 'Does the FTC review rule apply to small Miami businesses?', answer: 'Yes. The rule applies broadly to businesses that use consumer reviews and testimonials, not only to large companies. Small Miami businesses are subject to the same prohibitions on fake reviews, sentiment-conditioned incentives, and review suppression, and the same civil penalty exposure for knowing violations.' },
     ],
   },
 
