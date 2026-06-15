@@ -855,6 +855,79 @@ export const blogArticles: BlogArticle[] = [
     ],
   },
 
+  {
+    slug: 'best-local-directories-miami-businesses',
+    hub: 'local-citations-and-nap-consistency',
+    draft: true,
+    title: 'Which Local Directories Matter Most for Miami Businesses',
+    metaTitle: 'Best Local Directories for Miami Businesses',
+    metaDescription:
+      'Not every business directory is worth your time. Here are the directories Miami businesses should list on first, the data aggregators that feed the rest, and what to skip.',
+    category: 'Local',
+    publishDate: '2026-06-15',
+    dateModified: '2026-06-15',
+    excerpt:
+      'There are hundreds of business directories, and most of them do nothing for your ranking. Here is the short list that actually matters for a Miami business, in the order you should claim them, plus the data aggregators that quietly populate everything else.',
+    faqs: [
+      {
+        question: 'Which single directory matters most for a Miami business?',
+        answer:
+          'Your Google Business Profile, by a wide margin. It is the listing that decides whether you appear in the map pack and on Google Maps, and it is free to claim and manage. Every other directory is supporting cast. If you only have time for one listing, make it a complete, accurate, verified Google Business Profile, then build outward from there.',
+      },
+      {
+        question: 'Should I pay a service to submit my business to hundreds of directories?',
+        answer:
+          'Be cautious. Bulk submission services often create thin or duplicate listings and submit inconsistent data that you then have to clean up later. A smaller set of accurate listings on directories that matter beats hundreds of low-quality ones. If you do use a paid service, prefer one that pushes data through the major aggregators and lets you control the exact name, address, and phone it submits.',
+      },
+      {
+        question: 'Are Miami or Florida-specific directories worth listing on?',
+        answer:
+          'The good ones are. A listing in your local chamber of commerce, a neighborhood business association, or a reputable Florida industry directory carries real local relevance and sometimes sends referral traffic on top of the citation value. The test is whether a real Miami audience uses the directory. Skip the generic, scraped "Miami business listing" sites that exist only to host ads.',
+      },
+      {
+        question: 'How many directories does a Miami business actually need?',
+        answer:
+          'There is no magic count, and quality beats volume every time. For most Miami businesses, a clean set of the core platforms plus the major aggregators and a handful of relevant industry and local directories, on the order of thirty to sixty accurate listings, covers the ground that matters. Chasing hundreds of obscure directories adds little and increases the risk of inconsistent data.',
+      },
+      {
+        question: 'Do I need a Yelp listing even if I do not like the platform?',
+        answer:
+          'For most Miami businesses, yes, at least a claimed and accurate one. Yelp is a major data source that feeds Apple Maps and other platforms, and it still ranks and converts well for restaurants, personal services, and certain audiences. You do not have to advertise on it, but leaving the listing unclaimed or inconsistent costs you a citation and cedes control of how your business appears.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'Of the hundreds of business directories online, only a few dozen do real work for a Miami business. The ones that matter are the core platforms customers actually use, the data aggregators that feed everything downstream, and the local and industry directories with a genuine Miami audience. List on those accurately, in that order, and ignore the long tail.' },
+      { type: 'p', text: 'Citations are only as valuable as they are consistent and credible, so where you list matters as much as how many places you appear. This article is part of our guide to [building consistent citations](/guides/local-citations-and-nap-consistency/), and focuses on choosing the right directories rather than cleaning up the ones you already have.' },
+
+      { type: 'h2', text: 'Start with the core platforms' },
+      { type: 'p', text: 'A handful of platforms carry far more weight than the rest combined, and every Miami business should claim and complete these first. Your Google Business Profile leads the list, because it directly powers the map pack and Google Maps. After that come Apple Maps, which serves every iPhone user asking Siri or Maps for a nearby business, and Bing Places, which feeds Microsoft and some voice and in-car systems.' },
+      { type: 'p', text: 'Yelp and Facebook round out the core set. Both are high-authority citations in their own right, and Yelp in particular is a data source other platforms pull from, so an inconsistent Yelp listing can quietly spread bad data elsewhere. Claim each one, verify it, and make sure the name, address, and phone match exactly across all five before you go any further.' },
+      { type: 'list', items: [
+        'Google Business Profile: the single most important listing, and the foundation of the map pack.',
+        'Apple Maps: reaches every iPhone user searching Maps or asking Siri.',
+        'Bing Places: feeds Microsoft search and several voice and automotive systems.',
+        'Yelp: a high-authority citation and a data source that feeds other platforms.',
+        'Facebook: a widely used listing and a trust signal for many local customers.',
+      ] },
+
+      { type: 'h2', text: 'Use the data aggregators to cover the long tail' },
+      { type: 'p', text: 'Below the core platforms sit the data aggregators, the wholesalers of business information in the United States. They collect and distribute business data to hundreds of smaller directories, apps, and services automatically. Getting your accurate listing into the major aggregators is the efficient way to populate dozens of downstream directories correctly without claiming each one by hand.' },
+      { type: 'p', text: 'The flip side is that aggregators are also how bad data spreads. If an aggregator holds an old address or a former phone number for your business, it will keep pushing that wrong information out to smaller sites no matter how many individual listings you fix. That is why correcting your data at the aggregator level is usually a better investment than chasing one obscure directory at a time, a point that matters even more for established Miami businesses that have changed address or rebranded over the years.' },
+
+      { type: 'h2', text: 'Add the industry and Miami-specific directories that count' },
+      { type: 'p', text: 'Once the core platforms and aggregators are clean, the highest-value additions are directories with genuine relevance to your industry or your city. Industry directories signal topical relevance: Avvo for attorneys, Healthgrades for medical practices, Houzz for home and design, TripAdvisor for hospitality. A listing on the right industry platform is worth more than a dozen general ones because it sits in a context Google associates with your line of work.' },
+      { type: 'p', text: 'Local directories do the same job for geography. A listing with the Greater Miami Chamber of Commerce, a neighborhood business association, or a reputable Florida directory reinforces that your business is genuinely part of the local community, which is exactly what local ranking systems try to measure. For a business rooted in a specific area like [Doral](/location/doral/) or Little Havana, the neighborhood and Spanish-language community directories that real residents actually use can be especially worthwhile. The filter is simple: list where a real Miami audience looks, and skip the scraped directories that exist only to serve ads.' },
+
+      { type: 'h2', text: 'What to skip, and why volume backfires' },
+      { type: 'p', text: 'Plenty of services promise to blast your business across hundreds or thousands of directories. For local SEO this is mostly noise, and it can actively hurt you. Mass submission tools frequently introduce inconsistent name, address, and phone data, create duplicate listings, and place you on low-quality sites that pass no value and that Google may discount entirely. You then inherit the cleanup, which is slower and costlier than careful listing would have been.' },
+      { type: 'p', text: 'The better mental model is a clean set rather than a big set. A few dozen accurate, consistent listings on directories people actually use will outperform a sprawling footprint of thin ones every time. If a directory has no real audience, no editorial standards, and no relevance to Miami or your industry, being listed there adds nothing worth the risk to your data consistency.' },
+
+      { type: 'h2', text: 'A practical order of operations' },
+      { type: 'p', text: 'Work from most important to least. Claim and fully complete your Google Business Profile first, following the official guidance in the [Google Business Profile Help Center](https://support.google.com/business/answer/3038177) so the listing is verified and accurate. Next, claim Apple Maps, Bing Places, Yelp, and Facebook with identical details. Then push your data through the major aggregators, and finally add the industry and local directories that fit your business. Decide your exact name, address, and phone format before you start, so every listing matches from the first entry.' },
+      { type: 'p', text: 'Done in this order, directory building is a finite project rather than an endless one. If your business has a long Miami history and the listing landscape already looks tangled, we connect you with vetted [citation building specialists](/services/local-citation-building/) who handle selection, submission, and consistency as a single piece of work. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do.' },
+    ],
+  },
+
 ];
 
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>

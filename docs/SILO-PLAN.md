@@ -93,11 +93,11 @@ UK SEO sites.
 
 ## 8. Status tracker
 
-10 hubs built. Spokes: 4 published + 8 draft buffer = 12 written of ~100 target. Buffer (parked drafts awaiting publisher): 8. Round-robin pass 2: H1 (GBP categories), H2 (map-pack rank tracking, 2026-06-13) done; next: H3.
+10 hubs built. Spokes: 4 published + 9 draft buffer = 13 written of ~100 target. Buffer (parked drafts awaiting publisher): 9. Round-robin pass 2: H1 (GBP categories), H2 (map-pack rank tracking), H3 (best local directories, 2026-06-15) done; next: H4.
 
 ## Slug rules (writer: follow on every spoke)
 
 Kebab-case: lowercase, hyphens only, ASCII only, 3-6 words, under ~60 chars.
 Do NOT: include a year/date; reuse or near-duplicate an existing slug; use a
 reserved head term or the parent hub's head term; keyword-stuff or repeat a word;
-use stop words (a/the/to/for). Never rename or reuse 
+use stop words (a/the/to/for). Never rename or reuse a published slug.
