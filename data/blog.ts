@@ -981,6 +981,80 @@ export const blogArticles: BlogArticle[] = [
     ],
   },
 
+  {
+    slug: 'local-keyword-research-miami-business',
+    hub: 'on-page-local-seo',
+    draft: true,
+    title: 'How to do local keyword research for a Miami business',
+    metaTitle: 'Local Keyword Research for Miami Businesses',
+    metaDescription:
+      'How to find the keywords Miami customers actually search: service and neighborhood modifiers, Spanish-language demand, free research tools, and mapping terms to pages.',
+    category: 'Strategy',
+    publishDate: '2026-06-15',
+    dateModified: '2026-06-15',
+    excerpt:
+      'Local keyword research is the map that guides every other on-page decision. Here is how Miami businesses find the terms customers actually search, account for the bilingual market, and map each keyword to the right page.',
+    faqs: [
+      {
+        question: 'How is local keyword research different from regular keyword research?',
+        answer:
+          'Regular keyword research tends to chase search volume and broad topics. Local research chases intent and geography. A Miami business does not need to rank for general industry tips; it needs the specific service-plus-place terms its customers type when they are ready to hire, such as "ac repair coral gables" or "personal injury lawyer brickell". The buyer is usually nearby and close to a decision, so a lower-volume local term is far more valuable than a high-volume national one.',
+      },
+      {
+        question: 'Should I research keywords in Spanish for my Miami business?',
+        answer:
+          'If you serve any of Miami\'s heavily Spanish-speaking areas, yes. A large share of Miami-Dade residents search in Spanish, and phrases like "plomero en doral" or "abogado de accidentes" carry real demand that English-only research never surfaces. The key is to research the Spanish terms natively rather than translating your English list, because the words customers actually use are often not direct translations.',
+      },
+      {
+        question: 'Do I need paid tools for local keyword research?',
+        answer:
+          'No. Most of the work can be done with free sources. Google autocomplete, the "People also ask" and "related searches" boxes, your Google Business Profile insights, and Search Console all reveal terms real customers use. Google\'s Keyword Planner adds volume ranges at no cost. Paid tools speed up competitor analysis and clustering, but a careful Miami business can build a strong keyword map without them.',
+      },
+      {
+        question: 'How do I know which keyword goes on which page?',
+        answer:
+          'Match the keyword to the intent behind it. Transactional service-plus-neighborhood terms belong on service pages or location pages, where you have an offer and proof. Informational questions belong in guides or blog posts that answer them. The common mistake is forcing every term onto the homepage. Mapping intent to page type tells you both where a keyword belongs and which new pages are worth building.',
+      },
+      {
+        question: 'How often should I redo keyword research?',
+        answer:
+          'Treat it as a living list, not a one-time project. Revisit it a few times a year and whenever you add a service or service area. Miami demand is also seasonal, shifting around hurricane preparation and the winter influx of seasonal residents, so checking your terms ahead of those cycles helps you publish before demand peaks rather than after.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'Local keyword research for a Miami business means finding the exact words your customers type when they want what you sell, then matching each one to the right page. It blends service terms with neighborhoods, accounts for Miami\'s bilingual market, and prioritizes intent over raw search volume.' },
+      { type: 'p', text: 'Done well, it is the map that directs every other on-page decision, from your title tags to your service pages. This article is part of [the wider on-page local SEO playbook](/guides/on-page-local-seo/), and walks through how to research and prioritize the keywords that actually bring Miami customers to your door.' },
+
+      { type: 'h2', text: 'Why local research is a different job' },
+      { type: 'p', text: 'National keyword research chases volume and broad topics. Local research chases intent and geography. A Brickell plumber does not need to rank for "plumbing tips"; they need "emergency plumber brickell" and the Spanish equivalents, because the person searching that is close by, ready to act, and thinking about location. A lower-volume local term that converts beats a high-volume national one that never calls.' },
+      { type: 'p', text: 'Two modifiers dominate local queries: the service and the place. Sometimes the place is explicit, as in "water heater repair coral gables"; sometimes it is implicit in a "near me" search where Google supplies the location from the device. Good research has to cover both the spelled-out neighborhood queries and the implied ones.' },
+
+      { type: 'h2', text: 'Build seed terms from how customers actually speak' },
+      { type: 'p', text: 'Start by listing every service in plain customer language, not industry jargon. People search "ac repair", not "HVAC remediation". Then layer in the neighborhoods you genuinely serve: Brickell, Wynwood, Coral Gables, Doral, Little Havana, and the rest of your real service area. Each service crossed with each area is a seed term worth checking.' },
+      { type: 'p', text: 'Miami adds a bilingual layer most US cities do not. With a large Spanish-speaking population, many customers search in Spanish: "plomero en doral", "abogado de accidentes miami". For businesses serving areas like [Doral](/location/doral/) and [Little Havana](/location/little-havana/), researching Spanish keywords independently, rather than translating the English ones, surfaces demand that monolingual research misses entirely.' },
+      { type: 'list', items: [
+        'Service terms in plain, customer-facing language.',
+        'Neighborhood and "near me" variants for each service.',
+        'Spanish-language equivalents, researched natively rather than translated.',
+        'Question phrases customers ask before buying, such as cost and timing questions.',
+      ] },
+
+      { type: 'h2', text: 'Expand the list and find the gaps' },
+      { type: 'p', text: 'Once you have seeds, expand them with free sources. Google autocomplete and the "People also ask" and "related searches" boxes show real query variations at no cost. Google\'s [Keyword Planner](https://support.google.com/google-ads/answer/7337243) provides volume ranges and fresh ideas, and your own Google Business Profile insights and Search Console reveal the terms already bringing you impressions, which are often your easiest wins to reinforce.' },
+      { type: 'p', text: 'Then study the competitors already ranking in the neighborhoods you want. The services and phrases on their pages reveal terms you may have overlooked, and the queries no local competitor has covered well are your fastest openings. In a dense market like Miami, an underserved long-tail term is frequently easier to win than a crowded head term.' },
+
+      { type: 'h2', text: 'Map each keyword to the right page' },
+      { type: 'p', text: 'A keyword list is only useful once every term has a home. Match the intent to the page type: transactional service-plus-neighborhood queries belong on service pages or location pages where you have an offer and local proof, while informational questions belong in guides and blog posts. Forcing everything onto the homepage is the single most common mistake and the easiest to avoid.' },
+      { type: 'p', text: 'This mapping also drives your internal linking and tells you what to build next. A cluster of unanswered "how much does X cost in Miami" questions is a content brief; a strong "[service] [neighborhood]" term with no dedicated page is a reason to build one. Our network of vetted [on-page SEO specialists](/services/on-page-local-seo/) does this mapping at scale, but the logic is the same whether you handle it yourself or hand it off.' },
+
+      { type: 'h2', text: 'Mistakes that waste the effort' },
+      { type: 'p', text: 'The biggest trap is chasing volume over intent. A broad citywide category term sends unqualified traffic and is brutally competitive, while specific neighborhood-plus-service terms convert far better and rank sooner. Ignoring Spanish-language demand is a close second in Miami, and so is targeting head terms you cannot realistically win instead of the long-tail queries where you can.' },
+      { type: 'p', text: 'Two more quietly drain results: stuffing the same term across several pages, which makes them compete with each other, and treating research as a one-time task. Miami demand shifts with the seasons, so a list built once and never revisited slowly drifts out of step with what customers are actually searching.' },
+
+      { type: 'p', text: 'Keyword research is the cheapest high-leverage work in local SEO, because it makes every downstream decision more accurate. If you would rather have it done as part of a structured on-page program, we connect Miami businesses with vetted specialists who research, map, and track the terms that bring you customers. Matching is free and we do not deliver the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
+    ],
+  },
+
 ];
 
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>
