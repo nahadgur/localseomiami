@@ -93,11 +93,11 @@ UK SEO sites.
 
 ## 8. Status tracker
 
-10 hubs built. Spokes: 5 published + 10 draft buffer = 15 written of ~100 target. Buffer (parked drafts awaiting publisher): 10. Round-robin pass 2: H1 (GBP categories), H2 (map-pack rank tracking), H3 (best local directories), H4 (review gating + FTC rules), H5 (local keyword research, 2026-06-15) done; next: H6. Publisher: flipped fix-inconsistent-nap-miami-business-listings live 2026-06-15 (hub local-citations-and-nap-consistency, hub-only links, no live siblings yet).
+10 hubs built. Spokes: 5 published + 11 draft buffer = 16 written of ~100 target. Buffer (parked drafts awaiting publisher): 11. Round-robin pass 2: H1 (GBP categories), H2 (map-pack rank tracking), H3 (best local directories), H4 (review gating + FTC rules), H5 (local keyword research, 2026-06-15), H6 (toxic backlinks, 2026-06-16) done; next: H7. Publisher: flipped fix-inconsistent-nap-miami-business-listings live 2026-06-15 (hub local-citations-and-nap-consistency, hub-only links, no live siblings yet).
 
 ## Slug rules (writer: follow on every spoke)
 
 Kebab-case: lowercase, hyphens only, ASCII only, 3-6 words, under ~60 chars.
 Do NOT: include a year/date; reuse or near-duplicate an existing slug; use a
 reserved head term or the parent hub's head term; keyword-stuff or repeat a word;
-use stop words (a/the/to/for). Never ren
+use stop words (a/the/to/for). Never 

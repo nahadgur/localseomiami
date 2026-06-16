@@ -1055,6 +1055,81 @@ export const blogArticles: BlogArticle[] = [
     ],
   },
 
+  {
+    slug: 'toxic-backlinks-hurt-miami-rankings',
+    hub: 'local-link-building',
+    draft: true,
+    title: 'Toxic backlinks that can hurt your Miami rankings',
+    metaTitle: 'Toxic Backlinks That Hurt Miami Rankings',
+    metaDescription:
+      'Not every backlink helps. How Miami businesses spot toxic links and link schemes that can sink map pack rankings, and how to clean them up safely.',
+    category: 'Strategy',
+    publishDate: '2026-06-16',
+    dateModified: '2026-06-16',
+    excerpt:
+      'Bad backlinks are one of the few SEO problems that can actively pull your Miami business down the rankings. Here is how to recognize toxic links and link schemes, understand how much damage they really do, and clean up a profile that has picked up the wrong kind of links.',
+    faqs: [
+      {
+        question: 'What makes a backlink toxic?',
+        answer:
+          'A link is toxic when it exists to manipulate rankings rather than because a real site genuinely chose to reference you. The usual signals are irrelevance (a link from an unrelated site in another industry or country), low quality (spun or auto-generated content, link farms, expired-domain networks), and paid placement without a sponsored or nofollow tag. One or two odd links are normal and harmless; a pattern of irrelevant, manipulative links is what causes problems.',
+      },
+      {
+        question: 'Will a few bad links actually get my site penalized?',
+        answer:
+          'Usually not on their own. Google says it ignores most low-quality links automatically rather than penalizing for them, because anyone could otherwise point spam at a competitor. The real risk comes from a deliberate pattern of manipulative links you built or bought, which can trigger ranking suppression or, less commonly, a manual action in Search Console. A handful of random spammy links pointing at your Brickell or Doral business is almost always safe to leave alone.',
+      },
+      {
+        question: 'Are paid links always against Google\'s rules?',
+        answer:
+          'No. Paying to sponsor a real Miami event, charity, or publication and receiving a link is fine, as long as that link is marked sponsored or nofollow so it does not pass ranking credit. What violates Google\'s link spam policies is paying for links that pass credit, buying links in bulk, or trading links through a network. The deciding factor is whether the link is disclosed and whether a real relationship sits behind it.',
+      },
+      {
+        question: 'Should I use Google\'s disavow tool?',
+        answer:
+          'Rarely, and carefully. The disavow tool tells Google to ignore specific links, and it is meant for cases where you have a manual action or built a large volume of manipulative links you cannot remove. For most Miami small businesses that never bought links, disavowing is unnecessary and can do harm if you accidentally disavow links that were actually helping. Treat it as a last resort, ideally with a specialist reviewing the list first.',
+      },
+      {
+        question: 'How do I tell a link-building offer is a scheme?',
+        answer:
+          'Watch for promises of a large number of links fast and cheap, "guaranteed DA50+ backlinks", private blog networks, link exchanges, and offers of generic guest posts on unrelated sites. Anything that sells links by volume rather than describing a real relationship or a genuine reason a site would reference you is a scheme. A simple test: if you would be uncomfortable explaining the link to a Google reviewer out loud, do not buy it.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'Most backlinks either help your Miami business or do nothing at all. A small number actively hurt. Toxic backlinks are links built to manipulate rankings rather than earned from real sites, and a deliberate pattern of them can suppress your map pack visibility or trigger a penalty. Knowing how to spot them, and how much they really matter, keeps you from both the danger and the panic.' },
+      { type: 'p', text: 'Link building is the corner of local SEO where shortcuts are sold hardest and where the shortcuts do the most damage. This article is part of our guide to [building authority through local links](/guides/local-link-building/), and it covers the defensive side: which links are risky, how Google actually treats them, and how to clean up a profile that has picked up the wrong kind of attention.' },
+
+      { type: 'h2', text: 'What makes a backlink toxic' },
+      { type: 'p', text: 'A healthy backlink is relevant, comes from a site real people visit, and exists because someone genuinely chose to reference you. A toxic backlink fails those tests. The clearest warning signs are irrelevance, a link from a site with no connection to your industry or to the Miami market, and obvious manipulation, where the linking page exists only to host links rather than to serve readers.' },
+      { type: 'p', text: 'In practice the toxic patterns repeat. Links from spun or auto-generated content, from link farms and private blog networks, from expired domains repurposed to pass credit, and from bulk offshore directories that list thousands of unrelated businesses all fall into the same bucket. A pile of identical anchor text pointing at one page, especially exact-match commercial phrases, is another tell, because natural links rarely all read the same way.' },
+
+      { type: 'h2', text: 'The link schemes Miami businesses fall for' },
+      { type: 'p', text: 'The schemes are easy to recognize once you know the shape of them. They are almost always sold on volume and speed: hundreds of links for a flat fee, "first page guaranteed", or packages priced by the domain authority of the linking sites. Real link earning does not work that way, so the pitch itself is the warning.' },
+      { type: 'list', items: [
+        'Bulk paid links sold by the hundred, usually with no disclosure and no real site behind them.',
+        'Private blog networks (PBNs), clusters of sites built solely to link out and pass credit.',
+        'Link exchanges, "you link to me and I link to you" at scale, which Google treats as a scheme.',
+        'Generic guest posts placed on unrelated sites purely for the link, with no real readership.',
+        'Mass directory submissions to low-quality or foreign directories that list everyone.',
+      ] },
+      { type: 'p', text: 'These all violate Google\'s link spam policies, which treat links intended to manipulate ranking as a violation rather than a tactic. Google documents the categories plainly in its [link spam policies](https://developers.google.com/search/docs/essentials/spam-policies), worth reading before you ever pay for a link. The legitimate alternative, earning links through real sponsorships, partnerships, and press, is slower but durable, and it is the only approach that compounds instead of putting you at risk.' },
+
+      { type: 'h2', text: 'How much damage toxic links really do' },
+      { type: 'p', text: 'This is where most advice overstates the threat. Google has said for years that it ignores the vast majority of low-quality links automatically, precisely because it cannot punish a site for links anyone could build against a competitor. If a spammy directory in another country scrapes your Wynwood gallery and lists it, that link almost certainly does nothing, good or bad, and you can leave it alone.' },
+      { type: 'p', text: 'The real risk is self-inflicted. A deliberate pattern of manipulative links that you built or bought is different from random spam, and it can lead to ranking suppression or, in clearer cases, a manual action that shows up in Google Search Console. The practical line is simple: links other people point at you are rarely your problem, while links you commissioned to game the system are the ones that can cost you. That is the strongest argument for never buying links in the first place.' },
+
+      { type: 'h2', text: 'Auditing your backlink profile' },
+      { type: 'p', text: 'You cannot judge your link risk without seeing your links. Google Search Console shows the sites linking to you for free, which is enough for most small Miami businesses to spot anything alarming. Dedicated backlink tools give a fuller picture and flag suspicious patterns, which matters more for an established business that has changed hands, rebranded, or worked with past agencies whose methods you cannot vouch for.' },
+      { type: 'p', text: 'As you review, sort links into three groups: clearly good (relevant, local, real sites), clearly junk that you can ignore (random scraped spam you never sought), and the worrying middle, links that look like they were bought or built to manipulate. It is that middle group, especially anything a previous provider created, that deserves attention. If your business operates across several neighborhoods or in both English and Spanish, check that old listings and past campaigns have not left a trail of manufactured links behind.' },
+
+      { type: 'h2', text: 'Cleaning up and the disavow question' },
+      { type: 'p', text: 'When you find genuinely toxic links you commissioned, the cleanest fix is removal: ask the linking site to take the link down. That is slow and often unanswered, which is why the disavow tool exists. Disavowing tells Google to ignore specific links, and it is designed for the narrow case of a manual action or a large self-built spam problem you cannot otherwise undo.' },
+      { type: 'p', text: 'For the typical Miami small business that never bought links, disavowing is unnecessary and can backfire, because disavowing a link that was actually helping quietly removes its benefit. Treat the tool as a last resort, use it conservatively, and ideally have someone experienced review the list before you submit it. If you are unsure whether your profile carries real risk, that uncertainty itself is a reason to get a second opinion rather than guess.' },
+
+      { type: 'p', text: 'The safest backlink strategy is the boring one: earn relevant local links through real relationships and never buy your way to volume. If you have inherited a questionable link profile or simply want it assessed properly, we connect Miami businesses with vetted [link building specialists](/services/local-link-building/) who audit, clean up, and rebuild link profiles the right way. Matching is free and we do not deliver the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
+    ],
+  },
+
 ];
 
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>
