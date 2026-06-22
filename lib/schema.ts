@@ -46,6 +46,36 @@ export function buildArticleSchema(opts: ArticleOpts) {
   };
 }
 
+// Named operator (Vim) for the about + case-study pages. A real person, used
+// for E-E-A-T alongside the editorial Organization.
+const PERSON_ID = `${siteConfig.url}/#owner`;
+
+export function personSchema(opts: { name: string; jobTitle: string; description?: string }) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': PERSON_ID,
+    name: opts.name,
+    jobTitle: opts.jobTitle,
+    ...(opts.description ? { description: opts.description } : {}),
+    worksFor: { '@id': ORG_ID },
+    url: `${siteConfig.url}/about/`,
+  };
+}
+
+export function breadcrumbListSchema(crumbs: { name: string; path: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: c.name,
+      item: `${siteConfig.url}${c.path}`,
+    })),
+  };
+}
+
 export function buildFaqPageSchema(faqs: { question: string; answer: string }[]) {
   return {
     '@context': 'https://schema.org',

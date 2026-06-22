@@ -12,6 +12,7 @@ const navLinks = [
   { href: '/guides/',   label: 'Guides' },
   { href: '/location/', label: 'Neighborhoods' },
   { href: '/blog/',     label: 'Insights' },
+  { href: '/case-studies/', label: 'Case studies' },
   { href: '/about/',    label: 'About' },
 ];
 

@@ -1,21 +1,47 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { ArrowRight, Check } from 'lucide-react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
-import { siteConfig } from '@/data/site';
+import { siteConfig, owner } from '@/data/site';
+import { caseStudies, caseTotals } from '@/data/caseStudies';
+import { personSchema, breadcrumbListSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
   title: 'About the matching service',
   description:
-    'Local Miami SEO is a free matching service connecting Miami businesses with vetted local SEO specialists. We are not an SEO agency, we introduce businesses to qualified specialists.',
+    'Local Miami SEO is a free matching service run by Vim, a working local-SEO specialist, connecting Miami businesses with vetted specialists. We are not an SEO agency, we introduce businesses to qualified specialists.',
   alternates: { canonical: '/about/' },
   robots: { index: true, follow: true },
 };
 
+const principles = [
+  'Live ranking results and real Search Console data, never fabricated reviews or stats',
+  'You pay only the specialist, at their rate, with no markup and no commission',
+  'A real person reads and routes every enquiry',
+  'Specialists re-verified every six months, paused or removed if their work goes stale',
+];
+
 export default function AboutPage() {
+  const proof = [
+    { v: caseTotals.rankingKeywords, l: 'keywords ranking on Google' },
+    { v: caseTotals.page1Keywords, l: 'keywords on page one' },
+    { v: caseTotals.top3Keywords, l: 'keywords in the top three' },
+    { v: String(caseTotals.projects), l: 'projects built and grown' },
+  ];
+  const featured = caseStudies.slice(0, 3);
+  const schema = [
+    personSchema({ name: owner.name, jobTitle: owner.jobTitle, description: owner.bio }),
+    breadcrumbListSchema([
+      { name: 'Home', path: '/' },
+      { name: 'About', path: '/about/' },
+    ]),
+  ];
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <Header />
       <main className="flex-grow bg-bone">
         <section className="bg-ink text-white">
@@ -28,6 +54,101 @@ export default function AboutPage() {
             <p className="text-[15px] lg:text-[17px] text-white/80 max-w-2xl leading-relaxed">
               {siteConfig.name} is a free matching service. We read your enquiry, connect you with up to three vetted local SEO specialists who have live ranking results in your sector and Miami sub-market, and step back. Businesses pay nothing for matching, only the specialist for the work.
             </p>
+          </div>
+        </section>
+
+        {/* Who runs it */}
+        <section className="container-width py-14 border-b border-ink/10">
+          <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-10 lg:gap-14 lg:items-center">
+            <div className="bg-white border border-ink/10 rounded-lg p-7">
+              <div className="flex items-center gap-4">
+                <span className="grid h-16 w-16 shrink-0 place-items-center rounded-full bg-brand-500 font-display text-3xl font-bold text-white">
+                  {owner.name.charAt(0)}
+                </span>
+                <div>
+                  <p className="font-display font-bold text-[20px] text-ink">{owner.name}</p>
+                  <p className="text-[13px] text-brand-600">{owner.jobTitle}</p>
+                </div>
+              </div>
+              <p className="mt-5 text-[14.5px] text-ink/70 leading-relaxed">{owner.bio}</p>
+              <div className="mt-6 grid grid-cols-2 gap-4 border-t border-ink/10 pt-5">
+                {proof.slice(0, 2).map((s) => (
+                  <div key={s.l}>
+                    <div className="font-display font-bold text-[22px] text-brand-600">{s.v}</div>
+                    <div className="mt-1 text-[11.5px] text-ink/50 leading-snug">{s.l}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <p className="eyebrow mb-3">Who runs the network</p>
+              <h2 className="font-display font-bold text-[26px] lg:text-[34px] text-ink leading-tight mb-4">
+                Run by a working local-SEO specialist
+              </h2>
+              <p className="text-[15.5px] text-ink/75 leading-relaxed mb-6">
+                You are not dealing with a faceless directory. {siteConfig.name} is run by {owner.name}, who builds and
+                ranks local sites first-hand and vets every specialist in the network against that same standard. The
+                monthly accountability is simple: live ranking work and real Search Console numbers, nothing inflated.
+              </p>
+              <ul className="space-y-2.5">
+                {principles.map((p) => (
+                  <li key={p} className="flex items-start gap-3 text-[14.5px] text-ink/80 leading-relaxed">
+                    <Check size={16} className="mt-0.5 shrink-0 text-accent-600" />
+                    {p}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Track record */}
+        <section className="bg-ink text-white">
+          <div className="container-width py-16">
+            <div className="max-w-2xl">
+              <p className="eyebrow text-brand-300 mb-3">The track record</p>
+              <h2 className="font-display font-bold text-[26px] lg:text-[36px] leading-tight mb-4">
+                The proof is in the search results
+              </h2>
+              <p className="text-[15px] lg:text-[16px] text-white/75 leading-relaxed">
+                The clearest way to judge a local-SEO operator is the rankings they produce. Here is what recent
+                portfolio projects have done, with every figure pulled straight from Google Search Console. The same bar
+                is what we hold every Miami specialist in the network to.
+              </p>
+            </div>
+
+            <div className="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-4">
+              {proof.map((s) => (
+                <div key={s.l} className="rounded-lg border border-white/12 bg-white/[0.04] p-5">
+                  <div className="font-display font-bold text-[26px] lg:text-[32px] text-brand-300">{s.v}</div>
+                  <div className="mt-1.5 text-[12px] text-white/55 leading-snug">{s.l}</div>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-8 grid gap-5 md:grid-cols-3">
+              {featured.map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/case-studies/${c.slug}/`}
+                  className="group flex flex-col rounded-lg border border-white/12 bg-white/[0.04] p-6 hover:border-brand-300/60 transition-colors"
+                >
+                  <div className="font-display font-bold text-[28px] text-white leading-none">{c.headline.value}</div>
+                  <div className="mt-1.5 text-[12px] text-white/55">{c.headline.label}</div>
+                  <p className="mt-4 font-display font-semibold text-[15px] text-white group-hover:text-brand-300 transition-colors">
+                    {c.name}
+                  </p>
+                  <p className="mt-1 flex-1 text-[12.5px] text-white/55 leading-relaxed">{c.vertical} · {c.location}</p>
+                  <span className="mt-4 inline-flex items-center gap-1 text-[12px] font-bold text-brand-300">
+                    Read the case study <ArrowRight size={11} />
+                  </span>
+                </Link>
+              ))}
+            </div>
+
+            <Link href="/case-studies/" className="mt-8 inline-flex items-center gap-2 btn-on-dark text-[14px]">
+              See all case studies <ArrowRight size={14} />
+            </Link>
           </div>
         </section>
 

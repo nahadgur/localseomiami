@@ -13,6 +13,17 @@ export const siteConfig = {
   gaId: 'G-0QD5MP5KLC',
 };
 
+// The named operator who runs the matching service and personally vets the
+// specialists. A real person (not invented) for E-E-A-T. The portfolio in
+// data/caseStudies.ts is this operator's own local-SEO track record, with
+// every figure backed by Google Search Console.
+export const owner = {
+  name: 'Vim',
+  jobTitle: 'Founder and local SEO specialist',
+  bio:
+    'Local Miami SEO is run by Vim, a working local-SEO specialist, not a faceless directory. Every specialist in the network is vetted personally against the same bar Vim holds for his own work: live ranking results, real Search Console data, no inflated promises. The portfolio speaks to that bar, a set of US local sites taken from launch to page-one Google rankings across very different niches, with every number pulled straight from Search Console.',
+};
+
 // Real client testimonials only. Empty until verifiable reviews are
 // collected; fabricated testimonials are an E-E-A-T risk.
 export const TESTIMONIALS: {
