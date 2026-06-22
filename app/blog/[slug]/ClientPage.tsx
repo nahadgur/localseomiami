@@ -162,12 +162,6 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         <div className="container-width py-12 lg:py-16">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-14">
             <article className="lg:col-span-2">
-              {hub && (
-                <p className="text-[13px] text-ink/70 mb-6">
-                  Part of our guide:{' '}
-                  <Link href={`/guides/${hub.slug}/`} className="font-semibold text-brand-600 hover:text-brand-700">{hub.title}</Link>
-                </p>
-              )}
               {article.content.map(renderBlock)}
               {article.faqs && article.faqs.length > 0 && (
                 <div className="mt-10">
