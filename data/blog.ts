@@ -761,7 +761,7 @@ export const blogArticles: BlogArticle[] = [
     ],
     content: [
       { type: 'p', text: 'Your Google Business Profile categories decide which searches you are even eligible to rank for. The primary category is the single strongest signal: choose the most specific option that matches your core business, add only the secondary categories you genuinely deliver, and resist the temptation to stuff broad categories in hope of wider reach.' },
-      { type: 'p', text: 'Category selection sounds like a thirty-second form field, but it shapes everything downstream, from the queries your profile can appear for to the features Google shows on it. This article is part of our guide to [optimizing your Google Business Profile](/guides/google-business-profile-optimization/) and walks through how to get the choice right for a Miami business.' },
+      { type: 'p', text: 'Category selection sounds like a thirty-second form field, but it shapes everything downstream, from the queries your profile can appear for to the features Google shows on it. Getting the choice right means matching the primary category to the service that actually drives revenue, then using secondary categories only where they describe genuine additional services.' },
 
       { type: 'h2', text: 'Why categories carry so much weight' },
       { type: 'p', text: 'Google matches local searches to businesses largely through categories. When someone in Brickell searches "personal injury attorney", Google assembles the map pack from profiles whose categories say that is what they are. If your primary category is the generic "Lawyer" rather than "Personal injury attorney", you are competing for the broad query and ceding the specific one to competitors who chose more precisely.' },
