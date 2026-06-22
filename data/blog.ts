@@ -722,13 +722,13 @@ export const blogArticles: BlogArticle[] = [
   {
     slug: 'choose-google-business-profile-categories-miami',
     hub: 'google-business-profile-optimization',
-    draft: true,
+    draft: false,
     title: 'How to choose the right Google Business Profile categories for your Miami business',
     metaTitle: 'Choosing GBP Categories for Miami Businesses',
     metaDescription:
       'Your primary Google Business Profile category is one of the strongest local ranking signals you control. How Miami businesses should pick it, which secondary categories to add, and what to avoid.',
     category: 'GBP',
-    publishDate: '2026-06-13',
+    publishDate: '2026-06-22',
     dateModified: '2026-06-13',
     excerpt:
       'Google only ranks your business for searches that match your categories, and most Miami profiles either pick a primary category that is too broad or stuff secondaries that dilute it. Here is how to choose categories that match what you actually sell.',
