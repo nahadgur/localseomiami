@@ -1130,6 +1130,67 @@ export const blogArticles: BlogArticle[] = [
     ],
   },
 
+  {
+    slug: 'bilingual-google-business-profile-miami-spanish',
+    hub: 'google-business-profile-optimization',
+    draft: false,
+    title: 'Setting up a bilingual Google Business Profile for the Miami market',
+    metaTitle: 'Bilingual Google Business Profile for Miami (2026)',
+    metaDescription:
+      'Most of Miami-Dade speaks Spanish at home. How to set up a Google Business Profile that reaches English and Spanish searchers, from the description to reviews and Posts.',
+    category: 'GBP',
+    publishDate: '2026-06-27',
+    dateModified: '2026-06-27',
+    excerpt:
+      'A majority of Miami-Dade residents speak Spanish at home, yet most Google Business Profiles here are built for English searchers only. Here is how to make one profile work for both audiences without splitting your listing or breaking Google policy.',
+    faqs: [
+      {
+        question: 'Can I create two Google Business Profiles, one in English and one in Spanish?',
+        answer:
+          'No. Google allows one profile per real business location, and creating a second listing for the same address to target a different language is a duplicate, which can get both listings suspended. The correct approach is a single profile written in your primary language, with the second language carried through reviews, replies, Posts, and your services list rather than a separate listing.',
+      },
+      {
+        question: 'Which language should the business description be in?',
+        answer:
+          'Write it in the language most of your customers search in. For a Doral accountant serving a heavily Hispanic clientele that often means Spanish; for a Brickell firm targeting international corporate clients it usually means English. You do not have to choose blindly: check which language your existing reviews and inquiries come in, and match the description to your real demand rather than a guess.',
+      },
+      {
+        question: 'Does Google translate my profile for Spanish-speaking searchers automatically?',
+        answer:
+          'Partly. Google may show machine-translated snippets of your description and reviews to users browsing in another language, but those translations are rough and you do not control them. They are no substitute for genuinely bilingual signals like Spanish reviews, Spanish Post copy, and a services list that names what you do in both languages.',
+      },
+      {
+        question: 'Should I respond to Spanish reviews in Spanish?',
+        answer:
+          'Yes. A Spanish review answered in fluent Spanish reads as a business that genuinely serves that community, and the reply itself becomes indexable Spanish text on your profile. Answering a Spanish review with a translated-sounding English reply does the opposite, so have a native or fluent speaker write the responses rather than running them through a translator.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'A majority of Miami-Dade residents speak Spanish at home, which makes Miami one of the few US markets where ignoring the second language quietly cuts your reach in half. Yet most local Google Business Profiles here are built entirely for English searchers, with English descriptions, English-only Posts, and replies that read as if the Spanish reviews were never noticed. That gap is an opportunity, because the businesses that close it pick up demand their competitors leave on the table.' },
+      { type: 'p', text: 'The catch is that you cannot simply duplicate your listing in another language. This article is part of our [guide to optimizing your Google Business Profile](/guides/google-business-profile-optimization/), and it covers the bilingual side specifically: how to make one profile reach both audiences without breaking Google policy or diluting your ranking signals.' },
+
+      { type: 'h2', text: 'One profile, not two' },
+      { type: 'p', text: 'The first instinct, creating a second listing in Spanish, is the one mistake that can undo everything else. Google allows exactly one profile per real business location, and a second listing for the same address counts as a duplicate. Duplicates compete with each other, split your reviews, and frequently end with one or both listings suspended. The correct model is a single profile in your primary language, with the second language carried through the parts of the profile that accept ongoing text: reviews, replies, Posts, services, and questions.' },
+      { type: 'p', text: 'That single-listing rule sits alongside the other setup choices that decide how well you rank, like primary category and service-area configuration. If you have not worked through those yet, the [Google Business Profile mistakes Miami businesses make](/blog/google-business-profile-mistakes-miami-businesses-make/) covers the structural errors that bilingual polish cannot compensate for.' },
+
+      { type: 'h2', text: 'Pick the description language deliberately' },
+      { type: 'p', text: 'The business description is a single field, so it lives in one language. Choosing which one should follow your actual demand rather than a default assumption. A Doral accounting practice whose clients mostly call and search in Spanish is leaving relevance on the table with an English-only description, while a Brickell firm chasing international corporate work is usually right to lead in English.' },
+      { type: 'p', text: 'You can read your own demand directly. Look at the language your existing reviews arrive in, the language of the questions on your profile, and the language of the inquiries that reach you. Those signals tell you where your customers already are. If the split is genuinely even, lead the description in the language of your highest-value work and carry the other language heavily through reviews and Posts.' },
+
+      { type: 'h2', text: 'Carry the second language through reviews and replies' },
+      { type: 'p', text: 'Reviews are where a profile becomes genuinely bilingual, because they add real text in both languages that you did not have to force. A Little Havana restaurant with a healthy mix of Spanish and English reviews signals to Google and to searchers that it serves both communities, and that mix happens naturally if you ask every customer for a review in whichever language they used with you.' },
+      { type: 'p', text: 'Replies matter as much as the reviews themselves. Answer Spanish reviews in fluent Spanish and English reviews in English, because each reply is indexable text that reinforces the language it is written in. A Spanish review answered with a stiff, translated-sounding English reply tells the reader you do not really operate in their language. Have a native or fluent speaker write the Spanish responses rather than running them through a translator, where the seams always show.' },
+
+      { type: 'h2', text: 'Use Posts and the services list for the language the description lacks' },
+      { type: 'p', text: 'Google Business Profile Posts refresh constantly, which makes them the natural home for whichever language your description does not carry. If your description is in English, run a steady cadence of Spanish Posts, offers, updates, and events written for the Spanish-speaking customer, and the reverse if your description leads in Spanish. Over time those Posts give the profile a substantial body of text in both languages without any of it feeling bolted on.' },
+      { type: 'p', text: 'The services list works the same way. Each service can carry a short description, so name what you do in both languages where it reads naturally, for example pairing the English service title with a Spanish sentence that a local searcher would actually type. Google publishes the field-by-field rules for descriptions, Posts, and services in its own documentation, and the [Google Business Profile Help guidelines](https://support.google.com/business/answer/3038177) are worth checking before you fill anything in so your bilingual copy stays inside policy.' },
+
+      { type: 'h2', text: 'Why this matters more in Miami than almost anywhere' },
+      { type: 'p', text: 'The size of the Spanish-speaking population is what makes this a ranking issue rather than a nicety. The [US Census Bureau\'s figures for Miami-Dade County](https://www.census.gov/quickfacts/miamidadecountyflorida) show a county where a large majority speak a language other than English at home, overwhelmingly Spanish. A profile that speaks to only one of those audiences is competing for a fraction of the real local market, while a genuinely bilingual one is visible to nearly all of it.' },
+      { type: 'p', text: 'None of this requires two profiles, two strategies, or twice the work. It requires choosing the description language with intent and then letting reviews, replies, Posts, and services carry the rest. If you would rather have someone build and maintain a bilingual profile properly, we match Miami businesses with vetted [Google Business Profile specialists](/services/google-business-profile/) who handle the setup and the ongoing bilingual upkeep. Matching is free and we do not run the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
+    ],
+  },
+
 ];
 
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>
