@@ -3,27 +3,18 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { X, CheckCircle } from 'lucide-react';
-import { services } from '@/data/services';
 
 interface Props {
   isOpen: boolean;
   onClose: () => void;
+  // Accepted for backward compatibility with existing callers; no longer rendered.
   defaultService?: string;
   defaultArea?: string;
 }
 
 const GAS_URL = 'https://script.google.com/macros/s/AKfycbxNQ_PkYQvyEb-mgPJMHxaILsVYK5IJ5AZcuX0lpQ8WhV8aWv0_EPGuzJOVruyMsPuj/exec';
 
-const budgetRanges = [
-  'Under $1,000/mo',
-  '$1,000–$2,500/mo',
-  '$2,500–$5,000/mo',
-  '$5,000+/mo',
-  'One-time audit only',
-  'Not sure yet',
-];
-
-export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultArea = '' }: Props) {
+export function LeadFormModal({ isOpen, onClose }: Props) {
   const [mounted,    setMounted]    = useState(false);
   const [submitted,  setSubmitted]  = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -69,12 +60,10 @@ export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultAre
   function fieldIdForError(msg: string): string | null {
     const m = msg.toLowerCase();
     if (m.includes('name')) return 'm-name';
+    if (m.includes('phone')) return 'm-phone';
     if (m.includes('email')) return 'm-email';
-    if (m.includes('company')) return 'm-company';
-    if (m.includes('website')) return 'm-website';
-    if (m.includes('service') || m.includes('interest')) return 'm-svc';
-    if (m.includes('budget')) return 'm-budget';
-    if (m.includes('area') || m.includes('neighborhood') || m.includes('neighbourhood')) return 'm-area';
+    if (m.includes('website') || m.includes('site')) return 'm-website';
+    if (m.includes('message')) return 'm-message';
     return null;
   }
 
@@ -106,12 +95,10 @@ export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultAre
 
     const payload = {
       name:    (form.querySelector('#m-name')    as HTMLInputElement).value.trim(),
+      phone:   (form.querySelector('#m-phone')   as HTMLInputElement).value.trim(),
       email:   (form.querySelector('#m-email')   as HTMLInputElement).value.trim(),
-      company: (form.querySelector('#m-company') as HTMLInputElement).value.trim(),
       website: (form.querySelector('#m-website') as HTMLInputElement).value.trim(),
-      service: (form.querySelector('#m-svc')     as HTMLSelectElement).value,
-      budget:  (form.querySelector('#m-budget')  as HTMLSelectElement).value,
-      area:    (form.querySelector('#m-area')    as HTMLInputElement).value.trim(),
+      message: (form.querySelector('#m-message') as HTMLTextAreaElement).value.trim(),
       page:    window.location.pathname,
       source:  'modal',
     };
@@ -188,48 +175,27 @@ export function LeadFormModal({ isOpen, onClose, defaultService = '', defaultAre
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
-                  <label htmlFor="m-email" className={labelClass}>Work email *</label>
-                  <input id="m-email" type="email" required className={fieldClass} placeholder="you@company.com" autoComplete="email" />
+                  <label htmlFor="m-phone" className={labelClass}>Phone *</label>
+                  <input id="m-phone" type="tel" required className={fieldClass} placeholder="(305) 555-0100" autoComplete="tel" />
                 </div>
                 <div>
-                  <label htmlFor="m-company" className={labelClass}>Company *</label>
-                  <input id="m-company" type="text" required className={fieldClass} placeholder="Your business name" autoComplete="organization" />
+                  <label htmlFor="m-email" className={labelClass}>Email *</label>
+                  <input id="m-email" type="email" required className={fieldClass} placeholder="you@company.com" autoComplete="email" />
                 </div>
               </div>
 
               <div>
                 <label htmlFor="m-website" className={labelClass}>
-                  Current website <span className="text-ink/40 normal-case tracking-normal">(if any)</span>
+                  Website <span className="text-ink/40 normal-case tracking-normal">(optional)</span>
                 </label>
                 <input id="m-website" type="url" className={fieldClass} placeholder="https://example.com" autoComplete="url" />
               </div>
 
               <div>
-                <label htmlFor="m-svc" className={labelClass}>Primary interest *</label>
-                <select id="m-svc" required className={`${fieldClass} appearance-none cursor-pointer`} defaultValue={defaultService}>
-                  <option value="" disabled>Select the closest match...</option>
-                  {services.map(s => (
-                    <option key={s.slug} value={s.shortLabel}>{s.shortLabel}</option>
-                  ))}
-                  <option value="Full local SEO program">Full local SEO program</option>
-                  <option value="Not sure / discovery call">Not sure, want a discovery call</option>
-                </select>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div>
-                  <label htmlFor="m-budget" className={labelClass}>Monthly budget *</label>
-                  <select id="m-budget" required className={`${fieldClass} appearance-none cursor-pointer`} defaultValue="">
-                    <option value="" disabled>Range...</option>
-                    {budgetRanges.map(b => (
-                      <option key={b} value={b}>{b}</option>
-                    ))}
-                  </select>
-                </div>
-                <div>
-                  <label htmlFor="m-area" className={labelClass}>Miami neighborhood *</label>
-                  <input id="m-area" type="text" required className={fieldClass} placeholder="e.g. Brickell, Wynwood" defaultValue={defaultArea} />
-                </div>
+                <label htmlFor="m-message" className={labelClass}>
+                  Message <span className="text-ink/40 normal-case tracking-normal">(optional)</span>
+                </label>
+                <textarea id="m-message" rows={3} className={`${fieldClass} resize-none`} placeholder="Tell us a little about your goals" />
               </div>
 
               <label htmlFor="m-consent" className="flex items-start gap-2 text-[11px] text-ink/65 leading-relaxed cursor-pointer mt-1">

@@ -3,22 +3,14 @@
 import Link from 'next/link';
 import { useRef, useState } from 'react';
 import { CheckCircle } from 'lucide-react';
-import { services } from '@/data/services';
 
+// area / service accepted for backward compatibility with existing callers;
+// only used to tailor the heading copy, no longer collected as form fields.
 interface Props { area?: string; service?: string; }
 
 const GAS_URL = 'https://script.google.com/macros/s/AKfycbxNQ_PkYQvyEb-mgPJMHxaILsVYK5IJ5AZcuX0lpQ8WhV8aWv0_EPGuzJOVruyMsPuj/exec';
 
-const budgetRanges = [
-  'Under $1,000/mo',
-  '$1,000–$2,500/mo',
-  '$2,500–$5,000/mo',
-  '$5,000+/mo',
-  'One-time audit only',
-  'Not sure yet',
-];
-
-export function HeroLeadForm({ area, service }: Props) {
+export function HeroLeadForm({ area }: Props) {
   const [submitting, setSubmitting] = useState(false);
   const [done,       setDone]       = useState(false);
   const [error,      setError]      = useState('');
@@ -29,12 +21,10 @@ export function HeroLeadForm({ area, service }: Props) {
   function fieldIdForError(msg: string): string | null {
     const m = msg.toLowerCase();
     if (m.includes('name')) return 'hlf-name';
+    if (m.includes('phone')) return 'hlf-phone';
     if (m.includes('email')) return 'hlf-email';
-    if (m.includes('company')) return 'hlf-company';
-    if (m.includes('website')) return 'hlf-website';
-    if (m.includes('service') || m.includes('interest')) return 'hlf-svc';
-    if (m.includes('budget')) return 'hlf-budget';
-    if (m.includes('area') || m.includes('neighborhood') || m.includes('neighbourhood')) return 'hlf-area';
+    if (m.includes('website') || m.includes('site')) return 'hlf-website';
+    if (m.includes('message')) return 'hlf-message';
     return null;
   }
 
@@ -54,7 +44,7 @@ export function HeroLeadForm({ area, service }: Props) {
     const form = formRef.current!;
     setError('');
 
-    // Native HTML5 validation first — pulses the first invalid field
+    // Native HTML5 validation first, pulses the first invalid field
     // (empty required, invalid email format, etc.) and stops here.
     if (!form.checkValidity()) {
       const firstInvalid = form.querySelector(':invalid') as HTMLElement | null;
@@ -69,12 +59,10 @@ export function HeroLeadForm({ area, service }: Props) {
 
     const payload = {
       name:    (form.querySelector('#hlf-name')    as HTMLInputElement).value.trim(),
+      phone:   (form.querySelector('#hlf-phone')   as HTMLInputElement).value.trim(),
       email:   (form.querySelector('#hlf-email')   as HTMLInputElement).value.trim(),
-      company: (form.querySelector('#hlf-company') as HTMLInputElement).value.trim(),
       website: (form.querySelector('#hlf-website') as HTMLInputElement).value.trim(),
-      service: (form.querySelector('#hlf-svc')     as HTMLSelectElement).value,
-      budget:  (form.querySelector('#hlf-budget')  as HTMLSelectElement).value,
-      area:    (form.querySelector('#hlf-area')    as HTMLInputElement)?.value?.trim() ?? area ?? '',
+      message: (form.querySelector('#hlf-message') as HTMLTextAreaElement).value.trim(),
       page:    typeof window !== 'undefined' ? window.location.pathname : '',
       source:  'hero-form',
     };
@@ -141,50 +129,27 @@ export function HeroLeadForm({ area, service }: Props) {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
-            <label htmlFor="hlf-email" className={labelClass}>Work email *</label>
-            <input id="hlf-email" type="email" required className={fieldClass} placeholder="you@company.com" autoComplete="email" />
+            <label htmlFor="hlf-phone" className={labelClass}>Phone *</label>
+            <input id="hlf-phone" type="tel" required className={fieldClass} placeholder="(305) 555-0100" autoComplete="tel" />
           </div>
           <div>
-            <label htmlFor="hlf-company" className={labelClass}>Company *</label>
-            <input id="hlf-company" type="text" required className={fieldClass} placeholder="Your business name" autoComplete="organization" />
+            <label htmlFor="hlf-email" className={labelClass}>Email *</label>
+            <input id="hlf-email" type="email" required className={fieldClass} placeholder="you@company.com" autoComplete="email" />
           </div>
         </div>
 
         <div>
           <label htmlFor="hlf-website" className={labelClass}>
-            Current website <span className="text-ink/40 normal-case tracking-normal">(if any)</span>
+            Website <span className="text-ink/40 normal-case tracking-normal">(optional)</span>
           </label>
           <input id="hlf-website" type="url" className={fieldClass} placeholder="https://example.com" autoComplete="url" />
         </div>
 
         <div>
-          <label htmlFor="hlf-svc" className={labelClass}>Primary interest *</label>
-          <select id="hlf-svc" required className={`${fieldClass} appearance-none cursor-pointer`} defaultValue={service ?? ''}>
-            <option value="" disabled>Select the closest match...</option>
-            {services.map(s => (
-              <option key={s.slug} value={s.shortLabel}>{s.shortLabel}</option>
-            ))}
-            <option value="Full local SEO program">Full local SEO program</option>
-            <option value="Not sure / discovery call">Not sure, want a discovery call</option>
-          </select>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <div>
-            <label htmlFor="hlf-budget" className={labelClass}>Monthly budget *</label>
-            <select id="hlf-budget" required className={`${fieldClass} appearance-none cursor-pointer`} defaultValue="">
-              <option value="" disabled>Range...</option>
-              {budgetRanges.map(b => (
-                <option key={b} value={b}>{b}</option>
-              ))}
-            </select>
-          </div>
-          {!area && (
-            <div>
-              <label htmlFor="hlf-area" className={labelClass}>Miami neighborhood *</label>
-              <input id="hlf-area" type="text" required className={fieldClass} placeholder="e.g. Brickell, Coral Gables" />
-            </div>
-          )}
+          <label htmlFor="hlf-message" className={labelClass}>
+            Message <span className="text-ink/40 normal-case tracking-normal">(optional)</span>
+          </label>
+          <textarea id="hlf-message" rows={3} className={`${fieldClass} resize-none`} placeholder="Tell us a little about your goals" />
         </div>
 
         <label htmlFor="hlf-consent" className="flex items-start gap-2 text-[11px] text-ink/65 leading-relaxed cursor-pointer mt-1">

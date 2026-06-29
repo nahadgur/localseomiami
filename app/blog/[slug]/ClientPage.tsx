@@ -4,13 +4,12 @@ import { useState, type ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowRight, Clock, AlertCircle } from 'lucide-react';
-import { getArticleBySlug, getArticlesByHub, getPublishedArticles, ContentBlock } from '@/data/blog';
+import { getArticleBySlug, ContentBlock } from '@/data/blog';
 import { getGuideBySlug } from '@/data/guides';
 import { siteConfig } from '@/data/site';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { LeadFormModal } from '@/components/LeadFormModal';
-import { HeroLeadForm } from '@/components/HeroLeadForm';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SpokeHero } from '@/components/SpokeHero';
 
@@ -47,6 +46,27 @@ function renderText(text: string): ReactNode {
   }
   if (last < text.length) parts.push(text.slice(last));
   return parts.length === 1 ? parts[0] : parts;
+}
+
+// Contained brand band that opens the existing lead modal. Used mid-article
+// (before the second H2) and again at the end of the body.
+function LeadCtaBanner({ onClick }: { onClick: () => void }) {
+  return (
+    <div className="my-10 rounded-2xl bg-brand-600 text-white px-6 py-6 md:px-10 md:py-7">
+      <p className="text-[10px] font-mono uppercase tracking-[0.2em] text-white/70 mb-2">
+        Free matching · 24h response
+      </p>
+      <h2 className="font-display font-bold text-[22px] md:text-[26px] leading-tight mb-2">
+        Want this handled by a vetted Miami SEO specialist?
+      </h2>
+      <p className="text-[14px] text-white/85 leading-relaxed mb-5 max-w-xl">
+        Tell us a little about your business and we will match you with a specialist who has live ranking results in your sector. Free, no obligation.
+      </p>
+      <button onClick={onClick} className="btn-on-dark text-[14px]">
+        Get matched <ArrowRight size={14} />
+      </button>
+    </div>
+  );
 }
 
 function renderBlock(block: ContentBlock, i: number) {
@@ -97,12 +117,12 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
   const dateModified = article.dateModified ?? article.publishDate;
   const hub = getGuideBySlug(article.hub);
 
-  // Related = live spokes in the same hub, falling back to other published spokes.
-  const hubSiblings = getArticlesByHub(article.hub).filter(a => a.slug !== article.slug);
-  const others = (hubSiblings.length > 0
-    ? hubSiblings
-    : getPublishedArticles().filter(a => a.slug !== article.slug)
-  ).slice(0, 3);
+  // Insert the mid-article CTA before the second H2. If there are fewer than
+  // two H2s it stays -1 and only the end-of-article banner renders.
+  const h2Indexes = article.content
+    .map((b, i) => (b.type === 'h2' ? i : -1))
+    .filter(i => i !== -1);
+  const secondH2Index = h2Indexes.length >= 2 ? h2Indexes[1] : -1;
 
   const breadcrumbSchema = buildBreadcrumbSchema([
     { name: 'Insights',     url: '/blog/' },
@@ -160,41 +180,22 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         </section>
 
         <div className="container-width py-12 lg:py-16">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-14">
-            <article className="lg:col-span-2">
-              {article.content.map(renderBlock)}
-              {article.faqs && article.faqs.length > 0 && (
-                <div className="mt-10">
-                  <FAQ faqs={article.faqs} title="Frequently asked questions" embedSchema={false} />
-                </div>
-              )}
-            </article>
+          <article>
+            {article.content.map((block, i) => (
+              <span key={i}>
+                {i === secondH2Index && <LeadCtaBanner onClick={() => setModal(true)} />}
+                {renderBlock(block, i)}
+              </span>
+            ))}
 
-            <aside>
-              <div className="lg:sticky lg:top-24 space-y-5">
-                <div className="hidden lg:block">
-                  <HeroLeadForm />
-                </div>
+            <LeadCtaBanner onClick={() => setModal(true)} />
 
-                <div className="bg-white border border-ink/10 rounded-lg p-5">
-                  <p className="eyebrow mb-3">Other guides</p>
-                  <ul className="space-y-3">
-                    {others.map(o => (
-                      <li key={o.slug}>
-                        <Link href={`/blog/${o.slug}/`} className="block group">
-                          <p className="text-[10px] font-mono uppercase tracking-[0.15em] text-brand-600 mb-1">{o.category}</p>
-                          <p className="text-[14px] font-semibold text-ink leading-tight group-hover:text-brand-600 transition-colors">{o.title}</p>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link href="/blog/" className="inline-flex items-center gap-1 mt-4 pt-3 border-t border-ink/8 text-[12px] font-bold text-brand-600 hover:text-brand-700">
-                    All guides <ArrowRight size={11} />
-                  </Link>
-                </div>
+            {article.faqs && article.faqs.length > 0 && (
+              <div className="mt-10">
+                <FAQ faqs={article.faqs} title="Frequently asked questions" embedSchema={false} />
               </div>
-            </aside>
-          </div>
+            )}
+          </article>
         </div>
 
         <section className="bg-brand-600 text-white text-center py-14">
