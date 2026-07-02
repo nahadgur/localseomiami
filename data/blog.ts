@@ -1190,6 +1190,74 @@ export const blogArticles: BlogArticle[] = [
       { type: 'p', text: 'None of this requires two profiles, two strategies, or twice the work. It requires choosing the description language with intent and then letting reviews, replies, Posts, and services carry the rest. If you would rather have someone build and maintain a bilingual profile properly, we match Miami businesses with vetted [Google Business Profile specialists](/services/google-business-profile/) who handle the setup and the ongoing bilingual upkeep. Matching is free and we do not run the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
     ],
   },
+  {
+    slug: 'neighborhood-landing-pages-miami-not-thin',
+    hub: 'local-content-strategy',
+    draft: true,
+    title: 'How to build Miami neighborhood pages that rank without going thin',
+    metaTitle: 'Miami Neighborhood Landing Pages Without Thin Content',
+    metaDescription:
+      'One page per Miami neighborhood only helps if each page is genuinely local. Here is how to build Brickell, Wynwood, and Coral Gables pages that rank instead of tripping thin-content rules.',
+    category: 'Strategy',
+    publishDate: '2026-07-02',
+    dateModified: '2026-07-02',
+    excerpt:
+      'A separate page for every Miami neighborhood you serve sounds like an easy ranking win, and it is the fastest way to build a pile of thin pages Google ignores or penalizes. The difference between a page that ranks and a page that gets filtered is whether it says anything true and specific about that neighborhood. Here is how to build the first kind.',
+    faqs: [
+      {
+        question: 'How many neighborhood pages should a Miami business have?',
+        answer:
+          'Only as many as you can make genuinely distinct. If you serve all of Miami-Dade, that does not mean thirty near-identical pages for thirty neighborhoods. Build a page for each area where you have real presence, real jobs, and something specific to say, and let one broader Miami page cover the rest. Five substantial pages beat thirty thin ones every time, because the thin ones dilute your authority and risk being treated as doorway pages.',
+      },
+      {
+        question: 'What makes a neighborhood page thin?',
+        answer:
+          'A page is thin when the only thing that changes from one neighborhood to the next is the place name. If a reader could swap Brickell for Wynwood and nothing else would need editing, the page has no local substance. Google spots this pattern easily. Thin pages typically share the same headings, the same paragraphs, the same photos, and a find-and-replace neighborhood name, and they get filtered out of results as a group.',
+      },
+      {
+        question: 'Are neighborhood pages the same as doorway pages?',
+        answer:
+          'They become doorway pages when they exist only to catch a search and push the visitor to one central page, with no real content of their own. A neighborhood page that genuinely serves the reader with local specifics, real projects, and useful information is fine. One that is a thin funnel to your contact form crosses the line Google draws against doorway abuse, and can drag down the rest of the site with it.',
+      },
+      {
+        question: 'Should a service-area business build neighborhood pages at all?',
+        answer:
+          'It can, but the bar is higher. A service-area business that visits customers rather than seating them at an address should lead with genuine local proof: named projects, neighborhood-specific advice, local partnerships. Google only allows one Business Profile for a service-area business across its whole area, so the neighborhood pages on your own website carry the local-relevance work that separate profiles cannot.',
+      },
+      {
+        question: 'How do I make each Miami neighborhood page genuinely different?',
+        answer:
+          'Write from real knowledge of the area. A Coral Gables page can speak to the historic architecture and the strict facade rules that shape any storefront work there. A Doral page can address the bilingual, heavily Venezuelan market. A South Beach page can speak to tourists and short-term rentals. When the content reflects how the neighborhood actually differs, the page reads as local because it is, and that is what ranks.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'A neighborhood landing page earns its ranking when it says something true and specific about that neighborhood, and it gets filtered out when it does not. That is the whole test. A Brickell page and a Little Havana page that differ only by the swapped place name are thin pages, and Google treats a cluster of them as low-value at best and doorway abuse at worst. The good news is that Miami neighborhoods genuinely differ, so there is real material to write from.' },
+      { type: 'p', text: 'Building one page per area you serve is a sound instinct. The problem is the shortcut most businesses take to get there: they write one template, find-and-replace the neighborhood name, and publish twenty copies. That approach is fast, and it is why so many Miami businesses have a pile of neighborhood pages that rank for nothing. Doing it properly means fewer pages, each one carrying real local weight.' },
+
+      { type: 'h2', text: 'Why Miami rewards genuine local pages' },
+      { type: 'p', text: 'Miami is unusually well-suited to real neighborhood content, because its neighborhoods are unusually distinct. Brickell is a dense financial and residential high-rise district. Coral Gables is a historic, design-controlled city with its own facade ordinances. Doral is a heavily Venezuelan, bilingual business hub. Little Havana carries a Cuban-American commercial character that shapes everything from signage to hours. South Beach runs on tourism and short-term rentals. These are not cosmetic differences, and they change what a business in each area needs to say.' },
+      { type: 'p', text: 'That distinctiveness cuts both ways. It gives you real material for genuinely different pages, and it means competitors who take the template shortcut leave an opening. In a market where competitive density already makes ranking slow, this is one of the places a smaller business can win on substance rather than budget. The same forces that make [Miami local SEO take longer than most US cities](/blog/why-miami-local-seo-takes-longer-than-other-cities/) also reward the businesses willing to do the neighborhood work properly.' },
+
+      { type: 'h2', text: 'What separates a real page from a thin one' },
+      { type: 'p', text: 'The reliable test is the swap test. Take your Wynwood page and mentally replace every instance of Wynwood with Aventura. If the page still makes complete sense with nothing else changed, it is thin, because it contains no information that is actually about Wynwood. A genuine page fails the swap test immediately, because the local specifics stop being true the moment you change the neighborhood.' },
+      { type: 'p', text: 'Real local substance comes from things only someone working in that area would know. Name the streets and landmarks customers actually use. Reference the local building rules, parking realities, or permit quirks that affect your work there. Describe an actual project you completed in that neighborhood, with enough detail to be credible. Explain what tends to be different about serving that area specifically. None of this survives a find-and-replace, which is exactly the point.' },
+
+      { type: 'h2', text: 'Build fewer pages, each one deeper' },
+      { type: 'p', text: 'The instinct to cover every neighborhood works against you. Twenty thin pages spread your authority across twenty weak URLs, and Google reads the pattern as a low-effort attempt to catch every place name. Five substantial pages concentrate that same effort into URLs that can actually rank. Start with the neighborhoods where you have real presence and real jobs to point to, and let one strong general Miami page cover the areas where you have less to say.' },
+      { type: 'p', text: 'This is the same trap thin location content shares with any content built to chase queries rather than serve readers, which is why neighborhood pages belong inside a deliberate [local content strategy](/guides/local-content-strategy/) rather than being spun up in bulk on their own. A useful rule of thumb: if you would not be comfortable showing the page to a customer who lives in that neighborhood, it is not ready to publish. A resident should recognize their own area in the page, not read generic copy with their neighborhood pasted on top.' },
+
+      { type: 'h2', text: 'Get the technical local signals right' },
+      { type: 'p', text: 'Substance carries most of the weight, but a few technical signals tell Google and readers that a page is genuinely tied to a place. Your business name, address, and phone number should be consistent across the site and match your listings exactly, since [inconsistent NAP across your Miami business listings](/blog/fix-inconsistent-nap-miami-business-listings/) undermines the local relevance you are trying to build with the content. Add LocalBusiness structured data, embed a map where it genuinely helps the reader, and reference the neighborhood naturally in the title, headings, and body rather than stuffing it.' },
+      { type: 'p', text: 'For a service-area business the rules are stricter, because Google only allows a single Business Profile across the whole area you cover. Google\'s guidance on how [service areas work for service-area businesses](https://support.google.com/business/answer/9157481) is worth reading before you build, because your website\'s neighborhood pages are doing the local-relevance work that separate profiles are not permitted to do for you.' },
+
+      { type: 'h2', text: 'Where the line to doorway pages sits' },
+      { type: 'p', text: 'The failure mode Google penalizes has a specific shape. It defines [doorway abuse](https://developers.google.com/search/docs/essentials/spam-policies) as pages built to rank for similar queries that lead users to an intermediate page less useful than the real destination, including multiple pages for specific regions or cities that funnel visitors to one place. A cluster of near-identical neighborhood pages whose only job is to catch a place-name search and route the visitor to your central contact form fits that description precisely.' },
+      { type: 'p', text: 'You stay on the right side of the line by making each page a genuine destination in its own right. A reader who lands on your Coral Gables page should find information that helps them whether or not they ever contact you: local specifics, real examples, useful detail about how you work in that area. When the page serves the reader first and the search second, it is a legitimate local page. When it serves the search first and the reader not at all, it is a doorway. The difference is visible in the content, not the intent you claim.' },
+
+      { type: 'h2', text: 'Getting it built without the thin-content risk' },
+      { type: 'p', text: 'Neighborhood pages done well are slow to produce, because each one needs real local input rather than a template. That is precisely why so many businesses cut the corner and end up with pages that never rank. If building genuinely distinct pages for each Miami area you serve is more than your team can carry, we match Miami businesses with vetted [local content specialists](/services/local-content-strategy/) who build neighborhood pages that hold up to the swap test instead of tripping thin-content rules. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
+    ],
+  },
 
 ];
 
