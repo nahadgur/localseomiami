@@ -1259,6 +1259,278 @@ export const blogArticles: BlogArticle[] = [
     ],
   },
 
+  {
+    slug: 'rank-for-near-me-searches-miami',
+    hub: 'near-me-voice-and-mobile-local-search',
+    draft: true,
+    title: 'How Miami businesses rank for "near me" searches',
+    metaTitle: 'Rank for "Near Me" Searches in Miami',
+    metaDescription:
+      'What "near me" searches really are, why proximity and an accurate profile decide them, and the mobile-first work that puts your Miami business in front of ready-to-act customers.',
+    category: 'Local',
+    publishDate: '2026-07-03',
+    dateModified: '2026-07-03',
+    excerpt:
+      'A "near me" search is a customer telling Google they are ready to act right now. Here is how Google decides which Miami business it shows, why proximity and a clean profile matter more than the phrase itself, and what mobile-first work wins these high-intent searches.',
+    faqs: [
+      {
+        question: 'Do I need the phrase "near me" on my website to rank for it?',
+        answer:
+          'No. Google understands "near me" as an intent, not a keyword to match on your page, so stuffing the literal phrase into your titles or content does nothing and can look spammy. Google swaps "near me" for the searcher\'s actual location behind the scenes, then ranks businesses by proximity, relevance, and prominence. You win by being genuinely close, having a complete and accurate profile, and earning reviews, not by repeating a phrase.',
+      },
+      {
+        question: 'Why does my ranking change depending on where I am standing?',
+        answer:
+          'Because distance to the searcher is one of the three core local ranking factors. A "near me" result is recalculated from wherever the phone physically is, so a Coral Gables business can rank first for someone a few blocks away and not appear at all for someone across the county. This is why a single office ranking check is misleading, and why specialists measure map pack position across a geographic grid rather than from one spot.',
+      },
+      {
+        question: 'Are "near me" searches mostly on mobile?',
+        answer:
+          'Overwhelmingly, yes. People type or speak "near me" when they are out and about and need something now, which means a phone, a cellular connection, and little patience. That makes your mobile experience decisive: a tap-to-call button, an address that maps cleanly for directions, accurate open-now hours, and a page that loads fast on a street-level signal all determine whether the search turns into a visit.',
+      },
+      {
+        question: 'Can a business outside my neighborhood still show up for "near me"?',
+        answer:
+          'Sometimes. When there are few strong nearby options, Google widens the net and pulls in businesses a bit further out, favoring the ones with stronger prominence signals like reviews and citations. So in a thinly served category you can rank for searchers outside your immediate area, but in a dense Miami vertical, proximity usually wins and you compete mainly for the customers physically close to you.',
+      },
+      {
+        question: 'Does "open now" affect whether I appear?',
+        answer:
+          'Yes, more than most owners expect. Many "near me" searches carry urgent intent, and Google and its assistants filter or favor businesses that are open at that moment. If your hours are wrong, or you have not set special hours for a holiday or a storm closure, you can be filtered out at the exact moment a customer is ready to buy. Keeping hours current is one of the cheapest ways to protect your visibility.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'A "near me" search is one of the highest-intent moments in local search: a customer is telling Google they want something close and want it now. Ranking for these searches is not about putting the phrase "near me" anywhere on your site. It is about being genuinely close to the searcher, carrying a complete and accurate profile, and being easy to act on from a phone.' },
+      { type: 'p', text: 'These searches are won on the same signals as the rest of the map pack, applied to a customer in motion. Near-me is the sharpest end of [mobile and voice local search](/guides/near-me-voice-and-mobile-local-search/), where Google usually returns a single answer and the margin between winning and vanishing is small.' },
+
+      { type: 'h2', text: 'What "near me" actually means to Google' },
+      { type: 'p', text: 'When someone searches "coffee near me" or "emergency plumber near me", Google does not look for pages containing that exact phrase. It replaces "near me" with the searcher\'s real location and returns local results ranked by the same three factors that drive every local search: relevance, distance, and prominence. Google spells this out in its own [guidance on improving your local ranking](https://support.google.com/business/answer/7091), and the practical takeaway is blunt: you cannot keyword your way into a near-me result. You earn it by being close, being clearly the right kind of business, and being trusted.' },
+      { type: 'p', text: 'That reframes the whole task. The businesses that win "near me" are not the ones repeating the phrase, they are the ones whose Google Business Profile is complete, whose [primary category matches the search](/blog/choose-google-business-profile-categories-miami/) exactly, and whose reviews and citations tell Google they are established. The near-me phrasing is just the customer\'s shorthand for local intent, and the same profile work that lifts your position for a "personal injury attorney Brickell" search lifts it for "personal injury attorney near me" too.' },
+
+      { type: 'h2', text: 'Proximity is the factor you cannot fully control' },
+      { type: 'p', text: 'Distance to the searcher is the one near-me factor you cannot optimize your way around. A near-me result is calculated from wherever the phone is standing, so your ranking is not a single number, it is a map of positions that changes block by block. A business near the water in [Brickell](/location/brickell/) may rank first for someone in the neighborhood and vanish for someone searching from Doral, because the second searcher is simply closer to different options.' },
+      { type: 'p', text: 'This is why checking your rank once from the office tells you almost nothing. It reflects one point on a map that varies across your whole service area. Specialists measure near-me and map pack position across a geographic grid to see the real picture, which is the same discipline behind tracking your rankings across Miami neighborhoods rather than trusting a single reading. What you can control is everything except distance: relevance through your category and profile, and prominence through reviews and citations, both of which decide the ties when several businesses are similarly close.' },
+
+      { type: 'h2', text: 'Near me is a mobile-first, act-now moment' },
+      { type: 'p', text: 'Near-me searches skew heavily to phones because people run them while out in the world, needing something immediately. That urgency changes what matters after the ranking. Winning the position is only half the job, the other half is being instantly actionable on a small screen over a patchy signal. A tap-to-call number, an address that opens cleanly in Maps for driving directions, and a page that loads in a couple of seconds are what convert a near-me impression into a customer walking through the door.' },
+      { type: 'p', text: 'Hours are the quiet decider. A large share of near-me intent is urgent, and Google favors, or outright filters to, businesses that are open at the moment of the search. If your listed hours are wrong, or you skipped special hours for a holiday or a hurricane-season closure, you can be excluded exactly when a ready customer is looking. Because nearly all of this lives on your listing, near-me visibility and [Google Business Profile optimization](/services/google-business-profile/) are largely the same work seen from a different angle. Labeling the same facts in [LocalBusiness structured data](https://schema.org/LocalBusiness) on your site reinforces the hours and location an assistant reads back.' },
+
+      { type: 'h2', text: 'Why a nearby competitor sometimes beats you' },
+      { type: 'p', text: 'If a business slightly further from the searcher outranks you for a near-me query, the gap is almost always prominence. When two businesses are comparably close, Google leans on the trust signals: review count and quality, citation consistency, and overall authority. A competitor with two hundred reviews and a clean citation profile can beat a closer business with twenty reviews and inconsistent listing data, because Google is more confident in the well-known option.' },
+      { type: 'p', text: 'The fix is the ordinary local SEO work done consistently: a steady stream of genuine reviews, accurate name, address, and phone data everywhere your business is listed, and a profile that is complete rather than half-filled. None of it is a near-me trick. It is the accumulated prominence that lets you win the tie when a customer standing between you and a competitor asks their phone who is nearby.' },
+
+      { type: 'h2', text: 'Where this fits, and getting help' },
+      { type: 'p', text: 'Ranking for "near me" is not a separate project. It is what strong local SEO looks like when the searcher is on a phone, in a hurry, and close by: an accurate profile, the right category, current hours, real reviews, and a fast mobile page. Get those right and you are positioned for near-me, voice, and open-now searches at the same time, because they all draw on the same underlying signals.' },
+      { type: 'p', text: 'If auditing your profile, fixing your hours and mobile experience, and building the review and citation base behind near-me visibility is more than your team can take on, we match Miami businesses with vetted local search specialists who handle it as part of a wider program. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
+    ],
+  },
+
+  {
+    slug: 'local-business-schema-markup-miami',
+    hub: 'technical-seo-for-local-business',
+    draft: true,
+    title: 'Local business schema markup for Miami websites',
+    metaTitle: 'Local Business Schema Markup for Miami Sites',
+    metaDescription:
+      'What LocalBusiness schema is, why it helps Miami sites rank and get read by AI, which fields to include, and how to add and test it without breaking anything.',
+    category: 'Strategy',
+    publishDate: '2026-07-03',
+    dateModified: '2026-07-03',
+    excerpt:
+      'Schema markup is a small block of code that hands search engines your business facts in a format they can read without guessing. Here is what LocalBusiness schema does for a Miami site, which fields actually matter, and how to add and validate it safely.',
+    faqs: [
+      {
+        question: 'Is schema markup a ranking factor?',
+        answer:
+          'Not directly. Schema does not make a page rank higher on its own. What it does is remove ambiguity: it tells Google exactly what your name, address, phone, hours, and business type are, so the search engine does not have to infer them from your page text. That clarity supports rich results, feeds the accuracy signals behind local ranking, and increasingly helps AI systems read and cite your business correctly. It is an enabler, not a lever you can pull for an instant boost.',
+      },
+      {
+        question: 'Do I need schema if my information is already on the page?',
+        answer:
+          'Yes, and the reason is reliability. A human reading your contact page understands the address instantly, but a machine has to parse and guess. Schema states the same facts in a structured format that leaves no room for misreading, which matters when Google, a voice assistant, or an AI answer is deciding whether to trust and surface your business. Visible content and schema are complements, not alternatives.',
+      },
+      {
+        question: 'Which schema type should a Miami local business use?',
+        answer:
+          'Use the most specific LocalBusiness subtype that fits. LocalBusiness is the general type, but Google prefers you narrow it to something like Restaurant, Dentist, Attorney, or HVACBusiness when one applies, because the more specific type communicates more. If no exact subtype exists, use LocalBusiness itself and describe the specifics through your other fields and page content.',
+      },
+      {
+        question: 'Can bad schema hurt my site?',
+        answer:
+          'It can, in two ways. Schema that claims things not visible on the page, like fake review stars or an address you do not operate from, violates Google\'s structured data policies and can trigger a manual action. Broken or malformed markup simply gets ignored, wasting the effort. Keep your schema accurate and matched to your visible content, validate it before publishing, and it carries only upside.',
+      },
+      {
+        question: 'Do I need a developer to add schema?',
+        answer:
+          'Not always. Many website builders and SEO plugins generate LocalBusiness schema from a settings form, which is fine for a single-location business. Hand-writing JSON-LD or handling multiple locations, departments, or complex service catalogs is where a developer or technical SEO specialist earns their keep. Either way, always run the result through a validator before trusting it.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'Schema markup is a small block of code that states your business facts in a format search engines can read without guessing: your name, address, phone number, hours, location, and the kind of business you are. For a Miami local site, the most useful flavor is LocalBusiness schema, and adding it well is one of the higher-return technical jobs available.' },
+      { type: 'p', text: 'It belongs to the [technical SEO layer that local business websites](/guides/technical-seo-for-local-business/) most often neglect, invisible to visitors but consequential for how machines understand you. What follows is what LocalBusiness schema does, which fields matter, and how to add and test it without breaking anything.' },
+
+      { type: 'h2', text: 'What schema markup is and why it exists' },
+      { type: 'p', text: 'When a person reads your contact page, they instantly understand that a line is your phone number and another is your address. A search engine has to infer all of that from surrounding text, and it does not always get it right. Schema markup solves this by labeling the facts explicitly in a structured vocabulary, so the machine reads "this is the phone number, this is the address, these are the opening hours" with no guesswork. The shared vocabulary is maintained at [Schema.org](https://schema.org/LocalBusiness), the standard that Google, Bing, and other engines agree to read.' },
+      { type: 'p', text: 'The format almost everyone uses today is JSON-LD, a compact block of code placed in the page that describes the business without changing anything a visitor sees. You are not rewriting your page, you are attaching a machine-readable summary of it. That summary is what powers richer search appearances and, increasingly, what lets AI systems quote your details accurately instead of paraphrasing them wrong.' },
+
+      { type: 'h2', text: 'What LocalBusiness schema does for a Miami site' },
+      { type: 'p', text: 'LocalBusiness schema is not a ranking lever you pull for a jump in position. Its value is clarity, and clarity compounds. It supports rich results, the enhanced listings Google can show with extra detail, and it reinforces the accuracy signals that feed local ranking. When your schema, your Google Business Profile, and your visible page all state the same name, address, and phone, you strengthen the [consistency across your listings](/blog/fix-inconsistent-nap-miami-business-listings/) that gives Google confidence in your location.' },
+      { type: 'p', text: 'There is a growing second payoff. AI answers and voice assistants favor businesses they can read cleanly, and structured data is the cleanest input they get. A Miami business whose site plainly labels what it is, where it operates, and when it is open gives an AI system something unambiguous to cite, which matters as more customers arrive through AI-assisted search rather than a scanned results page. The same detail also underpins accurate [on-page local SEO](/services/on-page-local-seo/), where your page content and your structured data should tell one consistent story.' },
+
+      { type: 'h2', text: 'The fields worth getting right' },
+      { type: 'p', text: 'You do not need every property schema allows. A focused, accurate set does the job, and Google publishes exactly what it looks for in its [LocalBusiness structured data documentation](https://developers.google.com/search/docs/appearance/structured-data/local-business). Include at minimum:' },
+      { type: 'list', items: [
+        'The most specific business type available (Dentist, Attorney, Restaurant, HVACBusiness) rather than the generic LocalBusiness when one fits.',
+        'Name, full postal address, and phone number, matched exactly to your Google Business Profile and your visible page.',
+        'Opening hours, kept current, including special hours where your platform supports them.',
+        'The geographic area you serve, and geo coordinates for a fixed location.',
+        'A link to your website and, where relevant, your primary social or profile URLs.',
+      ] },
+      { type: 'p', text: 'The non-negotiable rule is that schema must match reality. Do not mark up hours you do not keep, an address you do not operate from, or review stars you did not earn. Google\'s structured data policies treat mismatched or fabricated markup as a violation, and the consequences run from your rich results being ignored to a manual penalty. Accurate schema is safe schema.' },
+
+      { type: 'h2', text: 'Adding it and testing it safely' },
+      { type: 'p', text: 'How you add schema depends on your platform. Most modern website builders and local SEO plugins generate LocalBusiness JSON-LD from a form, which is entirely adequate for a single-location Miami business. If you run several locations, departments, or a large service catalog, or you want precise control, hand-written JSON-LD placed in the page head is the more robust route and usually the point where a developer helps. Either way, the schema goes on the relevant page, your homepage or a location page for the business itself, not scattered indiscriminately across every URL.' },
+      { type: 'p', text: 'Never trust schema you have not validated. Run every page through Google\'s Rich Results Test and the Schema Markup Validator before you rely on it, because a single malformed field can cause an engine to discard the whole block silently. After it is live, watch Search Console for structured data errors as you edit pages over time, the same monitoring habit that keeps the rest of your technical SEO from quietly drifting out of shape.' },
+
+      { type: 'h2', text: 'Where this fits, and getting help' },
+      { type: 'p', text: 'Schema markup is a supporting player, not a headline act. It will not rescue a thin site or outrank a stronger competitor by itself, but on a solid Miami site it removes ambiguity, supports rich results, reinforces your ranking accuracy signals, and makes your business easier for AI to read and cite. That is a lot of value for a block of code most visitors will never see.' },
+      { type: 'p', text: 'If JSON-LD, multi-location markup, and validation are outside what your team wants to handle, we match Miami businesses with vetted local SEO specialists who implement and test structured data as part of a wider technical program. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
+    ],
+  },
+
+  {
+    slug: 'get-recommended-by-ai-search-miami',
+    hub: 'choosing-a-miami-seo-agency',
+    draft: true,
+    title: 'How Miami businesses get recommended by AI search',
+    metaTitle: 'Getting Recommended by AI Search in Miami',
+    metaDescription:
+      'AI search is starting to answer local questions with a business or two. Here is where those recommendations come from and how a Miami business earns them, without any tricks.',
+    category: 'Strategy',
+    publishDate: '2026-07-03',
+    dateModified: '2026-07-03',
+    excerpt:
+      'More Miami customers are asking AI tools to recommend a business instead of scanning a map pack. Here is where those recommendations actually come from, why there is no shortcut, and the work that makes your business the one the AI names.',
+    faqs: [
+      {
+        question: 'Where do AI search tools get their local recommendations?',
+        answer:
+          'From the same public sources that already power local search: Google Business Profiles, reviews, established directories, reputable local press, and business websites. AI systems synthesize an answer from across these rather than reading one database, then cite one or a few businesses. There is no separate AI listing to claim. You become recommendable by being well represented and consistent across the sources the AI already reads.',
+      },
+      {
+        question: 'Is there a trick to getting cited by ChatGPT or Google AI Overviews?',
+        answer:
+          'No, and anyone selling one is guessing. The businesses AI tends to recommend are the ones that are genuinely prominent and clearly described: complete profiles, strong and recent reviews, consistent name, address, and phone data, and website content that plainly states who they serve and where. Those are the same fundamentals that win the map pack, which is reassuring, because it means you are not chasing a separate, unstable game.',
+      },
+      {
+        question: 'Does my website content matter for AI recommendations?',
+        answer:
+          'Yes, more than it did for the classic map pack. AI answers pull from website text, not just your profile, so pages that clearly state what you do, which Miami areas you serve, your specialties, and answers to common questions give the AI clean material to quote. Vague, marketing-heavy copy gives it little to work with. Plain, specific, genuinely useful content is what gets read and cited.',
+      },
+      {
+        question: 'How do I know if AI search is sending me customers?',
+        answer:
+          'It is harder to see than ordinary search, because AI referrals often do not show up clearly in standard analytics. Watch for referral traffic from AI tools where it is tagged, for customers who mention they found you through an AI assistant, and for the same profile signals, calls and direction requests, that indicate rising local visibility overall. Treat it as an emerging channel to monitor, not one with a clean dashboard yet.',
+      },
+      {
+        question: 'Should I stop doing normal local SEO and focus on AI?',
+        answer:
+          'No. The two are the same foundation, not competing strategies. AI recommendations are built on your Google Business Profile, your reviews, your citations, and your website, which are exactly what local SEO already strengthens. Keep doing the fundamentals well and add clear, structured, question-answering content, and you improve your position in both the map pack and AI answers at once.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'A growing share of Miami customers now ask an AI tool to recommend a business instead of scanning a page of results. When an AI answer names a plumber, a dentist, or a restaurant, that recommendation is not random and it is not for sale. It is assembled from the public signals that already describe your business, and you earn it the same way you earn the map pack: by being genuinely prominent, clearly described, and consistent everywhere.' },
+      { type: 'p', text: 'AI visibility is the newest thing to weigh when [choosing and working with a Miami SEO agency](/guides/choosing-a-miami-seo-agency/), and it rewards the businesses that already do the fundamentals well. Understanding where those recommendations come from is what separates a specialist worth hiring from one selling a gimmick.' },
+
+      { type: 'h2', text: 'Where AI recommendations come from' },
+      { type: 'p', text: 'AI search tools, whether Google\'s AI answers or standalone assistants, do not maintain a secret directory you can register with. They synthesize a response from the public web: Google Business Profiles, review platforms, established directories, reputable local news, and business websites. Then they surface one or a few businesses as the answer, often with citations back to the sources. There is nothing to claim and no listing to buy. Your recommendability is a byproduct of how well and how consistently you already appear across those sources.' },
+      { type: 'p', text: 'That has a practical consequence. Because AI reads the same material Google uses for its local results, the businesses that get recommended are largely the ones already doing local SEO well. The three factors Google names for local ranking, relevance, distance, and prominence, are set out in its own [guidance on improving your local ranking](https://support.google.com/business/answer/7091), and the prominence half of that, reviews, citations, and authority, is exactly what makes an AI system confident enough to name you.' },
+
+      { type: 'h2', text: 'Why there is no shortcut, and why that is good news' },
+      { type: 'p', text: 'Every few months a service appears promising to get your business "featured in AI search" through some proprietary method. Treat those the way you would treat a guaranteed-rankings pitch, as a warning sign. Nobody controls what an AI model chooses to cite, and the levers that genuinely influence it are the unglamorous ones: a complete profile, strong and recent reviews, clean name, address, and phone data across the web, and a website that plainly says who you serve and where.' },
+      { type: 'p', text: 'This is good news, not bad. It means you are not being asked to master a separate, unstable discipline with its own tricks. The work that earns AI recommendations is the same work that wins the map pack, and whether a specialist understands that overlap is one of the things worth [checking before you hire an agency](/blog/how-to-evaluate-a-miami-local-seo-agency/). An agency that pitches "AI optimization" as a distinct paid product, separate from your local SEO fundamentals, usually does not understand where the recommendations come from.' },
+
+      { type: 'h2', text: 'What makes your business the one it names' },
+      { type: 'p', text: 'Three things move the needle for AI recommendations, and none of them is exotic. The first is prominence: the [review count and quality](/blog/review-acquisition-strategy-for-miami-small-businesses/), citations, and local authority that make your business look established. AI leans toward well-known, well-reviewed options for the same reason a person asking a friend for a recommendation trusts the place everyone already praises. The second is consistency: your name, address, phone, and category reading identically across your profile, your site, and the directories, so the AI is not reconciling conflicting versions of you. Marking those facts up in [LocalBusiness structured data](https://schema.org/LocalBusiness) hands the machine an unambiguous version to trust.' },
+      { type: 'p', text: 'The third, and the one classic local SEO underweighted, is clear website content. AI answers quote text, so pages that state plainly what you do, which Miami neighborhoods you serve, your specialties, and direct answers to the questions customers ask give the model clean material to lift. Vague, brochure-style copy gives it nothing. This is where a deliberate [local content strategy](/services/local-content-strategy/) pays off twice, because the same clear, question-answering pages that help a reader are the ones an AI can read and cite.' },
+
+      { type: 'h2', text: 'Measuring it, and keeping perspective' },
+      { type: 'p', text: 'AI referrals are real but genuinely hard to measure, because they often do not appear cleanly in standard analytics the way a Google click does. Watch for referral traffic from AI tools where it is labeled, for customers who mention an AI assistant when they call, and for the broader profile signals, calls and direction requests, that show your local visibility rising overall. Treat AI search as an emerging channel to monitor, not one with a settled dashboard, and do not let uncertainty about measurement pull you away from the fundamentals that feed it.' },
+      { type: 'p', text: 'Keep the perspective simple. You do not optimize for AI as a separate project. You do local SEO well, add clear and structured content, and you become more recommendable in AI answers as a natural result. The businesses winning AI recommendations in Miami are not the ones chasing the latest AI trick, they are the ones that were already prominent, consistent, and clearly described.' },
+
+      { type: 'h2', text: 'Where this fits, and getting help' },
+      { type: 'p', text: 'Getting recommended by AI is not a new skill to buy. It is what strong local SEO produces once your content is clear enough for a machine to read: a prominent, consistent, well-described business that both Google and an AI assistant can confidently put forward. Invest in the fundamentals and the AI visibility follows, rather than the other way around.' },
+      { type: 'p', text: 'If you want a specialist who treats AI visibility as an outcome of solid local SEO rather than a gimmick to sell, we match Miami businesses with vetted people who work that way. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
+    ],
+  },
+
+  {
+    slug: 'why-competitors-outrank-you-map-pack',
+    hub: 'ranking-in-the-miami-map-pack',
+    draft: true,
+    title: 'Why competitors outrank you in the Miami map pack',
+    metaTitle: 'Why Competitors Outrank You in the Map Pack',
+    metaDescription:
+      'A closer or busier competitor is beating you in the Miami map pack for a reason you can find. Here is how to diagnose the real gap across relevance, distance, and prominence.',
+    category: 'Strategy',
+    publishDate: '2026-07-03',
+    dateModified: '2026-07-03',
+    excerpt:
+      'When a competitor sits above you in the Miami map pack, the gap is diagnosable, not mysterious. Here is how to compare their profile, reviews, and citations against yours across the three factors Google actually uses, and where the difference usually hides.',
+    faqs: [
+      {
+        question: 'Why does a smaller competitor outrank me in the map pack?',
+        answer:
+          'Size is not what Google ranks. It ranks relevance, distance, and prominence. A smaller competitor can beat you by being closer to the searcher, by having a more precise primary category, or by carrying more and better reviews. Very often the gap is a single fixable thing, like a too-generic category on your profile or a review count that lags theirs. Diagnose it factor by factor rather than assuming they simply spend more.',
+      },
+      {
+        question: 'How do I see what my competitor is doing right?',
+        answer:
+          'Most of it is public. Open their Google Business Profile and compare their primary category, review count and rating, photo volume, services list, and how completely their profile is filled against yours. Search their business name and phone number to see how many citations they have and how consistent the data is. Within an afternoon you can usually build a clear side-by-side that shows where they lead.',
+      },
+      {
+        question: 'Is proximity something I can do anything about?',
+        answer:
+          'Not directly, since you cannot move your business. But proximity only decides ties among relevant, prominent businesses, so it is rarely the whole story. If a competitor further away outranks you, distance is not their advantage, prominence or relevance is, and those you can close. Focus on the factors you control and let proximity settle the cases where everything else is equal.',
+      },
+      {
+        question: 'How much do reviews explain the ranking gap?',
+        answer:
+          'Often a great deal. Reviews are a major prominence signal, and both the total count and the recency matter. A competitor steadily earning fresh reviews will tend to outrank a business whose review flow dried up, even if the second business once had more. If the audit shows they are meaningfully ahead on reviews, closing that gap with a consistent, policy-compliant request system is usually the highest-return move.',
+      },
+      {
+        question: 'Can I outrank a competitor who has been established much longer?',
+        answer:
+          'Yes, though it takes methodical work rather than a quick fix. Longevity helps a competitor accumulate reviews, citations, and authority, but none of that is out of reach. By closing the specific gaps the audit reveals, a sharper category, a complete profile, a steady review cadence, and clean citations, a newer business can and does overtake older ones. It is a matter of consistent execution over months, not a single change.',
+      },
+    ],
+    content: [
+      { type: 'p', text: 'When a competitor consistently sits above you in the Miami map pack, it is tempting to assume they simply spend more or have been around longer. Usually the real reason is specific and findable: a sharper category, more reviews, cleaner citations, or the plain advantage of being closer to the searcher. The map pack ranks on knowable factors, which means the gap between you and the business above you can be diagnosed and, in most cases, closed.' },
+      { type: 'p', text: 'Understanding why a competitor outranks you is the first step to overtaking them, and it is really an exercise in reading the factors behind [ranking in the Miami map pack](/guides/ranking-in-the-miami-map-pack/). Diagnose the gap across the three Google actually uses and you turn a vague sense of losing into a fixable list.' },
+
+      { type: 'h2', text: 'Map pack ranking is not a black box' },
+      { type: 'p', text: 'Google is unusually open about how local results work: they are based primarily on relevance, distance, and prominence, as stated in its [guidance on improving your local ranking](https://support.google.com/business/answer/7091). Relevance is how well your business matches the search, driven mostly by your profile and category. Distance is how close you are to the searcher. Prominence is how established and trusted you look, built from reviews, citations, and authority. Every ranking gap traces back to one or more of these three, so diagnosing why a competitor beats you is a matter of comparing them factor by factor.' },
+      { type: 'p', text: 'That comparison is more doable than it sounds, because most of the relevant data is public. You can inspect a competitor\'s Google Business Profile, count their reviews, read their category, and see how completely they have filled out their listing. The businesses that struggle in the map pack are usually the ones that never do this audit, so they never learn that the competitor above them simply has a more precise category or three times the reviews.' },
+
+      { type: 'h2', text: 'Relevance: the category and profile gap' },
+      { type: 'p', text: 'The most common and most fixable reason a competitor outranks you is relevance, and the primary category is where it hides. A competitor listed as "Personal Injury Attorney" will beat a firm listed generically as "Lawyer" for the injury queries, because the narrower category matches the search intent more precisely. Open the competitor\'s profile, read their primary category, and compare it to yours. If theirs is more specific and more aligned to the searches you want, you have found a lever, and [choosing a sharper primary category](/blog/choose-google-business-profile-categories-miami/) is a same-day fix.' },
+      { type: 'p', text: 'Relevance is broader than the category alone. A competitor with a fully built profile, a detailed services list, complete attributes, and a keyword-appropriate business description signals relevance more strongly than a half-finished listing. Audit their profile against yours line by line: categories, services, description, photos, attributes. The gaps you find are your to-do list, and closing them typically moves relevance before you touch anything else.' },
+
+      { type: 'h2', text: 'Prominence: the reviews and citations gap' },
+      { type: 'p', text: 'When relevance is comparable, prominence usually decides the order, and reviews are its loudest signal. A competitor with two hundred reviews and a steady flow of fresh ones outranks a business with forty stale ones, because volume and recency both feed the trust score. Compare review counts, average ratings, and, importantly, how recently each business earned its last several reviews. A competitor pulling ahead on recency is often the whole explanation, and a disciplined review acquisition system is the direct answer, as long as it stays inside the [FTC rule on consumer reviews](https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers) and never buys or incentivizes them.' },
+      { type: 'p', text: 'Citations are the quieter half of prominence. If a competitor has consistent name, address, and phone data across the major directories and you have fragmented or missing listings, they carry a confidence advantage you can close by [fixing your own inconsistent listings](/blog/fix-inconsistent-nap-miami-business-listings/). Between reviews and citations, prominence is where established competitors bank their lead, and it is also where methodical work lets a newer business catch up, one review and one corrected listing at a time.' },
+
+      { type: 'h2', text: 'Distance: the factor you diagnose but cannot change' },
+      { type: 'p', text: 'Sometimes the honest answer is proximity. If a competitor is physically closer to where your customers search, they hold a distance advantage you cannot erase without relocating. But distance rarely tells the whole story, because it mainly settles ties among businesses that are already relevant and prominent. A useful test is to check your ranking from several points across your service area rather than one spot, since map pack position shifts block by block, which is the same reasoning behind tracking your rankings across Miami neighborhoods instead of trusting a single reading.' },
+      { type: 'p', text: 'If a competitor outranks you even though they are further from the searcher, distance is not their edge, relevance or prominence is, and both are within your control. Proximity should be the last factor you blame, not the first, because assuming "they are just closer" is the excuse that stops businesses from finding the category or review gap that is actually costing them the position. A business in [Brickell](/location/brickell/) losing to one across the neighborhood is almost never losing on distance alone.' },
+
+      { type: 'h2', text: 'Turning the diagnosis into a plan' },
+      { type: 'p', text: 'A competitor audit is only useful if it becomes a prioritized to-do list. Rank the gaps by effort and impact: a wrong primary category is a same-day, high-impact fix, so it goes first. A citation cleanup is slower but foundational. A review gap is closed over weeks through a consistent request system, not overnight. Working the list in that order, relevance quick wins first, then prominence, tends to move your position fastest, and it converts a vague sense of being beaten into a concrete campaign with a sequence.' },
+      { type: 'p', text: 'If auditing competitors, fixing your profile, and closing the review and citation gaps is more than your team can take on, we match Miami businesses with vetted [map pack specialists](/services/map-pack-optimization/) who run this diagnosis and execute the plan. Matching is free, and we do not deliver the SEO ourselves; we introduce you to specialists who do. You can [tell us about your business](/contact/) and we will make the introduction.' },
+    ],
+  },
+
+
 ];
 
 export const getArticleBySlug = (slug: string): BlogArticle | undefined =>
