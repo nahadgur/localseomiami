@@ -1193,7 +1193,7 @@ export const blogArticles: BlogArticle[] = [
   {
     slug: 'neighborhood-landing-pages-miami-not-thin',
     hub: 'local-content-strategy',
-    draft: true,
+    draft: false,
     title: 'How to build Miami neighborhood pages that rank without going thin',
     metaTitle: 'Miami Neighborhood Landing Pages Without Thin Content',
     metaDescription:
