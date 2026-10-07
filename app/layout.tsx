@@ -65,7 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     '@type': 'WebSite',
     '@id': `${siteConfig.url}/#website`,
     name: siteConfig.name,
-    alternateName: ['Local SEO Miami', siteConfig.tagline],
+    alternateName: ['LocalMiamiSEO'],
     url: siteConfig.url,
     publisher: { '@id': `${siteConfig.url}/#organization` },
     inLanguage: 'en-US',
